@@ -1,0 +1,1 @@
+This is a University Honors project. The aim of this project is to summarise UK political manifestos to make them more readable and understandable. This will be done using abstractive summarisation and will be displayed in a convinient way.
