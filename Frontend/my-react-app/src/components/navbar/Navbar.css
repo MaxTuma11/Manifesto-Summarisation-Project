@@ -1,0 +1,29 @@
+nav {
+    width: 100%;
+    /* background: #f9f7dc; */
+    color: #d61c1c;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logo{
+    width: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 18px;
+}
+
+.show-nav{
+    background: #dbd3d1;
+    transition: 0.5s;
+}
