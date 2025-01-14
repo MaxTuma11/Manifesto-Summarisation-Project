@@ -2,8 +2,8 @@ import torch
 from transformers import AutoTokenizer, AutoModelWithLMHead
 import os
 
-tokenizer = AutoTokenizer.from_pretrained('t5-base')
-model = AutoModelWithLMHead.from_pretrained('t5-base', return_dict=True)
+tokenizer = AutoTokenizer.from_pretrained('t5-large')
+model = AutoModelWithLMHead.from_pretrained('t5-large', return_dict=True)
 
 file_path = 'C:/Users/mtuma/Manifesto-Summarisation-Project/Manifestos/LabourManifesto.txt'
 
