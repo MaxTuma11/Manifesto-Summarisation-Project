@@ -14,7 +14,10 @@ const Hero = () => {
         If you have any problems using the website, visit the "About Us" section where you can find frequently asked questions. 
         Otherwise scroll down on this page to find a basic guide on how to use the summarisation page.
         </p>
-        <Link to="/About" className='btn'>FAQs <img src={dark_arrow} alt='' /></Link>
+        <p>
+        Click the button below to visit the Manifesto Summaries!
+        </p>
+        <Link to="/Summaries" className='btn'>Manifesto Summaries <img src={dark_arrow} alt='' /></Link>
       </div>
     </div>
   )
