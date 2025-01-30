@@ -2,9 +2,13 @@ import React from 'react'
 
 import'./Searchresult.css'
 
-const Searchresult = ({result}) => {
+const Searchresult = ({result, setInput}) => {
+    const handleSelect = () => {
+        setInput(result.name); // Autofill search bar
+        //setResults([]);
+      };
   return (
-    <div className='search-result' onClick={(e) => alert(`you clocked on ${result.name}`)}>
+    <div className='search-result' onClick={handleSelect}>
       {result.name}
     </div>
   )

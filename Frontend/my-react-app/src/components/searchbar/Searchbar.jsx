@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 import { FaSearch } from 'react-icons/fa'
 import './Searchbar.css'
 
-const Searchbar = ({ setResults }) => {
+const Searchbar = ({ setResults, setInput }) => {
 
-  const [input, setInput] = useState("");
+  const [input, setLocalInput] = useState("");
   
   const fetchData = (value) => {
     fetch('https://manifesto-backend-3bacb381e493.herokuapp.com/api/manifestos/')
@@ -21,13 +21,14 @@ const Searchbar = ({ setResults }) => {
         });
 
         setResults(results);
-        console.log(results);
+        //console.log(results);
     });
   }
 
   const handleChange = (value) => {
-    setInput(value)
-    fetchData(value)
+    setLocalInput(value);
+    setInput(value);
+    fetchData(value);
   }
 
   return (

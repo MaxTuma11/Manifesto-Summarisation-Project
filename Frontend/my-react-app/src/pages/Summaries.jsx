@@ -10,6 +10,7 @@ const Summaries = () => {
   // const [manifestos, setManifestos] = useState();
 
   const [results, setResults] = useState([]);
+  const [input, setInput] = useState("");
 
   // useEffect(() => {
   //   //console.log('Fetching...');
@@ -25,9 +26,9 @@ const Summaries = () => {
     <div className='Summaries'>
       <Navbar/>
       <div className='search-bar-container'>
-        <Searchbar setResults={setResults}/>
+        <Searchbar setResults={setResults} setInput={setInput}/>
 
-        <Searchresultslist results={results} />
+        <Searchresultslist results={results} setInput={setInput}/>
 
         {/* <div>
           <>
