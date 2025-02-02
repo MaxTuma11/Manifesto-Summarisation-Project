@@ -1,27 +1,61 @@
-.input-wrapper{
+.search-bar{
     background-color: white;
     width: 70%;
-    border-radius: 10px;
+    border-radius: 2px;
     height: 2.5rem;
     padding: 0 15px;
     box-shadow: 0px 0px 8px #ddd;
     display: flex;
     align-items: center;
+    position: relative;
 }
-
-input{
-    background-color: transparent;
-    border: none;
-    height: 100%;
-    font-size: 1.25rem;
+ 
+input {
     width: 100%;
-    margin-left: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
 }
-
-input:focus{
-    outline: none;
+  
+.recommendations {
+    position: absolute;
+    top: 100%; /* Position the dropdown below the input */
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1000; /* Ensure the dropdown appears above other elements */
+    max-height: 200px; /* Limit the height of the dropdown */
+    overflow-y: auto; /* Add scroll if there are many recommendations */
+    border-radius: 4px;
+}
+  
+.recommendations li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+  
+.recommendations li:hover {
+    background-color: #f0f0f0;
+}
+  
+.result {
+    position: absolute;
+    top: 500%; /* Add space between the search bar and the result */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    width: 94.8%;
 }
 
 #search-icon{
     color: royalblue;
 }
+
