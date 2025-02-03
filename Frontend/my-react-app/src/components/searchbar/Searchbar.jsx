@@ -8,18 +8,19 @@ const Searchbar = () => {
   const [recommendations, setRecommendations] = useState([]);
   const [result, setResult] = useState(null);
 
-  // Fetch all manifestos from the API
+  //fetch all manifestos from the API using axios
   const fetchManifestos = async () => {
     try {
       const response = await axios.get('https://manifesto-backend-3bacb381e493.herokuapp.com/api/manifestos/');
       return response.data.manifestos;
+    //set up catch if data cannot be fetched
     } catch (error) {
       console.error('Error fetching manifestos:', error);
       return [];
     }
   };
 
-  // Filter recommendations based on the query
+  //filter recommendations based on the query
   const getRecommendations = async (query) => {
     if (query) {
       const manifestos = await fetchManifestos();
@@ -32,7 +33,7 @@ const Searchbar = () => {
     }
   };
 
-  // Fetch the result (summary) based on the selected manifesto
+  //fetch the result (summary) based on the selected manifesto
   const fetchResult = async (query) => {
     const manifestos = await fetchManifestos();
     const selectedManifesto = manifestos.find(
@@ -56,14 +57,14 @@ const Searchbar = () => {
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       fetchResult(query);
-      setRecommendations([]); // Clear recommendations on Enter
+      setRecommendations([]); //clear recommendations on Enter
     }
   };
 
   const handleRecommendationClick = (recommendation) => {
     setQuery(recommendation.name);
     fetchResult(recommendation.name);
-    setRecommendations([]); // Clear recommendations on selection
+    setRecommendations([]); //clear recommendations on selection
   };
 
   return (
@@ -97,14 +98,5 @@ const Searchbar = () => {
     </div>
   );
 };
-
-
-//   return (
-//     <div className='input-wrapper'>
-//       <FaSearch id='search-icon'/>
-//       <input placeholder="Type to search..." value={input} onChange={(e) => handleChange(e.target.value)}/>
-//     </div>
-//   );
-// }
 
 export default Searchbar

@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky? 'show-nav': ''}`}>
-        <img src={logo} alt="" className='logo'/>
+        <Link to="/"><img src={logo} alt="" className='logo'/></Link>
         <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/Summaries">Manifesto Summaries</Link></li>
