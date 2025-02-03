@@ -2,12 +2,13 @@ import nltk
 from nltk.corpus import stopwords
 from collections import Counter
 import string
+import json
 
 nltk.download('stopwords')
 
 #create custom stopwords for manifetos
 custom_stopwords = {"manifesto", "manifestos", "party", "parties", "will", "also", "would", "ensure", "•", "labour", "alliance", "conservative", "dup", "green", "greens", "liberal", "democrats",
-                     "plaid", "cymru", "reform", "sdlp", "sinn", "féin", "snp", "tuv", "uup", "v", "2023", "2024", "2025", "elected", "–"}
+                     "plaid", "cymru", "reform", "sdlp", "sinn", "féin", "snp", "tuv", "uup", "v", "2023", "2024", "2025", "elected", "–", "●", "❱", "3", "partyof", "→"}
 
 #load manifestos
 def load_manifesto(file_path):
@@ -38,10 +39,13 @@ def get_freq_word(words, top_n=10):
     return word_counts.most_common(top_n)
 
 #implementation
-file_path = (r'C:\Users\mtuma\Manifesto-Summarisation-Project\Manifestos\LabourManifesto.txt')
+file_path = (r'C:\Users\mtuma\Manifesto-Summarisation-Project\Manifestos\SDLPManifesto.txt')
 text = load_manifesto(file_path)
 words = preprocess_text(text)
 common_words = get_freq_word(words, top_n=20)
+
+with open('common_SDLP.json', 'w') as f:
+    json.dump(common_words, f)
 
 print("Most common words: ")
 for word, count in common_words:
