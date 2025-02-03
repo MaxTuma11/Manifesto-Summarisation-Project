@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     /* background: #f9f7dc; */
-    color: #d61c1c;
+    color: #B4ACE2;
     padding: 4px 0;
     position: fixed;
     top: 0;
@@ -24,6 +24,6 @@ nav ul li{
 }
 
 .show-nav{
-    background: #dbd3d1;
+    background: #040019;
     transition: 0.5s;
 }

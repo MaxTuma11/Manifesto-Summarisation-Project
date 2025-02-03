@@ -55,6 +55,10 @@ input {
     width: 94.8%;
 }
 
+.result p{
+    color: black;
+}
+
 #search-icon{
     color: royalblue;
 }
