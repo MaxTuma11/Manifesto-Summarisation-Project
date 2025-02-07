@@ -1,30 +1,4 @@
-
-Contents
-1 Foreword 5
-2 Our Fair Deal 7
-3 The Economy 11
-4 Business and Jobs 17
-5 Climate Change and Energy 23
-6 Health 29
-7 Care 37
-8 Education 41
-9 Families, Children and Young People 47
-10 Pensions and Safety Net 51
-11 Crime and Policing 55
-12 Natural Environment 61
-13 Food and Farming 65
-14 Housing 71
-15 Communities and Local Government 75
-16 Transport 79
-17 Culture, Media and Sport 83
-18 Immigration and Asylum 87
-19 Rights and Equality 93
-20 Political Reform 99
-21 Defence 105
-22 International 109
-4Liberal Democrat Election Manifesto 2024
-5
-1 Foreword
+Foreword
 This election is our chance to win the change our country desperately needs.
 Everywhere I go across our great United Kingdom, I see people from all
 backgrounds and all walks of life, working hard, raising families, helping others and
@@ -53,8 +27,7 @@ the high-quality healthcare they need, when they need it and where they need it.
 That is the fair deal the Liberal Democrats are fighting for. I know we can achieve it.
 So join us, and let’s make it happen!
 Ed Davey
-6Liberal Democrat Election Manifesto 2024
-7
+
 2 Our Fair Deal
 In so many ways, things in our country are broken. The economy, the National
 Health Service, the climate, the housing market – all are in crisis after years of
@@ -84,7 +57,6 @@ Grants. We will overhaul parental leave to give families more choice and flexibi
 over how to juggle work and home life. We will support entrepreneurs, back small
 businesses, and reform business rates to help our high streets. We will make Britain
 a world leader in the new infrastructure, businesses and technologies needed to
-8Liberal Democrat Election Manifesto 2024
 tackle climate change. We will manage the public finances with the utmost care and
 responsibility. We will fix the UK’s broken relationship with Europe and tear down
 the Conservatives’ damaging barriers to trade.
@@ -112,7 +84,7 @@ ingenuity, while boosting the economy and enhancing everyone’s quality of life
 Liberal Democrats will hold big companies to account by giving them a duty
 to protect the environment, including banning water companies from
 dumping raw sewage into rivers, lakes and coastal areas.
-9
+
 We will put tackling climate change at the heart of a new industrial strategy. We will
 cut emissions and bills with an emergency Home Energy Upgrade programme. We
 will drive a rooftop solar revolution and invest in clean energy, transport and
@@ -141,7 +113,6 @@ Everyone should have equal power in our democracy, and be able to hold all
 Members of Parliament properly to account.
 Liberal Democrats will introduce proportional representation for electing
 MPs, and local councillors in England, and cap donations to political parties.
-10Liberal Democrat Election Manifesto 2024
 We will shift power out of the centre in Westminster and Whitehall, so local
 decisions are made by and for the people and communities they affect. We will
 demand higher standards of behaviour from Government Ministers by enshrining
@@ -149,7 +120,7 @@ the Ministerial Code in law. We will champion the UK’s Human Rights Act and re
 any attempts to weaken or repeal it.
 Our goal is to transform the nature of British politics itself – to make it relevant,
 engaging and responsive to people’s needs and dreams.
-11
+
 3 The Economy
 Liberal Democrats will build a strong, fair economy that benefits everyone in the
 UK, by helping people back to work, supporting small businesses, improving
@@ -177,7 +148,6 @@ l Provide long-term help with the cost of living by cutting energy bills
 through an emergency Home Energy Upgrade programme, tackling rising
 food prices through a National Food Strategy, and getting mortgage rates
 under control through careful economic management.
-12Liberal Democrat Election Manifesto 2024
 • Invest in green infrastructure, innovation and skills to boost economic
 growth and create good jobs and prosperity in every nation and region of
 the UK, while tackling the climate crisis.
@@ -207,8 +177,6 @@ development projects and boost growth in their areas.
 partnerships to boost growth across the whole UK.
 • Ensuring that gigabit broadband is available to every home and business,
 including in rural and remote communities, as set out in chapter 15.
-13
-14Liberal Democrat Election Manifesto 2024
 • Foster the stability, certainty and confidence that are vital for economic growth
 and investment by:
 • Protecting the independence of the Bank of England and keeping the inflation
@@ -240,7 +208,6 @@ growth.
 • End retrospective tax changes such as the loan charge brought in by the
 Conservatives, and review the Government’s off-payroll working IR35 reforms to
 ensure self-employed people are treated fairly.
-15
 • Expand the British Business Bank to perform a more central role in the
 economy, to ensure that viable small and medium-sized businesses have access
 to capital, and enable it to help ‘crowd-in’ private investment, in particular in
@@ -254,8 +221,7 @@ Conduct Authority and the Prudential Regulation Authority to have regard to
 financial inclusion, such as protecting access to cash, especially in remote areas,
 supporting banking hubs, expanding access to bank accounts, delivering
 Sharia-compliant student finance and supporting vulnerable consumers.
-16Liberal Democrat Election Manifesto 2024
-17
+
 4 Business and Jobs
 We aim to make Britain one of the most attractive places in the world for
 businesses to invest. Only in partnership with responsible, sustainable businesses
@@ -285,7 +251,6 @@ We will:
 • Develop an industrial strategy that will give businesses certainty and
 incentivise them to invest in new technologies to grow the economy,
 create good jobs and tackle the climate crisis.
-18Liberal Democrat Election Manifesto 2024
 • Unlock British businesses’ global potential by bringing down trade barriers
 and building stronger future relationships with our closest trading
 partners, including by fixing our broken relationship with Europe as set
@@ -314,7 +279,6 @@ technologies, including by:
 Innovation Council.
 • Aiming for at least 3% of GDP to be invested in research and development by
 2030, rising to 3.5% by 2034.
-19
 • Ensure the UK has the highest possible standards of environmental, health,
 labour and consumer protection, at least matching EU standards.
 • Tackle the productivity crisis by encouraging businesses to invest in training, take
@@ -345,7 +309,6 @@ trade is readily available from a single point of contact, with tailored support
 for those who need it.
 • Making it a clear objective of trade ministers to boost trade by small British
 businesses.
-20Liberal Democrat Election Manifesto 2024
 • Placing human rights, labour and environmental standards and protection at
 the heart of international trade deals.
 • Support our world-renowned whisky industry by reviewing the UK excise duty
@@ -375,7 +338,6 @@ prompt payment code, making it enforceable.
 • Invest in people’s skills by:
 • Replacing the broken apprenticeship levy with a broader and more flexible
 skills and training levy.
-21
 • Boosting the take-up of apprenticeships, including by guaranteeing they are
 paid at least the National Minimum Wage by scrapping the lower apprentice
 rate.
@@ -409,7 +371,6 @@ contractors and freelancers to ensure fair and comparable treatment.
 • Setting a 20% higher minimum wage for people on zero-hour contracts at
 times of normal demand to compensate them for the uncertainty of
 fluctuating hours of work.
-22Liberal Democrat Election Manifesto 2024
 • Giving a right to request a fixed-hours contract after 12 months for ‘zero
 hours’ and agency workers, not to be unreasonably refused.
 • Reviewing rules concerning pensions so that those in the gig economy don’t
@@ -426,7 +387,7 @@ in chapter 9.
 fourth.
 • Supporting small employers with Statutory Sick Pay costs, consulting with
 them on the best way to do this.
-23
+
 5 Climate Change and Energy
 Climate change is an existential threat. Soaring temperatures leading to wildfires,
 floods, droughts and rising sea levels are affecting millions of people directly, and
@@ -455,7 +416,6 @@ those on low incomes, and ensure that all new homes are zero-carbon.
 • Drive a rooftop solar revolution by expanding incentives for households to
 install solar panels, including a guaranteed fair price for electricity sold
 back into the grid.
-24Liberal Democrat Election Manifesto 2024
 • Invest in renewable power so that 90% of the UK’s electricity is generated
 from renewables by 2030.
 • Appoint a Chief Secretary for Sustainability in the Treasury to ensure that
@@ -488,8 +448,6 @@ emission, investing in active travel and public transport, electrifying Britain�
 railways, and reducing the climate impact of flying, as set out in chapter 16.
 • Coordinating action across the UK by creating a Joint Climate Council of the
 Nations, as set out in chapter 20.
-25
-26Liberal Democrat Election Manifesto 2024
 • Cut energy bills and emissions, and end fuel poverty, by:
 • Launching an emergency Home Energy Upgrade programme, with free
 insulation and heat pumps for low-income households and a central role for
@@ -525,7 +483,6 @@ care of the regions and communities most affected.
 battery capability.
 • Working together with our European neighbours to build a sustainable supply
 chain for renewable energy technology.
-27
 • Building more electricity interconnectors between the UK and other countries
 to guarantee security of supply, located carefully to avoid disruption to local
 communities and minimise environmental damage.
@@ -557,7 +514,6 @@ projects.
 • Introducing a general duty of care for the environment, as set out in chapter 4.
 • Requiring all large companies listed on UK stock exchanges to set targets
 consistent with achieving the net zero goal, and to report on their progress.
-28Liberal Democrat Election Manifesto 2024
 • Regulating financial services to encourage climate-friendly investments, including
 requiring pension funds and managers to show that their portfolio investments
 are consistent with the Paris Agreement, and creating new powers for regulators
@@ -574,7 +530,7 @@ and storage and new low-carbon processes for cement and steel production.
 • Providing more advice to companies on cutting emissions, supporting the
 development of regional industrial clusters for zero-carbon innovation and
 increasing the Industrial Energy Transformation Fund.
-29
+
 6 Health
 Good health gives people the freedom to live their lives as they choose. A thriving
 economy needs a healthy population. Universal high-quality healthcare, free at the
@@ -604,7 +560,7 @@ pharmacists and dentists, so fewer people need to go to hospital in the first pl
 and fixing the crisis in social care to stop so many people being stuck in hospital
 beds. Liberal Democrats understand that we need to fix social care to save our
 NHS.
-30Liberal Democrat Election Manifesto 2024
+
 We will:
 • Give everyone the right to see a GP within seven days, or within 24 hours if
 they urgently need to, with 8,000 more GPs to deliver on it.
@@ -633,8 +589,6 @@ paramedics.
 invest in training.
 • Establishing a Strategic Small Surgeries Fund to sustain services in rural and
 remote areas.
-31
-32Liberal Democrat Election Manifesto 2024
 • Guarantee access to an NHS dentist for everyone needing urgent and
 emergency care by:
 • Bringing dentists back to the NHS from the private sector by fixing the broken
@@ -669,7 +623,6 @@ the NHS, as part of our commitment to review the entire schedule of
 exemptions for prescription charges.
 • Transforming perinatal mental health support for those who are pregnant,
 new mothers and those who have experienced miscarriage or stillbirth.
-33
 • Tackling stigma through continued support for public education including
 Time to Talk.
 • Cutting suicide rates with a focus on community suicide prevention services
@@ -705,7 +658,6 @@ aside for those experiencing the worst health inequalities to co-produce plans
 for their communities.
 • Establishing a ‘Health Creation Unit’ in the Cabinet Office to lead work across
 government to improve the nation’s health and tackle health inequalities.
-34Liberal Democrat Election Manifesto 2024
 • Introducing regulations to halt the dangerous use of vapes by children while
 recognising their role in smoking cessation for adults, and banning the sale of
 single-use vapes.
@@ -740,7 +692,6 @@ as set out in chapter 7.
 • Publishing accessible, localised reports of ambulance response times.
 • Creating an emergency fund to reverse closures of community ambulance
 stations and cancel planned closures where needed.
-35
 • Implement a ten-year plan to invest in hospitals and the primary care estate to
 end the scandal of crumbling roofs, dangerous concrete and life-expired
 buildings.
@@ -770,7 +721,6 @@ improve patient care and experience and save staff time and costs.
 patient’s health record with the patient’s consent.
 • Expanding virtual wards and investing in new technologies that free up staff
 time and allow people to be treated at or closer to home.
-36Liberal Democrat Election Manifesto 2024
 • Review diagnostic provision across the NHS and implement a new ten-year
 Strategic Diagnostics Plan.
 • Improve faster access to new and novel medicines and medical devices by
@@ -793,7 +743,7 @@ devolving powers for tailored solutions where necessary.
 • Provide a fair funding deal for hospices, including children’s hospices,
 recognising the valuable services they provide and saving money on hospital
 admissions.
-37
+
 7 Care
 Everyone deserves high-quality care when they need it. Liberal Democrats want
 everyone to be able to live independently and with dignity, and receive any care
@@ -820,7 +770,6 @@ Workers to improve recognition and career progression, and introduce a
 higher Carer’s Minimum Wage.
 • Establish a cross-party commission to forge a long-term agreement on
 sustainable funding for social care.
-38Liberal Democrat Election Manifesto 2024
 • Give unpaid carers a fair deal so they get the support they so desperately
 need, including paid carer’s leave and a statutory guarantee of regular
 respite breaks.
@@ -851,8 +800,6 @@ chapter 10.
 • Introducing a statutory guarantee of regular respite breaks for unpaid carers.
 • Introducing paid carer’s leave, building on the entitlement to unpaid leave
 secured by the Liberal Democrats.
-39
-40Liberal Democrat Election Manifesto 2024
 • Making caring a protected characteristic under the Equality Act 2010 and
 requiring employers to make reasonable adjustments to enable employees
 with caring responsibilities to provide that care.
@@ -885,7 +832,7 @@ strengthen the rights of people who are in or have been in care.
 • Refresh the national strategy for loneliness collaboratively with service providers
 and people who have lived experience of loneliness, to be overseen by a
 dedicated Minister for Tackling Loneliness.
-41
+
 8 Education
 Liberal Democrats believe that education is the best investment we can make in
 our children’s potential and our country’s future.
@@ -911,7 +858,6 @@ by giving disadvantaged children aged three and four an extra five free
 hours a week and tripling the Early Years Pupil Premium to £1,000 a year.
 • Reinstate maintenance grants for disadvantaged students immediately to
 make sure that living costs are not a barrier to studying at university.
-42Liberal Democrat Election Manifesto 2024
 • Create new Lifelong Skills Grants, giving all adults £5,000 to spend on
 education and training throughout their lives, and aim to increase them to
 £10,000 in the future when the public finances allow.
@@ -940,8 +886,6 @@ including subjects like art, music or drama.
 • Expand provision of extracurricular activities, such as sport, music, drama,
 debating and coding, starting with a new free entitlement for disadvantaged
 children.
-43
-44Liberal Democrat Election Manifesto 2024
 • Reform Ofsted inspections and end single-word judgements so that parents get
 a clear picture of the true strengths and weaknesses of each school, and schools
 get the guidance and support they need to improve.
@@ -970,7 +914,6 @@ free hours of early years education a week, as another step towards a universal,
 full-time entitlement for all two- to four-year-olds.
 • Introduce a Young People’s Premium, extending Pupil Premium funding to
 disadvantaged young people aged 16-18.
-45
 • Review further education funding, including the option of exempting colleges
 from VAT.
 • Support the education of children in care, extend Pupil Premium Plus funding to
@@ -997,8 +940,6 @@ migration.
 underrepresented groups across the sector, prioritising their work with
 students in schools and colleges, and requiring every university to be
 transparent about selection criteria.
-46Liberal Democrat Election Manifesto 2024
-47
 9 Families, Children and
 Young People
 Every child deserves the best possible start in life and the opportunity to flourish,
@@ -1024,7 +965,6 @@ introducing an extra use-it-or-lose-it month for fathers and partners, paid
 at 90% of earnings.
 • Make all parental pay and leave day-one rights, and extend them to
 self-employed parents.
-48Liberal Democrat Election Manifesto 2024
 • Expand opportunities for young people to study, teach and volunteer
 abroad by returning to the Erasmus Plus programme as an associated
 country.
@@ -1057,7 +997,6 @@ standards.
 parents and kinship carers, and extending them to self-employed parents.
 • Doubling Statutory Maternity and Shared Parental Pay to £350 a week.
 • Increasing pay for paternity leave to 90% of earnings, with a cap for high earners.
-49
 • Introducing an extra use-it-or-lose-it month for fathers and partners, paid at
 90% of earnings, with a cap for high earners.
 • Requiring large employers to publish their parental leave and pay policies.
@@ -1079,8 +1018,6 @@ fairer and more generous as set out in chapter 19.
 children and parents, including removing the Collect and Pay charge for
 receiving parents and ensuring that payments cannot be used as a form of
 coercive control over domestic abuse survivors.
-50Liberal Democrat Election Manifesto 2024
-51
 10 Pensions and Safety Net
 The cost-of-living crisis has caused huge financial hardship across the country and
 restricted the life chances of millions. The Government response has been a series
@@ -1102,7 +1039,6 @@ properly compensated.
 • Give unpaid carers the support they deserve by increasing Carer’s
 Allowance and expanding it to more carers, and stop pursuing carers for
 old overpayments of Carer’s Allowance.
-52Liberal Democrat Election Manifesto 2024
 In addition, we will:
 • Repair the broken benefits safety net by:
 • Reducing the wait for the first payment of Universal Credit from five weeks to
@@ -1133,7 +1069,6 @@ informal assessments.
 ensure working-age carers can save properly for retirement.
 • Improving the State Pension system by investing in helplines to ensure quicker
 responses to queries and resolution of underpayments.
-53
 • Ending the scandal of lost top-up payments by overhauling the processing
 system and providing proper receipts.
 • Fix the broken Statutory Sick Pay system, as set out in chapter 4.
@@ -1141,8 +1076,7 @@ system and providing proper receipts.
 are consistent with the Paris Agreement, as set out in chapter 5.
 • Ensure that military compensation for illness or injury does not count towards
 means testing for benefits, as set out in chapter 21.
-54Liberal Democrat Election Manifesto 2024
-55
+
 11 Crime and Policing
 Everyone deserves to feel safe in their own homes and communities. But for too
 many people in the UK, that’s simply not the reality today.
@@ -1167,7 +1101,6 @@ and ensure swift justice.
 • Breaking the cycle of reoffending by improving rehabilitation in prisons
 and on release, and strengthening the supervision of offenders in the
 community.
-56Liberal Democrat Election Manifesto 2024
 • Ensuring survivors of violence against women and girls are properly
 supported in the criminal justice process, including through mandatory
 training for police and prosecutors in understanding the impact of trauma
@@ -1199,7 +1132,6 @@ officers and all public officials, as set out in chapter 20.
 tackle the shortage of detectives.
 • Ensuring fair pay rises for police officers by reforming the Police Remuneration
 Review Body to make it properly independent of government.
-57
 • Ensure that survivors of domestic abuse are properly supported throughout the
 criminal justice system by:
 • Embedding domestic abuse specialists in every police force and 999 operator
@@ -1234,7 +1166,6 @@ identifies and treats risk factors, rather than just focusing on the symptoms.
 This means police, teachers, health professionals, youth workers and social
 services all working closely together to prevent young people falling prey to
 gangs and violence.
-58Liberal Democrat Election Manifesto 2024
 • Investing in youth services that are genuinely engaging and reach more young
 people.
 • Making youth diversion a statutory duty so that every part of the country has a
@@ -1266,7 +1197,6 @@ Home Office to local safeguarding agencies.
 • Creating a financial deterrent by establishing a civil remedy for survivors
 seeking redress from their traffickers.
 • Introduce new laws to crack down on puppy and kitten smuggling.
-59
 • Cut reoffending by:
 • Ending prison overcrowding.
 • Recruiting and retaining more prison officers.
@@ -1283,8 +1213,7 @@ people leaving prison and cut reoffending.
 community, with far greater coordination between the prison service,
 probation service providers, the voluntary and private sectors and local
 authorities, achieving savings in the high costs of reoffending.
-60Liberal Democrat Election Manifesto 2024
-61
+
 12 Natural Environment
 Protecting our precious natural environment lies at the heart of the Liberal
 Democrat approach. Everyone should be able to enjoy open green spaces, clean
@@ -1313,7 +1242,6 @@ environment and ‘double nature’ by 2050: doubling the size of the
 Protected Area Network, doubling the area of most important wildlife
 habitats, doubling the abundance of species and doubling woodland cover
 by 2050.
-62Liberal Democrat Election Manifesto 2024
 • Plant at least 60 million trees a year, helping to restore woodland habitats,
 increase the use of sustainable wood in construction, and reach net zero.
 • Pass a Clean Air Act, based on World Health Organization guidelines,
@@ -1344,7 +1272,6 @@ within the next Parliament.
 sustainable drainage systems in new developments.
 • Mandating all water companies to publish accessible real-time data on any
 sewage they dump.
-63
 • Ensure everyone has access to a healthy natural environment, regardless of
 where they live, by:
 • Significantly increasing the amount of accessible green space, including
@@ -1378,7 +1305,6 @@ Britain recycling by:
 containers, working with the devolved administrations to ensure consistency
 across the UK, learning the lessons from the difficulties with the Scottish
 scheme.
-64Liberal Democrat Election Manifesto 2024
 • Aiming for the complete elimination of non-recyclable single-use plastics
 within three years and replacing them with affordable alternatives.
 • Working to protect 30% of the world’s oceans by 2030 through the UN High
@@ -1399,7 +1325,6 @@ Standards that are properly enforced and accredited.
 • Creating a real network of marine protected areas, ensuring that they are fully
 protected from damaging and destructive activities, protecting and restoring
 blue carbon and ensuring climate resilience at sea.
-65
 13 Food and Farming
 The UK’s food system is failing to serve the interests of citizens, whether they are
 farmers or consumers.
@@ -1425,7 +1350,7 @@ setting a dangerous precedent for future deals.
 Liberal Democrats will stand up for British farmers and ensure everyone can get
 affordable, healthy and nutritious food, produced to high welfare and
 environmental standards.
-66Liberal Democrat Election Manifesto 2024
+
 We will:
 • Introduce a holistic and comprehensive National Food Strategy to ensure
 food security, tackle rising food prices, end food poverty and improve
@@ -1454,8 +1379,6 @@ better farming practices.
 • Investing in rural and coastal infrastructure and services, including local
 abattoirs, so that communities are viable and can attract and retain workers,
 particularly from younger age groups.
-67
-68Liberal Democrat Election Manifesto 2024
 • Using public procurement policy to support the consumption of food
 produced to high standards of environmental and social sustainability, and
 which is nutritious, healthy and locally and seasonally sourced.
@@ -1487,7 +1410,6 @@ monitor food production.
 • Ensuring all imported food meets UK standards for health and welfare, and
 that goods are properly checked.
 • Introducing robust and clear-to-understand food labelling.
-69
 • Ensure Britain continues to be a world leader in animal welfare and standards
 by:
 • Passing a comprehensive new Animal Welfare Bill to ensure the highest
@@ -1502,8 +1424,7 @@ ban on caged hens, and preventing unnecessarily painful practices in farming.
 • At least matching the EU’s stricter rules on preventative use of antibiotics, and
 introducing a comprehensive plan to tackle antimicrobial resistance in farm
 animals.
-70Liberal Democrat Election Manifesto 2024
-71
+
 14 Housing
 Liberal Democrats know that a home is a necessity and the base on which people
 build their lives. So we will ensure that everyone can access housing that meets
@@ -1530,7 +1451,7 @@ end Right to Buy in their areas.
 scrapping the archaic Vagrancy Act.
 • Abolishing residential leaseholds and capping ground rents to a nominal
 fee, so that everyone has control over their property.
-72Liberal Democrat Election Manifesto 2024
+
 In addition, we will:
 • Build the homes people desperately need, with meaningful community
 engagement, by:
@@ -1563,7 +1484,6 @@ do not have to pay a penny towards it.
 introducing a new Rent to Own model for social housing where rent payments
 give tenants an increasing stake in the property, owning it outright after 30
 years.
-73
 • End rough sleeping within the next Parliament by:
 • Urgently publishing a cross-Whitehall plan to end all forms of homelessness.
 • Exempting groups of homeless people, and those at risk of homelessness,
@@ -1581,8 +1501,7 @@ in their areas, as set out in chapter 15.
 including strict time limits for repairs.
 • Fully recognising tenant panels so that renters have a voice in landlord
 governance.
-74Liberal Democrat Election Manifesto 2024
-75
+
 15 Communities and Local
 Government
 People want to live in flourishing communities. No community can flourish without
@@ -1610,7 +1529,6 @@ a long-term, cross-party agreement on social care.
 short-term lets in their areas.
 • Ensure local authorities have the powers and resources they need to
 tackle the climate and nature emergencies, as set out in chapters 5 and 12.
-76Liberal Democrat Election Manifesto 2024
 • Ensure that gigabit broadband is available to every home and business,
 including in rural and remote communities, and support local bespoke
 solutions so that no property is left out.
@@ -1636,7 +1554,6 @@ purchasing such properties.
 and keep DVLA services available at post office counters.
 • Enhance powers over community assets to help local authorities protect pubs,
 community farms, and other vital infrastructure.
-77
 • Invest in leisure centres, swimming pools and other grassroots facilities, and
 support community sports clubs, as set out in chapter 17.
 • Establish a Strategic Small Surgeries Fund to sustain GP services in rural and
@@ -1649,8 +1566,7 @@ ones where there is local need, especially in rural areas, as set out in chapter
 Duty Relief.
 • Introduce a strategic Land and Sea Use Framework to effectively balance
 competing demands.
-78Liberal Democrat Election Manifesto 2024
-79
+
 16 Transport
 Everyone should have convenient, affordable options to get around – whether to
 get to work or the shops, to go to school or hospital, to visit friends and families or
@@ -1679,7 +1595,6 @@ deliver Northern Powerhouse rail.
 • Boost bus services by giving local authorities more powers to franchise
 services and simplifying funding, so that bus routes can be restored or
 new routes added where there is local need, especially in rural areas.
-80Liberal Democrat Election Manifesto 2024
 • Transform how people travel by creating new cycling and walking
 networks with a new nationwide active travel strategy.
 • Give more of the roads budget to local councils to maintain existing roads,
@@ -1709,7 +1624,6 @@ for both passengers and freight by:
 join up the industry – from track to train – putting commuters first, holding
 train companies to account, and bringing in wholesale reform of the broken
 fare system.
-81
 • Being far more proactive in sanctioning and ultimately sacking train operators
 if they fail to provide a high-quality public service to their customers.
 • Exploring the introduction of an annual pass for all railways.
@@ -1744,7 +1658,6 @@ international return flights per year.
 exemptions for private, first-class and business-class flights.
 • Requiring airlines to show the carbon emissions for domestic flights compared
 to the equivalent rail option at booking.
-82Liberal Democrat Election Manifesto 2024
 • Banning short domestic flights where a direct rail option taking less than 2.5
 hours is available for the same journey, unless planes are alternative-fuelled.
 • Placing a moratorium on net airport expansion until a national capacity and
@@ -1756,7 +1669,6 @@ England to design public transport infrastructure around community needs,
 including powers to introduce network-wide ticketing as in London.
 • Work to integrate bus, rail and light rail ticketing systems so that a daily fare cap
 can be introduced for those taking several trips per day.
-83
 17 Culture, Media and Sport
 The UK’s rich and vibrant cultural heritage is a national treasure. Our creative and
 tourism industries contribute billions of pounds to our economy and employ
@@ -1782,7 +1694,6 @@ perform in the EU, and European artists to perform in the UK.
 • Boost participation in sports and physical activity by investing in leisure
 centres, swimming pools and other grassroots facilities and supporting
 community sports clubs.
-84Liberal Democrat Election Manifesto 2024
 In addition, we will:
 • Establish creative enterprise zones to grow and regenerate the cultural output
 of areas across the UK.
@@ -1806,8 +1717,6 @@ the impact of fake news.
 Competition and Markets Authority’s recommendations to crack down on illegal
 ticket resale.
 • Protect sports and arts funding via the National Lottery.
-85
-86Liberal Democrat Election Manifesto 2024
 • Combat the harms caused by problem gambling by:
 • Introducing the planned compulsory levy on gambling companies to fund
 research, prevention and treatment.
@@ -1827,7 +1736,6 @@ include more football matches as well as key international cricket, rugby, golf
 and tennis fixtures.
 • Support and encourage campaigns to improve equality, diversity and inclusion in
 sport.
-87
 18 Immigration and Asylum
 The UK has a proud history of welcoming newcomers – whether people seeking to
 build their lives here, or refugees fleeing war and persecution. People from all over
@@ -1855,7 +1763,6 @@ sanctuary for refugees, helping to prevent dangerous Channel crossings.
 speed and quality of asylum decision-making, introducing a service
 standard of three months for all but the most complex asylum claims to be
 processed, and speeding up returns of those without a right to stay.
-88Liberal Democrat Election Manifesto 2024
 • Lift the ban on asylum seekers working if they have been waiting for a
 decision for more than three months, enabling them to support
 themselves, integrate in their communities and contribute to the
@@ -1885,9 +1792,6 @@ so that no more families are torn apart.
 of administration.
 • Overhaul the Immigration Rules to make them simpler, clearer and fairer, and
 ensure greater parliamentary scrutiny of future changes.
-89
-eGuide Travel CC BY 2.0
-90Liberal Democrat Election Manifesto 2024
 • Extend the participation of devolved administrations in the development of the
 evidence base for UK-wide policy on work permits and student visas, helping
 ensure rules are sensitive to the skills needs of every corner of the UK and every
@@ -1918,7 +1822,6 @@ join them.
 • Funding community-sponsorship projects for refugees, and rewarding
 community groups who develop innovative and successful ways of promoting
 social cohesion.
-91
 • Offering asylum to people fleeing the risk of violence because of their sexual
 orientation or gender identification, ending the culture of disbelief for LGBT+
 asylum seekers, and never refusing an LGBT+ applicant on the basis that they
@@ -1930,8 +1833,7 @@ for adults to an absolute last resort, with a 28-day time limit.
 • Increase the ‘move-on’ period for refugees to 60 days, providing vital time for
 new refugees to prepare for life in the UK while ensuring that other public
 bodies are not left to pick up the costs of them becoming destitute.
-92Liberal Democrat Election Manifesto 2024
-93
+
 19 Rights and Equality
 Liberal Democrats exist to build a free society where every person’s rights and
 liberties are protected. Everyone should be able to live their lives as who they are:
@@ -1959,7 +1861,6 @@ and the economy.
 • Make misogyny a hate crime and give police and prosecutors the
 resources and training they need to prevent and prosecute all hate crimes
 while supporting survivors.
-94Liberal Democrat Election Manifesto 2024
 • Give everyone a new right to flexible working and every disabled person
 the right to work from home if they want to, unless there are significant
 business reasons why it is not possible.
@@ -1991,7 +1892,6 @@ get the support they deserve by:
 violence against women and domestic violence, with protections for all
 survivors regardless of nationality or immigration status.
 • Expanding the number of refuges and rape crisis centres to meet demand.
-95
 • Ensuring sustainable funding for services to support survivors of domestic
 abuse, with a particular focus on community-based and specialist ‘by and for’
 services.
@@ -2023,7 +1923,6 @@ clinics and hospitals.
 for practically identical products or services marketed at them.
 • Ending period poverty by introducing a right for anyone who needs them to
 access free period products.
-96Liberal Democrat Election Manifesto 2024
 • Expanding access to flexible, affordable childcare, doubling Statutory Maternity
 Pay and expanding shared parental leave, as set out in chapter 9.
 • Reform the gender recognition process to remove the requirement for medical
@@ -2054,7 +1953,6 @@ to Rent’ law, as set out in chapter 18.
 publish candidate diversity data, as set out in chapter 20.
 • Halting the use of facial recognition surveillance, which is most likely to wrongly
 identify black people and women.
-97
 • Make it easier for disabled people to access public life, including the world of
 work, by:
 • Adopting new accessibility standards for public spaces.
@@ -2075,8 +1973,7 @@ to promote and facilitate the use of BSL.
 • Give Parliament time to fully debate and vote on legislation on assisted dying for
 terminally ill, mentally competent adults with strict safeguards, subject to a free
 vote.
-98Liberal Democrat Election Manifesto 2024
-99
+
 20 Political Reform
 We want to ensure that your voice is heard – and we want to transfer power back
 to the people.
@@ -2100,7 +1997,6 @@ vote.
 • Finally hold Government Ministers to account for corruption and sleaze by
 enshrining the Ministerial Code in legislation.
 • Reform the House of Lords with a proper democratic mandate.
-100Liberal Democrat Election Manifesto 2024
 • Transfer greater powers away from Westminster and Whitehall, introduce
 a written constitution for a federal United Kingdom with strong voices for
 England, Wales, Scotland and Northern Ireland, and oppose a second
@@ -2162,7 +2058,6 @@ committee.
 House of Commons Register of Members’ Interests, so that publication takes
 place more frequently.
 • Strengthen and expand the lobbying register.
-102Liberal Democrat Election Manifesto 2024
 • End the scandal of ‘Government by WhatsApp’ by:
 • Requiring that all Ministers’ instant-messaging conversations involving
 government business must be placed on the departmental record.
@@ -2197,7 +2092,6 @@ new dispute resolution process, sharing power, resolving differences maturely
 between administrations and delivering better governance.
 • Improving joint ministerial work on new cross-cutting policies, such as the UK
 industrial strategy.
-103
 • Deliver a fair deal for the people of Scotland by:
 • Allocating to the Scottish Parliament all the powers set out in the Scotland Act
 2016, many of which have already been used by the Scottish Parliament, with
@@ -2231,7 +2125,6 @@ support local businesses.
 • Fixing the UK’s broken relationship with Europe and accordingly reducing
 barriers to trade between Great Britain, Northern Ireland and the Republic of
 Ireland.
-104Liberal Democrat Election Manifesto 2024
 • Ensure reliable funding for the nations of the UK by:
 • Retaining the Barnett formula to adjust spending allocations across the UK
 and protect the individual nations’ budgets from external shocks.
@@ -2247,7 +2140,7 @@ tier, founded on the principles of democratic engagement, liberal values and
 respect for diverse identities, underpinned by a fair distribution of resources
 based on respective needs. The Convention will establish an inclusive approach
 for determining the structure of government in England.
-105
+
 21 Defence
 Keeping our country secure should be the first priority of any government. We
 must always take defence seriously – and work with allies to protect all our
@@ -2273,7 +2166,6 @@ term ambition of increasing regular troop numbers back to over 100,000.
 defence spending in every year of the Parliament, with an ambition to
 spend at least 2.5% of GDP on defence.
 • Securing a fair deal for service personnel and veterans.
-106Liberal Democrat Election Manifesto 2024
 • Maintaining the UK’s nuclear deterrent with four submarines providing
 continuous at-sea deterrence, while pursuing multilateral global
 disarmament.
@@ -2302,9 +2194,6 @@ Defence Secretary and government departments to give it due regard.
 maintenance contracts.
 • Waiving application fees for indefinite leave for members of the armed forces
 on discharge, and their families.
-107
-Image UK MOD © Crown copyright 2024 OGL v3.0
-108Liberal Democrat Election Manifesto 2024
 • Accepting the recommendations of the Atherton Report on women in the
 armed forces.
 • Ensuring that military compensation for illness or injury does not count
@@ -2324,7 +2213,7 @@ defence, intelligence and cyber-security.
 technologies and procurement.
 • Seeking a defence and security agreement with the EU and its member states.
 • Continuing to work closely with our Five Eyes partners.
-109
+
 22 International
 Whether on apartheid in South Africa, the illegal war in Iraq or the persecution of
 Hong Kongers, Liberal Democrats have always stood up for the vital British values
@@ -2355,7 +2244,6 @@ International Criminal Court.
 built on cooperation, not confrontation, and move to conclude a new
 comprehensive agreement which removes as many barriers to trade
 as possible.
-110Liberal Democrat Election Manifesto 2024
 • Stand with the people of Ukraine and provide them with the support that
 they need in the face of Putin’s illegal invasion.
 • Restore the UK’s reputation as an international development superpower,
@@ -2388,9 +2276,6 @@ initiatives, and cooperation on defence, security and crime.
 • Deepening the trading relationship with critical steps for the British economy,
 including negotiating comprehensive veterinary and plant health agreements
 and mutual recognition agreements.
-111
-Image DFID (CC BY-ND 2.0 DEED)
-112Liberal Democrat Election Manifesto 2024
 • Finally, once ties of trust and friendship have been renewed, and the damage
 the Conservatives have caused to trade between the UK and EU has begun to
 be repaired, we would aim to place the UK-EU relationship on a more formal
@@ -2422,7 +2307,6 @@ Palestinians deserve.
 • Recognising the existential threat of Iran not just in the Middle East but to
 Western democracies, by proscribing Iran’s Revolutionary Guard.
 • Upholding and respecting international courts and international law.
-113
 • Stand with Hong Kong, Taiwan and the Uyghurs including by:
 • Continuing to fight for British National (Overseas) passport holders’ rights by
 closing gaps in the BNO visa scheme.
@@ -2453,7 +2337,6 @@ with a primary focus on poverty reduction, as we reverse the Official
 Development Assistance cut, including by:
 • Putting the United Nations Sustainable Development Goals at the heart of the
 UK’s international development policy.
-114Liberal Democrat Election Manifesto 2024
 • Funding genuine partnerships that are rooted in local needs and developed
 on grounds of mutual respect.
 • Ensuring that the use of the international development budget continues to
@@ -2468,26 +2351,3 @@ environmental degradation, in line with our commitment to climate justice.
 • Tackling the growing global crisis of food insecurity and malnutrition by
 increasing the proportion of ODA committed to delivering life-saving nutrition
 interventions.
-115
-116Liberal Democrat Election Manifesto 2024
-This manifesto sets out Liberal Democrat policies and priorities for the United
-Kingdom. The Scottish and Welsh Liberal Democrats set their own policy on
-devolved matters, and for those policy areas, the proposals here apply to England
-only. Our sister party, the Alliance Party of Northern Ireland, makes its own policy on
-devolved issues in Northern Ireland.
-ISBN: 978-1-915375-24-7 © June 2024
-Price: £10
-Further copies may be obtained from:
-Liberal Democrat Image, The Workshop, 24 Cheyne Way, Farnborough,
-Hampshire GU14 8RX
-Email: info@libdemimage.co.uk
-Website: www.libdemimage.co.uk
-This manifesto can be found online at: www.libdems.org.uk/FairDeal
-For further information on obtaining copies of this manifesto in alternative formats
-please email help@libdems.org.uk
-Published and promoted by Mike Dixon on behalf of the Liberal Democrats, both at
-1 Vincent Square, SW1P 2PN
-Printed by: Full Spectrum Print Media,10 Honywood Business Park, Honywood
-Road, Basildon, SS14 3HW
-Design and layout by: Louise Tait, Think, 65 Riding House Street, London W1W 7EH
-www.thinkpublishing.co.uk

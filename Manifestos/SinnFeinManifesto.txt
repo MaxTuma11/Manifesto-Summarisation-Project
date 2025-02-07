@@ -1,132 +1,10 @@
-1
+
 Am don Athrú - Sinn Féin Election Manifesto 2024
 THE CHOICE
 FOR CHANGE
 General Election
 Manifesto 2024
-The Choice for Change - Sinn Féin Election Manifesto 2024
-2
-Introduction - The Choice for Change 8
-An rogha chun athrú a bhaint amach 10
-Housing 11
-New Homes in Sinn Féin’s Housing Plan 12
-Sinn Féin’s Public Housing Programme 2025-2029 13
-Delivering and funding our housing plan 14
-Water 15
-Health 19
-Taking Big Bold Steps towards Universal Healthcare 21
-Upgrading and Expanding Local Health Services 21
-Driving Major Reform of Hospital Care 22
-Revolutionising Mental Health 22
-Delivering a Rights-Based Approach to Disability Services 23
-National Strategies 23
-Workforce Planning 24
-Investing Wisely 25
-Cost of Living 27
-Abolishing the USC 28
-€10 per day Childcare 28
-Reducing the cost of essentials 32
-A United Ireland: ‘A Plan for Reunification’ 35
-Accountability, Civil Service and Political Reform 41
-Civil and Public Service Reform 42
-Accountability 42
-Protect Public Investment and Finances 44
-Political Reform 45
-Economic and Regional Development 47
-Enterprise and Employment 48
-Workers’ Rights for the 21st Century 50
-Public Capital Projects 51
-Transport and Infrastructure 52
-Public procurement as a driver of economic development 56
-Banking Sector and Credit Unions 57
-Tourism 58
-Gaeltacht 59
-3
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-Contents
-Education 63
-Reducing the Cost of Education 64
-Prioritising Special Educational Needs 65
-Tackling Educational Disadvantage 67
-Tackling staffing shortages in schools 68
-School Transport 69
-Irish Language in Education 70
-Further and Higher Education 71
-Cost of third level education 72
-Sectoral Core funding deficit 72
-Sectoral staffing levels and precarious employment 73
-Student Accommodation 73
-Apprenticeships 74
-Disability and Disadvantaged background Access 75
-North South Mobility and Co-operation 76
-The Irish Language in higher and further education 76
-Agriculture and fishing 79
-Increasing incomes on family farms 80
-Fair prices and transparency in the agri-food supply chain 82
-Working with Farmers to secure the future of agriculture 82
-Standing Up For Irish Fishermen and our Seafood Industry 84
-Reform 84
-Offshore Sector 85
-Inshore Sector 86
-Animal Welfare 87
-Human Rights, Equality and Non-discrimination 89
-Tackling Domestic and Gender-Based Violence 95
-Protecting children 97
-Disability 101
-Delivering on rights for disabled people 102
-Residential places and de-congregation 102
-Adult Day Services 103
-Respite Services 103
-Care in the Home and Living in the Community 104
-Children’s Disability Services 105
-Inclusion and Participation 106
-Wider Disability and Caring Proposals 107
-The Choice for Change - Sinn Féin Election Manifesto 2024
-4
-Protecting and Investing in Communities 109
-Policing and Justice 110
-Effective Policing and Protecting Public Safety 110
-Rural Crime 111
-Ensuring justice and rehabilitation 112
-Clamping down on financial fraud and scams 112
-Addressing historic injustice 113
-Fire and Rescue Services 114
-Strengthening communities 115
-Sport 116
-Environment, Climate and Energy 119
-Funding the Transition: From Eco-Austerity to Climate Justice 120
-Accelerating the Green Transition: From Import Dependence to Energy Independence 121
-Transforming our Natural Resources: From Private Gain to National Wealth 123
-Reforming the Energy Market and Charges - Maximising Affordability 125
-A Fairer Retrofit Plan 126
-Addressing the Crisis in Biodiversity: Protecting and Restoring Nature 127
-Circular Economy and Waste Management 128
-Social welfare and pensions 131
-Social welfare 132
-Pensions 135
-Arts, Heritage, Gaeilge and Media 139
-Arts 140
-Cultural Heritage 142
-Gaeilge 144
-Media 146
-Foreign Affairs 151
-An independent foreign policy and military neutrality 152
-Building stronger relationships with our European partners 153
-Developing stronger relationships with countries outside Europe 153
-An active voice for peace and conflict resolution 154
-Global institutions that work better 155
-Building support for Irish reunification 155
-Managing Immigration 157
-Defence 161
-Protecting Irish Neutrality 162
-Investing in our Defence Forces 163
-Funding change 167
-Expenditure Strategy 169
-Taxation Strategy 174
-5
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-The Choice for Change - Sinn Féin Election Manifesto 20246
-7An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 Introduction
 The Choice for Change
 In this General Election, you have a clear choice. A choice between the disappointments and failures
@@ -162,10 +40,7 @@ programme so that every ordinary household can afford to access retrofitting.
 Every election is a choice. But, in this election you will have a real opportunity, for the first
 time in the history of the state, after more than 100 years, to vote for real change. For new
 people with new ideas. For clear plans. For a team that is ready to deliver from day one.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-8
-9
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 Mary Lou McDonald td
 Uachtarán Shinn Féin
 Réamhrá
@@ -205,10 +80,7 @@ mbeidh sé d’acmhainn ag gach gnáth-theaghlach teacht a bheith acu ar iarfhei
 Rogha a bhíonn i ngach toghchán. Sa toghchán seo, áfach, beidh deis cheart agat, den chéad uair i stair an stáit
 tar éis breis is céad bliain, vóta a chaitheamh ar son fíorathruithe. Do dhaoine nua a bhfuil smaointe nua acu, do
 phleananna soiléire, agus d’fhoireann atá réidh chun an fód a sheasamh ón gcéad lá.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-10
-11
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 HOUSING
 TITHÍOCHT
 Sinn Féin’s alternative housing plan, A Home Of Your Own, sets out how we would fix the housing crisis.
@@ -246,8 +118,7 @@ If elected to government, Sinn Féin would deliver the number of homes that are 
 It is also important that these homes are actually affordable for ordinary people. This means a well-
 balanced housing market, with the right proportion of social housing, affordable purchase and
 affordable rental, alongside a well-regulated private market.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-12
+
 As set out in Sinn Féin’s housing plan, we would deliver 300,000 new homes between 2025 and 2029.
 This would include 125,000 public homes (social, affordable purchase and affordable rental) 115,000
 private market homes for working people to buy. And a further 60,000 homes for private rent and
@@ -278,7 +149,7 @@ Total 300,000 370,000
 A Sinn Féin government would continue this delivery into 2030 with a further 31,500 public homes in
 2030 including 18,500 social homes, 6,500 affordable homes for purchase and 6,500 affordable homes
 to rent.
-13
+
 Housing
 DELIVERING AND FUNDING OUR HOUSING PLAN
 Sinn Féin’s comprehensive and fully costed policy document, published in September 2024, A Home Of
@@ -315,8 +186,6 @@ homes for people to buy through the provision of low cost finance, efficient sit
 more timely planning
 v Phasing out Help to Buy over five years as we ramp-up the delivery of affordable homes
 v Publishing revised planning guidelines for rural, Gaeltacht and Island communities
-The Choice for Change - Sinn Féin Election Manifesto 2024
-14
 v Delivering 100% redress to all those homeowners impacted by building defects and defective
 building materials through an end-to-end scheme
 v Investing in and reforming the planning and building control systems, providing an additional
@@ -340,15 +209,12 @@ v Ensuring greater transparency and accountability from Uisce Éireann through f
 mechanisms to Local Authorities and the Oireachtas
 v Restructuring the utility as a non-commercial semi-state company
 v Ensuring a continued footprint of water services in Local Authority offices and depots
-15
+
 Housing
-The Choice for Change - Sinn Féin Election Manifesto 202416
-17An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-The Choice for Change - Sinn Féin Election Manifesto 2024
-18
+
 HEALTH
 SLÁINTE
-19
+
 An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
 Sinn Féin has the plan, vision and determination to deal with the big challenges in healthcare. We
 published A Prescription for Change: Sinn Féin’s plan to deliver healthcare when you need it in October
@@ -380,8 +246,7 @@ Sinn Féin’s five key priorities in Health and Social Care are:
 3. Drive Major Reform of Hospital Care
 4. Revolutionise Youth Mental Health
 5. Deliver a Rights-Based Approach to Disability Services
-The Choice for Change - Sinn Féin Election Manifesto 2024
-20
+
 TAKING BIG BOLD STEPS TOWARDS UNIVERSAL HEALTHCARE
 Sinn Féin would take big bold steps to deliver universal healthcare by providing free prescription
 medicines for all households, upgrading every GP visit card to a full medical card, providing full medical
@@ -411,7 +276,7 @@ v Delivering a Pharmacy First model for common conditions and the provision of h
 information and advice, with an expanded and integrated role for pharmacists in primary care
 v Pursuing a ‘home first’ approach to care, develop a modern home care scheme and prioritise
 public home care delivery of five million additional home care hours
-21
+
 Health
 DRIVING MAJOR REFORM OF HOSPITAL CARE
 A Sinn Féin government would set a zero-tolerance approach to hospital trolleys and overcrowding
@@ -437,8 +302,7 @@ expenditure.
 Sinn Féin priorities include:
 v Implementing Sinn Féin’s €250m Mental Health Action Plan to deliver comprehensive early
 intervention, primary, community and acute mental health services, particularly for young people.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-22
+
 DELIVERING A RIGHTS-BASED APPROACH TO
 DISABILITY SERVICES
 A Sinn Féin government would implement an unprecedented 10-year investment programme to deliver
@@ -471,7 +335,7 @@ Sinn Féin priorities include:
 v Implementing our five-year Community Addiction and Recovery Strategy, returning funding
 to historic high levels for local and regional drug and alcohol taskforces and initiating an
 unprecedented investment in community addiction and recovery inpatient capacity
-23
+
 Health
 v Developing a life-course structured care programme in women’s health to improve screening,
 primary, community and acute services that are tailored to every stage of a woman’s life,
@@ -501,8 +365,7 @@ this as part of a funded multiannual workforce plan
 v Doubling CAO entry places for medicine, nursing and health and social care courses and
 significantly expanding access to medicine for domestic students and expanding the Free Fees
 Initiative to graduate-entry medicine
-The Choice for Change - Sinn Féin Election Manifesto 2024
-24
+
 INVESTING WISELY
 The Health Service needs real reform. We are proposing a total package of new measures valued at
 €5.4bn. This would be funded through €3.6bn in additional current expenditure for the Department of
@@ -537,11 +400,7 @@ waiting lists and implement our Comhliosta integrated waiting list reform
 v Investing €2bn in digital transformation to bring the health service into the 21st century
 You can read the full details of Sinn Féin’s alternative health plan A Prescription for Change including all
 of our commitments on health at health.sinnfein.ie
-25
-Am don Athrú - Sinn Féin Election Manifesto 2024Health
-The Choice for Change - Sinn Féin Election Manifesto 2024
-26
-27
+
 COST OF LIVING
 COSTAS
 MAIREACHTÁLA
@@ -576,8 +435,7 @@ female labour market participation and to improving child poverty rates. Taking 
 Sweden and parts of Canada, Sinn Féin is determined to deliver childcare to parents for €10 a day.
 Whether your child is being minded in a creche or by a childminder – you would pay no more than €10
 per day for their care under our childcare plan.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-28
+
 Sinn Féin would deliver €10 a day childcare by giving subsidies to providers which bridge the gap
 between the actual costs of care and the €10 cap on the fees a parent can be charged per child.
 Therefore, if your provider is charging €40 a day for childcare, the state would provide a subsidy of €30
@@ -613,7 +471,7 @@ A feasibility study would allow us to identify community centres and potentially
 underused buildings across Ireland which have the capacity and/or the desire to incorporate a childcare
 service into their business model. Real-world business plans for three types of social enterprises to add
 a childcare service would also be developed. The results of the study would be then shared nationwide.
-29
+
 Cost of Living
 CHILDMINDERS
 Childcare capacity would be increased by extending subsidies for childminders. The Economic and
@@ -644,8 +502,7 @@ have access to the necessary number of weeks of benefits for the first 52 weeks 
 covered by a parent.
 The extension of maternity leave and benefit would also help ease the pressure on capacity in the
 childcare sector.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-30
+
 Item Cost
 €10 fee cap centre-based care & TUSLA-registered childminders €104.6 million
 €10 fee cap for remaining childminders €240.4 million
@@ -668,7 +525,7 @@ v Extending benefits so that a parent can care for their baby in their first yea
 their choice
 You can read the full details of Sinn Féin’s alternative childcare plan €10 a day Childcare for All at
 childcare.sinnfein.ie
-31
+
 Cost of Living
 REDUCING THE COST OF ESSENTIALS
 The cost-of-living crisis is not over. While the rate of inflation has reduced, prices have not come down.
@@ -704,8 +561,7 @@ phasing out so-called ‘voluntary contributions.’
 We have a plan to expand school transport by 100,000 additional seats, extend hot meals to more
 schools and provide free schoolbooks for senior cycle. We would also increase funding for the free
 schoolbooks scheme in primary schools so that top-up payments are no longer sought from parents.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-32
+
 When household budgets come under pressure, parents can find themselves forced to cut back on
 children’s afterschool activities. Sinn Féin believes that every child should have the opportunity to
 participate in afterschool activities whether sporting, musical or creative.
@@ -740,7 +596,7 @@ v Not proceeding with the annual increases to carbon tax that have been schedule
 Fáil, Fine Gael and the Green Party
 v Reverse the two most recent hikes to excise duty on petrol and diesel for 12 months and
 offsetting the toll increases that are due in 2025
-33
+
 Cost of Living
 v Empowering the CRU to better tackle anti-competitive practices in the energy sector
 v Introducing a new Activity Card scheme providing €130 worth of free afterschool sport, arts
@@ -751,8 +607,7 @@ v Legislating to ensure the insurance industry must report to the Central Bank d
 they have or haven’t passed on savings from reforms to customers
 v Using this information to hold insurance companies to account and ensure reduced cost in the
 sector translate to lower premiums for customers
-The Choice for Change - Sinn Féin Election Manifesto 2024
-34
+
 An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
 A UNITED IRELAND:
 ‘A PLAN FOR
@@ -760,7 +615,7 @@ REUNIFICATION’
 ATHAONTÚ AGUS ÉIRE
 AMHÁIN: ‘PLEAN LE
 HAGHAIDH AONTAITHE’
-35
+
 Irish Unity would be a key objective in government, for Sinn Féin.
 We have a defined ‘Plan for Unity’.
 It would drive constitutional, legislative and political change.
@@ -793,8 +648,7 @@ The Sinn Féin Commission on the Future of Ireland has held People’s Assemblie
 across the island of Ireland.
 It is actively promoting the need for citizens to have their say in future constitutional change and the
 shape of the new Ireland.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-36
+
 We have also encouraged the Diaspora to have their say through similar gatherings.
 There is unprecedented cross-party political consensus on the need to plan and prepare for Irish unity.
 Important sections of international opinion recognise that the potential for constitutional change is
@@ -828,7 +682,7 @@ The achievement of the Good Friday Agreement was a watershed moment in our polit
 Both the British and Irish governments have a responsibility to work together for the good of the
 people as co-guarantors of peace, reconciliation and the realisation of a new future.
 Sinn Féin in government North and South would strengthen and enhance this process.
-37
+
 A United Ireland: ‘A Plan for Reunification’
 It is by working in the spirit of friendship that we will together write a new and successful chapter in
 British-Irish relations.
@@ -854,12 +708,7 @@ Ultimately, it is the people who will decide their future as provided for in the
 But it is our responsibility to ensure that this decision is made through an informed and respectful
 process.
 Sinn Féin in government would make the reunification of our partitioned island a key priority.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-38
-39
-A United Ireland: ‘A Plan for Reunification’
-The Choice for Change - Sinn Féin Election Manifesto 2024
-40
+
 ACCOUNTABILITY,
 CIVIL SERVICE AND
 POLITICAL REFORM
@@ -867,8 +716,7 @@ FREAGRACHT,
 STÁTSEIRBHÍS AGUS
 ATHCHÓIRIÚ
 POLAITÍOCHTA
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-41
+
 CIVIL AND PUBLIC SERVICE REFORM
 Public services are the bedrock of our society and the workers delivering those services must be
 respected and valued. Fianna Fáil and Fine Gael have failed to deliver the quality of public services that
@@ -902,8 +750,7 @@ The Ombudsman is central to holding the state’s institutions and agencies to a
 citizens. The Office of the Ombudsman oversees complaints made against public service bodies and
 is complemented by several sector-specific Ombudsman. A Sinn Féin government would expand the
 remit and powers of the Ombudsman, including remedial action where wrongdoing is established.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-42
+
 We would expand the remit of the administrative actions reviewable by the Ombudsman, including
 those of An Bord Pleanála. We would establish a dedicated Equality Ombudsman – similar to the
 Swedish office (including DSGBV) - and an Ombudsman for Public Procurement. We would expand the
@@ -946,7 +793,7 @@ v Expanding the role, remit and powers of the Ombudsman
 v Extending the remit of FOI legislation and obliging public bodies to provide accurate information
 v Requiring Oireachtas members to disclose their liabilities above a certain threshold, excluding
 the private home
-43
+
 Accountability, Civil Service and Political Reform
 PROTECT PUBLIC INVESTMENT AND FINANCES
 We would ensure that public finances are protected from mismanagement, exploitation, and
@@ -975,8 +822,7 @@ v Hiring additional CCPC officers for analysing, surveillance, and enforcement, 
 to increase onsite business inspections by Revenue in relation to bogus self-employment and
 commissioners to adequately defend tax appeal cases – at a cost of €4m this investment would
 pay the taxpayer dividends
-The Choice for Change - Sinn Féin Election Manifesto 2024
-44
+
 POLITICAL REFORM
 Sinn Féin supports real political reform which puts the interests of citizens first, rather than those of
 the golden circles and elite in Irish society.
@@ -1012,7 +858,7 @@ information and education programme in all schools to ensure students are aware 
 registered and how to go about exercising their vote
 v Building incrementally on the gender quota in Dáil elections towards 50% and ensuring at
 least 30% of Ministers and Junior Ministers are female in line with gender quotas
-45
+
 Accountability, Civil Service and Political Reform
 Priorities for the Seanad
 v Holding elections to the Seanad on the same day as Dáil elections
@@ -1038,16 +884,14 @@ making it more independent from the political administration
 v Obliging government departments and other public bodies to provide accurate information
 and data when requested by Oireachtas members and other public representatives and
 extend the remit of FOI legislation
-The Choice for Change - Sinn Féin Election Manifesto 2024
-46
+
 ECONOMIC
 AND REGIONAL
 DEVELOPMENT
 FORBAIRT
 GHEILLEAGRACH
 AGUS RÉIGIÚNACH
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-47
+
 In the past five years, the Irish economy has suffered several shocks, and each of these crises put
 exceptional pressure on workers and businesses. The government has had chances to rebuild the
 economy since the last general election, and it has failed to do so in a fair and balanced manner.
@@ -1083,8 +927,7 @@ v Securing FDI from new markets, with a specific focus on Europe, Middle East, a
 v Creating the conditions to secure FDI in key knowledge-intensive sectors
 v Maximising the impact of FDI across the state and ensure investments help advance regional
 development
-The Choice for Change - Sinn Féin Election Manifesto 2024
-48
+
 v Delivering the right set of enabling conditions to support FDI including capital infrastructure
 projects in terms of energy costs and energy security, water infrastructure, renewable energy
 provision, to guarantee Ireland’s competitiveness and a steady pipeline of world class talent
@@ -1120,7 +963,7 @@ The reduced rate of VAT was withdrawn by government from the entire Hospitality 
 hotel sub-sector did not require this support it was badly needed by other business such as cafes,
 restaurants and hairdressers. A Sinn Féin government would re-introduce 9% VAT for those businesses
 that need it.
-49
+
 Economic and Regional Development
 Sinn Féin priorities include:
 v Establishing ‘Mol Gnó’, a new Irish Enterprise Agency, focused on scaling existing Irish businesses
@@ -1156,8 +999,7 @@ begin this by increasing the minimum wage by €1.10 per hour in 2025.
 Sinn Féin priorities include:
 v Delivering a legal right to collective bargaining
 v Ensuring trade unions have a right to organise
-The Choice for Change - Sinn Féin Election Manifesto 2024
-50
+
 v Trade union recognition and workplace right of access
 v Ensuring workers have access to information on their rights and how to contact the relevant
 union
@@ -1194,7 +1036,7 @@ and the expansion of a private ownership model of public service infrastructure.
 and Technological Universities are both being developed in this manner. These models cost more
 in the long run and are unjustified at a time when the state has the resources to invest in public
 infrastructure.
-51
+
 Economic and Regional Development
 Despite the use of developer-led models and run-away costs in badly managed projects the government
 has still failed to meet its own target outlined in the National Development Plan of investing5% of GNI*
@@ -1227,8 +1069,7 @@ the WRC all the way to Collooney (Sligo), which would then connect to the Sligo-
 would bring the reopening of the Navan rail line forward. These projects would be additional to the
 commitment made to the Metro North programme as well as commuter rails in Cork and other urban
 centres.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-52
+
 The party would also accelerate the Connecting Ireland (Local Link) rural bus scheme. These projects
 would see a substantial improvement in the connectedness of the West of Ireland, and we believe
 public transport will be vital for the region’s economic expansion.
@@ -1265,7 +1106,7 @@ Sinn Féin would also offset the increase in toll costs. Amid a cost-of-living c
 alternative means of transport are being targeted, as they must use their cars and these toll roads. To
 give workers and families a break, a Sinn Féin Transport Minister would offset the increase in toll costs
 in 2025 and would explore renegotiating the toll road contracts to secure better value for the public.
-53
+
 Economic and Regional Development
 The National Development Plan 2030 was delivered to much fanfare in the early lifetime of the last
 government, however, despite the announcements of funding and commitments made on delivery,
@@ -1298,8 +1139,7 @@ Sinn Féin priorities include:
 v Development of regional airports
 v Providing funding of at least €80m from our proposed Renewable Energy Investment Fund to
 kickstart investment in ports for offshore wind
-The Choice for Change - Sinn Féin Election Manifesto 2024
-54
+
 CONNECTING DIGITAL IRELAND
 Improvements in our online connectivity and increased digitalisation will also be vital to continued
 economic growth. The National Broadband plan must be accelerated so that rural areas can get the
@@ -1330,7 +1170,7 @@ v Providing €100m in additional capital funding to the OPW to tackle flood def
 v Examine legislation regarding the assessment of risk in areas where flooding has occurred,
 with a possible requirement on insurers to provide cover when flood defence works have been
 completed
-55
+
 Economic and Regional Development
 PUBLIC PROCUREMENT AS A DRIVER OF ECONOMIC
 DEVELOPMENT
@@ -1368,7 +1208,7 @@ v Placing the National Shared Services Office (NSSO) statutory footing and expan
 v Establishing of Public Procurement Ombudsman that support SME participation by acting as
 an adjudicator for disputes between contractors and the contracting authorities
 The Choice for Change - Sinn Féin Election Manifesto 2024
-56
+
 BANKING SECTOR AND CREDIT UNIONS
 Banks play a critical role in delivering the financial, economic and social needs of households,
 communities, businesses and wider society. This includes the provision of credit, the stewardship of
@@ -1404,7 +1244,7 @@ v Protecting mortgage customers by strengthening and giving full legal effect to
 Conduct on Mortgage Arrears and Mortgage Arrears Resolution Process
 v Mandating the Central Bank to review differential pricing practices in the mortgage market
 with a focus on discrimination between new and existing mortgage customers
-57
+
 Economic and Regional Development
 v Protecting cash usage by requiring banks to provide cash services within communities and
 retailers to accept cash payments
@@ -1440,8 +1280,7 @@ v Reintroduction of hospitality JLCs to ensure workers in these sectors have acc
 and conditions
 v Specific supports in terms of developing Gaeltacht tourism to stimulate employment and local
 industry
-The Choice for Change - Sinn Féin Election Manifesto 2024
-58
+
 GAELTACHT
 The revival of the Irish language depends on the survival of the Gaeltacht, and Sinn Féin recognises
 that the Gaeltacht is in crisis.
@@ -1476,7 +1315,7 @@ South Kerry – and producing more than 20 comprehensive reports and hundreds of
 on a range of issues including planning, education, Údarás elections, and the crisis in the Gaeltacht
 Summer College sector that has seen a 30% drop in mná tí since 2017, yet another Gaeltacht crisis
 Minister Catherine Martin says does not exist.
-59
+
 Economic and Regional Development
 Sinn Féin priorities include:
 v Engaging with Gaeltacht communities to develop a legally binding Charter of the Irish Language
@@ -1517,8 +1356,7 @@ v Delivering a Rescue Package of €2.85m for the Gaeltacht Summer College Secto
 restoring the capitation grant for the colleges themselves, increasing the Irish Learners Scheme
 for Mná Tí, an allocation for scholarship funding to support DEIS schools, disadvantaged
 students and students from the Six Counties to attend a summer college.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-60
+
 Sinn Féin has an ambitious plan to restore balance to the Irish economy. We want to build on the
 economic progress made by creating new wealth and opportunities through regional development.
 Our objective is to create a domestic SME sector which is sustainable and rooted in communities
@@ -1531,12 +1369,7 @@ the infrastructure and services they need. A large element of this is transport 
 energy, childcare and healthcare. We have laid out our plans to deliver across these areas. It is Sinn
 Féin’s firm belief that this approach would see rural Ireland finally get the investment and support it
 needs to reach its full potential.
-61
-Economic and Regional Development
-The Choice for Change - Sinn Féin Election Manifesto 2024
-62
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-63
+
 EDUCATION
 OIDEACHAS
 Education is one of the fundamental public services provided by the state to its citizens. A good
@@ -1576,8 +1409,7 @@ higher and further education.
 Sinn Féin will end so called Voluntary Contributions. The demand for such contributions from parents
 not only goes against the principal of free education, it also stigmatised those parents who cannot
 afford to pay and denies opportunities to their children.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-64
+
 Our proposed Affordable School Uniform Bill would introduce measures to ensure schools make
 uniforms affordable and it would give power to the Ombudsman for Children to investigate and make
 recommendations in that regard.
@@ -1612,7 +1444,7 @@ needed for children with special educational needs.
 We would also bring forward and enact a new rights-based Education Bill and allocate the resources
 necessary to implement it through increased Education, Health and Disability Budgets. This legislation
 would make it mandatory for the Department’s Inspectorate to report on the implementation of
-65
+
 Education
 Individual Education Plans for children with special educational needs. We would also provide for
 a robust appeals mechanism to allow parents and schools appeal decisions on the allocation of
@@ -1649,8 +1481,7 @@ v Recruiting additional educational psychologists along with greater administrat
 make better use of their time
 v Providing funding for the recruitment of 1,000 additional Special Education Teachers and 1,300
 additional SNAs on average per annum
-The Choice for Change - Sinn Féin Election Manifesto 2024
-66
+
 v Modernising and ensuring the needs of the individual students are at the centre of reform of
 the reasonable accommodation scheme with respect to state exams
 v Utilising the network of Technological Universities to increase the provision of courses for
@@ -1685,7 +1516,7 @@ which provides valuable assistance to children through and after school with a v
 scheme into areas of identified need.
 Sinn Féin would invest almost €12m of annually recurring funding and €34m of capital to tackle
 educational disadvantage, all over and above pre-committed funding.
-67
+
 Education
 Sinn Féin priorities include:
 v Introducing a DEIS+ scheme to target additional resources at the DEIS schools with the greatest
@@ -1720,8 +1551,7 @@ Education (PME) course as currently structured. Frequently, this is cited as a m
 and duration.
 Sinn Féin believes that through negotiation and engagement, barriers such as teacher transfers and
 the quantity of training places in state universities can be overcome and commit to doing so.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-68
+
 Sinn Féin priorities include:
 v Comprehensive review of the PME
 v Ensuring full-time, permanent posts are more quickly available to teachers and greater
@@ -1755,7 +1585,7 @@ v Reducing the distance criteria to 1km for primary and 2km for secondary school
 v Facilitating routes for pupils to a school other than their nearest school where sufficient
 demand exists
 v Delivering 100,000 additional places on school transport by 2030
-69
+
 Education
 IRISH LANGUAGE IN EDUCATION
 Sinn Féin recognises that a culture shift is needed in the Department of Education when it comes to both
@@ -1792,8 +1622,7 @@ overall provision by 2045, and
 growth at primary level is accounted for, starting with an increase to match the 6%
 currently at Gaelscoileanna within a decade, and working towards an aim of delivering a
 Gaelcholáiste in every county
-The Choice for Change - Sinn Féin Election Manifesto 2024
-70
+
 v Amending the selection process for patrons at second level to prioritise delivery of Irish
 medium Gaelcholáistí where none exists to meet demand from Gaelscoileanna
 v Establishing a unit within the Department of Education to facilitate the transition of English
@@ -1828,7 +1657,7 @@ v The crisis of student accommodation, which is forcing students into long commu
 individuals to often pay substantial sums on rent, and forcing others to decline or drop out of
 courses
 v The sector’s core funding deficit and recruitment restrictions (Employment Control Framework)
-71
+
 Education
 v The use of precarious employment contracts in the sector and the lack of a viable career path
 for many academic researchers
@@ -1858,8 +1687,7 @@ further and higher education and training.
 Sinn Féin priorities include:
 v Closing the core funding gap
 v Making better use of the National Training Fund
-The Choice for Change - Sinn Féin Election Manifesto 2024
-72
+
 SECTORAL STAFFING LEVELS AND PRECARIOUS EMPLOYMENT
 The Employment Control Framework which places recruitment limitations on the sector. Despite the
 IUA, representative trade unions and the institutions themselves calling for its removal, remarkably, it
@@ -1895,7 +1723,7 @@ rented for a year. This is despite the academic year only lasting 8-9 months whe
 generally return home during the summer holidays. This is a major cost for parents and students, and
 which has created more upward pressure on rents in a market which is already poorly designed with
 inbuilt inflationary schemes.
-73
+
 Education
 For on-campus PBSA, many third level institutions have planning for student accommodation but have
 not been able to proceed with construction due to the financial viability issues. Higher interest rates
@@ -1931,8 +1759,7 @@ We are acutely aware of the financial barriers that many apprentices face when t
 their training. They often earn sub minimum wage rates and must pay registration fees. Although they
 can qualify for certain allowances, these are often insufficient especially in the context of the cost-of-
 living crisis.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-74
+
 Sinn Féin would abolish fees for apprentices and extend state supports by increasing the rate of
 allowances for craft apprentices. Not only would this make it easier for those in training, it would
 also make it a more attractive option for young people finishing secondary education. Additionally,
@@ -1961,7 +1788,7 @@ Sinn Féin priorities include:
 v Extending the “Fund for Students” with a Disability (FSD) across Further Education and Training,
 so that it applies to all FET courses, not just PLCs at a cost of an additional €5m
 v Providing a Bursary to assist Traveller and Roma students and Care Leavers
-75
+
 Education
 NORTH SOUTH MOBILITY AND CO-OPERATION
 Sinn Féin have placed a strong focus on North South mobility in higher education as an all-island
@@ -1995,14 +1822,7 @@ speakers nationwide, EU institutions, and the 20% public service recruitment tar
 v Exploring options for establishing a standalone or inter-institutional Irish Medium university
 campus in the Gaeltacht and developing strict criteria for designating existing institutions as
 ‘bilingual’
-The Choice for Change - Sinn Féin Election Manifesto 2024
-76
-77
-Education
-The Choice for Change - Sinn Féin Election Manifesto 2024
-78
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-79
+
 AGRICULTURE AND
 FISHING
 TALMHAÍOCHT AGUS
@@ -2044,8 +1864,7 @@ scheme payments to €40 per ewe and increase funding for the Areas of Natural C
 by €75 million, a crucial supportfor farmers in peripheral areas and offshore islands. We would also
 champion the development of a domestic wool industry, as a key native industry that has great
 potential to provide an additional source of income for sheep farmers.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-80
+
 We recognise the great potential of the tillage and horticulture sectors in progressing food security in
 Ireland and supporting our climate action targets. For example, the Climate Action Plan commits to
 increasing the area of tillage to 400,000ha. However, the government has repeatedly failed to harness
@@ -2077,7 +1896,6 @@ v Increasing income disregards in the Farm Assist Scheme
 v Increasing investment in the Tillage Incentive Scheme and in the horticulture sector
 v Seeking a fairer CAP for family farmers and reversal of the continuous cuts to CAP funding
 v Ensuring EU free trade agreements protect and support Irish farmers
-81
 Agriculture and Fishing
 FAIR PRICES AND TRANSPARENCY IN
 THE AGRI-FOOD SUPPLY CHAIN
@@ -2111,8 +1929,7 @@ to examine what can be done to encourage more women and young people into farmin
 believes that greater engagement is needed to tackle challenges around practical issues, such as
 a recognition of farm work, requirement around farm rules to access schemes and generational
 succession, to ensure that women farmers and young farmers can thrive in the farming community.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-82
+
 In government, we would promote the ‘Make the Moove’ initiative, proposed by Macra na Feirme to
 enable national roll-out of mental health services, and provide funding for the Land Mobility Service to
 support succession planning and enable young and old farmers to work collaboratively. We know that
@@ -2149,7 +1966,7 @@ v Ensuring that farmers are assisted with taking action to meet environment and 
 targets by investing in measures such as farm-by-farm carbon audits, tillage, horticulture, and
 the LESS, including the extension of grant aid to farm contractors
 v Review and invest in forestry development
-83
+
 Agriculture and Fishing
 STANDING UP FOR IRISH FISHERMEN AND OUR SEAFOOD
 INDUSTRY
@@ -2187,8 +2004,7 @@ industry
 v Ensuring that the Department of Marine’s permanent representative and attaché operation
 based in Brussels is fully resourced, staffed and skilled to deliver results that can rebuild and
 grow the Irish fishing industry into the future
-The Choice for Change - Sinn Féin Election Manifesto 2024
-84
+
 v Engage with Enterprise Ireland, Bord Bia and BIM, to establish a permanent office in Brussels
 that works in partnership with the Irish seafood and fishing industry, that places the promotion
 of the industry front and centre in Europe and that liaises with the European Commission, EU
@@ -2218,7 +2034,7 @@ under the jurisdiction of the Common Fisheries Policy, that undermine species su
 damage marine biodiversity, and provide little economic return to Ireland as a coastal state
 v Making available a fuel support scheme based on turnover that can be put in place quickly at
 times of high fuel prices for the entire Irish fishing fleet and can be accessed quickly
-85
+
 Agriculture and Fishing
 INSHORE SECTOR
 The inshore fleet is a vital part of our Irish fishing sector. With almost 2,000 vessels, they provide over
@@ -2248,8 +2064,7 @@ in productivity to other EU Member States and realise its full potential
 v Implementing in full, the recommendations of the 2017 Report from the Independent
 Aquaculture Licensing Review Group to resolve the barriers to progress and allow the full
 potential of aquaculture and sustainable jobs for our coastal communities to be realised
-The Choice for Change - Sinn Féin Election Manifesto 2024
-86
+
 MARINE BIODIVERSITY AND CLIMATE CHANGE
 A Sinn Féin government would tackle the twin climate and biodiversity crises that threaten the
 sustainability of our marine and our fishing and coastal communities whose livelihoods depend on
@@ -2284,7 +2099,7 @@ Animal welfare charities are increasingly overwhelmed by rising numbers of anima
 rehomed, due in part to the enduring cost of living crisis and a worsening housing crisis. Sinn Féin
 would provide additional funding for these charities to allow them to continue their vital services.
 Sinn Féin would increase annual investment in animal welfare by €2m.
-87
+
 Agriculture and Fishing
 Sinn Féin priorities include:
 v Increasing funding for animal welfare charities
@@ -2302,10 +2117,7 @@ relevant Local Authority
 v Ensuring state funding for greyhound and horseracing industries is conditional on the
 elimination of animal cruelty
 v Investing in ocean clean-up operations
-The Choice for Change - Sinn Féin Election Manifesto 2024
-88
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-89
+
 HUMAN RIGHTS,
 EQUALITY AND NON-
 DISCRIMINATION
@@ -2347,8 +2159,7 @@ be experiencing enforced deprivation. The proportion of person’s living in hou
 enforced deprivation went up from 16.6% in 2022 to 17.3% in 2023. Persons most likely to be living in
 enforced deprivation were those unable to work due to long-standing health problems i.e. disability
 (44.7%).
-The Choice for Change - Sinn Féin Election Manifesto 2024
-90
+
 The government only brought a memo to cabinet on the 8th of October to seek approval to ratify the
 Optional Protocol to the UN Convention on the Rights of Persons with Disabilities – 17 years after the
 state signed up to the UNCRPD.
@@ -2386,7 +2197,7 @@ through the ‘surprising intolerance’ with which it treats Irish speakers. Si
 deserve equal treatment and access to justice, and that senior state officials charged with enforcing
 and interpreting the law and Constitution, whose first official language is Irish, should be able to
 understand it fully.
-91
+
 Human Rights, Equality and Non-discrimination
 Sinn Féin values the right to freedom of speech. Republicans were victims of censorship for decades
 under all governments with Fianna Fáil, Fine Gael and Labour governments using directives under
@@ -2425,8 +2236,7 @@ legislate for appropriate mechanisms to match Dáil election gender quotas to lo
 elections, incrementally increase gender quota provisions for Dáil elections to 50%, at least
 30% of Ministers and Ministers of State should be women and the entitlement of maternity
 leave must be extended to TDs and Senator.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-92
+
 v Working with relevant stakeholders and citizens organisations to develop mechanisms to
 increase the participation of disabled people, members of LGBTQI+, Traveller and Roma
 communities, working class and rural women’s participation in politics and all levels of
@@ -2460,12 +2270,7 @@ for the increased delivery of solicitors and barristers who can conduct business
 v Requiring competence in Irish as a requirement for appointment to senior positions within the
 Judiciary, including to the Supreme Court
 v Repealing the Criminal Justice (Hate Offences) Act
-93
-Human Rights, Equality and Non-discrimination
-The Choice for Change - Sinn Féin Election Manifesto 2024
-94
-95
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 TACKLING DOMESTIC
 AND GENDER-BASED
 VIOLENCE
@@ -2499,10 +2304,7 @@ medical card for clients while they are staying there
 v Ensuring multi-disciplinary domestic homicide reviews take place
 v Providing €75 Capital funding beyond what has already been pre-committed for domestic
 violence shelters
-The Choice for Change - Sinn Féin Election Manifesto 2024
-96
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-97
+
 PROTECTING
 CHILDREN
 PÁISTÍ
@@ -2539,8 +2341,7 @@ family friend of a child or young person who are not able to live with their par
 crisis, or a breakdown of relationships or care. There are an estimated 10,000-12,000 children living
 in kinship care in Ireland. Kinship care allows children and young people to remain connected to their
 identity, family, culture and community.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-98
+
 Sinn Féin is proposing investing an additional €67.7m of current expenditure and €43m of capital
 funding over and above what has been pre-committed to better protect children.
 Sinn Féin priorities include:
@@ -2558,12 +2359,9 @@ online, making any necessary amendments to it and supporting parents to make the
 decisions for their own children
 v Reinstate funding for the Child Law Project which provides vital transparency and oversight of
 child protection Court proceedings.
-99
+
 Protecting Children
-The Choice for Change - Sinn Féin Election Manifesto 2024
-100
-101
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 DISABILITY
 MÍCHUMAS
 DELIVERING ON RIGHTS FOR DISABLED PEOPLE
@@ -2599,8 +2397,7 @@ The Disability Capacity Review – published in 2021 – forecasted that between
 additional residential places would be needed by 2032 to both clear the backlog of need and respond
 to demographic change. This translated into approximately 330-500 additional places required per
 year.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-102
+
 Yet, the current government have delivered only an average of 175 additional places per annum,
 leaving a substantial shortfall. Sinn Féin would reverse the underfunding of residential places and
 deliver the services needed in line with need.
@@ -2631,7 +2428,7 @@ live in the family home got access to any form of respite. For adults, one in th
 The Action plan for Disability Services 2024-2026 forecasts that overall respite provision would need to
 increase by about one third including through daytime and overnight services by 2026.
 In 2023, €106m was allocated for respite services.
-103
+
 Disability
 Sinn Féin would double investment in respite services and capacity to address the substantial levels of
 unmet need and to meet rising need over a government term.
@@ -2662,8 +2459,7 @@ services in place for those in need.
 Sinn Féin priorities include:
 v Providing an additional 1.5 million disability home care hours including needs based access to
 intensive home support packages
-The Choice for Change - Sinn Féin Election Manifesto 2024
-104
+
 CHILDREN’S DISABILITY SERVICES
 Children’s Disability Network Teams (CDNTs) provide specialised support and services for children who
 have a disability and complex health needs associated with their disability. Children deserve timely
@@ -2700,7 +2496,7 @@ v Developing and resourcing a comprehensive workforce plan to fully staff CDNTs,
 community care and schools as appropriate
 v Streamlining the recruitment process
 v Providing a job guarantee to health and social care graduates
-105
+
 Disability
 v Temporarily funding access to approved community and private psychology and therapy
 services, particularly for those waiting longest for assessments and intervention, with a view
@@ -2736,8 +2532,7 @@ have not been replaced. The remaining tax-relief based Disabled Drivers and Pass
 not fit for purpose.
 Disabled Persons’ Representative Organisations are led, run, directed, staffed, and mostly membered
 by disabled people and are distinct bodies separate from Disability Service Providers.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-106
+
 The UNCRPD states that DPROs are the bodies which should be consulted on matters relating to
 disability. However, these groups are mostly small with little or no resources.
 Sinn Féin priorities include:
@@ -2774,12 +2569,10 @@ poverty and enforced deprivation faced by disabled people and to ensure carers a
 and recognition they deserve. This includes our proposals to increase core disability-related social
 welfare supports by €70 per week over a government term, abolish the Carer’s Allowance means test
 and various other measures.
-107
+
 Disability
-The Choice for Change - Sinn Féin Election Manifesto 2024
-108
-109
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
+
 PROTECTING AND
 INVESTING IN
 COMMUNITIES
@@ -2818,8 +2611,7 @@ feel at risk and businesses, workers and tourists have all expressed concerns ab
 The public deserve a policing service that they can have confidence in. People want to know when
 anti-social behaviour and crime do occur there would be a quick and effective Garda response. That
 requires a well-resourced and supported force.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-110
+
 In government, Sinn Féin would commence the largest garda recruitment drive in the history of the
 state, recruiting between 900-1,000 guards each year rising to 1,500. The existing Garda Training
 College at Templemore has an intake capacity of 1,000. Sinn Féin would establish a second college
@@ -2853,7 +2645,7 @@ found that 55% of farmers were victims of theft.
 These statistics highlight the prevalence of crime, particularly in our rural communities.
 We need a change of government to ensure that there are enough gardaí on the street and patrolling
 in rural communities and on country roads.
-111
+
 Protecting and Investing in Communities
 Sinn Féin’s priorities include:
 v Increasing Garda numbers in rural areas, as part of our overall investment in retention and
@@ -2885,8 +2677,7 @@ In recent years we have seen an alarming increase in fraud and scams. Whether it
 message or email, fraudsters are targeting citizens with fraudulent content to steal their money.
 Citizens are being robbed of millions of euros each year by fraudsters. Despite this, there is no plan
 from the current government to tackle this growing threat.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-112
+
 Inaction is leaving citizens increasingly vulnerable. ComReg does not have the capacity to detect and
 stem the actions of fraudsters, banks are being prevented from sharing fraud data, social media giants
 continue to allow fraudulent content they host on their platforms, and An Garda Síochána are under-
@@ -2917,7 +2708,7 @@ proposed amendment to the government’s redress scheme.
 The current discriminatory payment structure and hierarchy of suffering does a great disservice to so
 many courageous women and men who have fought for so long to have their voices heard, and their
 egregious human rights abuses recognised and compensated.
-113
+
 Protecting and Investing in Communities
 Sinn Féin priorities include:
 v Urgently introducing disregard legislation based on the recommendations of the Final Report
@@ -2952,8 +2743,7 @@ of a new single national fire authority
 v Utilising the public sector pay agreement contingency fund to urgently intervene to increase
 the fixed incomes of retained firefighters and to help retain and recruit staff in order to build
 a fit for purpose service
-The Choice for Change - Sinn Féin Election Manifesto 2024
-114
+
 v Maintaining capital funding ceilings to ensure these dedicated professionals have the necessary
 equipment and training facilities to respond to current and future risks
 v Examine the impact of fast accrual pensions changes made by Fine Gael and Labour which are
@@ -2987,7 +2777,7 @@ Department of Community and Rural Affairs and be administered by local authoriti
 Aside from the €1bn of Apple Tax monies, over a term of government Sinn Féin proposes to increase
 annual funding across these priorities by €79.2m and providing €101m of capital funding beyond
 existing pre-commits.
-115
+
 Protecting and Investing in Communities
 Sinn Féin priorities include:
 v Increasing funding for youth services including capital investment
@@ -3021,19 +2811,16 @@ v Providing every child aged four to 18 with an annual Activity Card worth €13
 extra-curricular sports or arts activities costing €126.8m
 v Developing a National Sports Facilities Strategy and increasing funding for the LSSIF with an
 additional capital injection of €55m
-The Choice for Change - Sinn Féin Election Manifesto 2024
-116
+
 v Rolling out a Euro 2028 Advance Legacy Fund of €50m and supporting the development of the
 League of Ireland with additional annual funding of €10m for grassroots football
 v Modernising outdated local sports facilities across the state
 v Increasing core funding for sport’s national governing bodies and local sports partnerships by
 €1.5m
 v Increasing the Betting Tax Levy by 1%, raising €49m
-117
+
 Protecting and Investing in Communities
-The Choice for Change - Sinn Féin Election Manifesto 2024
-118
-119
+
 An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
 ENVIRONMENT,
 CLIMATE AND ENERGY
@@ -3068,8 +2855,7 @@ renewables by subsidising the generation of electricity from sustainable sources
 consumers. Despite large energy users disproportionately driving up energy demand, the distribution
 of the levy means that their PSO contribution is relatively low and households shoulder a heavier
 burden. Sinn Féin would reverse this.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-120
+
 Sinn Féin priorities include:
 v Targeting environmental taxes on excessive consumption through a pollution tax on private
 jets
@@ -3104,7 +2890,7 @@ and amendment. This costly mistake will exacerbate delays.
 The delays in planning are echoed in Ireland’s renewable energy auctions. The failure to stick to
 timelines mean most offshore wind projects will not be active until after 2030. This jeopardises our
 energy security and will almost certainly mean missing our climate targets.
-121
+
 Environment, Climate and Energy
 The uncertainty of Ireland’s market has meant that, even when auctions are held, they deliver far less
 than the government’s procurement targets and have a cost far outstripping our EU peers.
@@ -3135,8 +2921,7 @@ modern digital life, the rate at which they are driving up electricity demand is
 consumed 21% of Ireland’s electricity in 2023, up a fifth from 2022. By rolling out the red carpet for
 data centres, without adequate safeguards in place, the government parties have again proven their
 prioritisation of corporate interests over Ireland’s energy security and affordability.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-122
+
 Sinn Féin priorities include:
 v Increased investment in grid expansion and upgrade
 v Enhancing off-grid connectivity including the development of a national energy storage
@@ -3167,7 +2952,7 @@ The transition to renewable energy does not, in itself, result in gains being pa
 all. We would reorient the energy market away from excessive private profiteering and rising bills and
 towards increased democratic ownership, affordable energy and an energy market that serves the
 common good.
-123
+
 Environment, Climate and Energy
 EXPANDING PUBLIC OWNERSHIP OF RENEWABLES
 The vast majority of renewable energy procured under RESS contracts is privately owned or publicly
@@ -3205,8 +2990,7 @@ capacity by 2030. Community projects ensure that the wealth generated is retaine
 reinvested locally and tend to generate levels of social acceptance for energy projects. We would offset
 the additional costs of community owned renewables to protect affordability by increasing direct
 exchequer funding.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-124
+
 Sinn Féin priorities include:
 v Significantly expanding domestically owned renewables and reforming how domestic solar is
 funded, targeted and delivered
@@ -3244,7 +3028,7 @@ Ireland’s generation capacity used to be publicly owned. At that time, every h
 electricity on a not-for-profit basis and, as a result, Irish prices were some of the lowest in Europe.
 Now, when state-ownership has reduced to a third and is operated on a for profit basis, prices are at
 some of their highest. Sinn Féin would tackle the excessive commercialisation of this basic necessity,
-125
+
 Environment, Climate and Energy
 by ending the unnecessary separation of generation and supply in publicly owned facilities and re-
 introducing affordable energy supply, ensuring that electricity prices come down.
@@ -3280,8 +3064,7 @@ income, so the more help you need, the more help you get. Our greater use of are
 would deliver cost-efficiencies and expedite delivery.
 We propose a specific scheme for households relying on solid fuels - often the coldest homes with the
 highest emissions.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-126
+
 In addition, Sinn Féin would prioritise and resource greater investment by local authorities in the
 retrofitting of their housing stock.
 Sinn Féin priorities include:
@@ -3315,7 +3098,7 @@ v Establishing a dedicated €300m nature restoration fund
 v Expansion and restoration of our national parks and native woodlands through €2m additional
 current expenditure and €60m of capital beyond what has been pre-committed
 v Expedited delivery of a Marine Protected Areas Bill
-127
+
 Environment, Climate and Energy
 CIRCULAR ECONOMY AND WASTE MANAGEMENT
 The collective effort to ‘reduce, reuse, recycle’ is key to achieving a circular economy and to reducing
@@ -3335,14 +3118,7 @@ v New measures to ban the practice of corporations dumping new and unused goods
 v Legislating for larger retailers to be compelled to donate unsold food rather than dumping it
 v Establishing a task force to minimise construction and demolition waste and an accompanying
 inspection scheme
-The Choice for Change - Sinn Féin Election Manifesto 2024
-128
-129
-Am don Athrú - Sinn Féin Election Manifesto 2024
-The Choice for Change - Sinn Féin Election Manifesto 2024
-130
-131
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 SOCIAL WELFARE AND
 PENSIONS
 LEAS SÓISIALTA AGUS
@@ -3382,8 +3158,7 @@ households. Sinn Féin would therefore use a range of policy levers to assist us
 including a combination of increases to the Qualified Child Payment and Child Benefit. In addition,
 our wider investment in public services would reduce costs and improve living standards for families
 across the state.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-132
+
 Year after year, the CSO’s Survey on Income and Living Conditions demonstrates that poverty rates are
 disproportionately high amongst lone parents and their children. To meet a MESL, an additional €50
 would be needed for the One Parent Family Payment.
@@ -3422,7 +3197,7 @@ limit of the Jobseeker’s Transitional payment to 15
 v Increasing Disability Allowance, the Blind Pension and Invalidity Pension by €70
 v Securing medical cards for people with disabilities that are not impacted by employment
 status and expanding the Wage Subsidy Scheme
-133
+
 Social Welfare and Pensions
 v Increasing the annual Carer’s Support Grant by €50 each year
 v Introducing pay-related Carers Benefit
@@ -3457,8 +3232,7 @@ the means-test and increase the payment rate.
 Sinn Féin priorities include*:
 v Abolishing the means test for Carers Allowance and increasing the weekly rate by €60
 * All increases are on top of rates scheduled for 2025 unless specified otherwise
-The Choice for Change - Sinn Féin Election Manifesto 2024
-134
+
 PENSIONS
 Sinn Féin believes that everyone has the right to grow old in Ireland with dignity, security, and equality.
 The reality for many of our older citizens under Fine Gael and Fianna Fáil is that they now face additional
@@ -3496,7 +3270,7 @@ over the long term.
 We would mandate the NTMA to prioritise the financial security of citizens’ contributions while ensuring
 the funds are put to work for Ireland by investing in green energy and housing projects. Public oriented
 funds have been successfully developed in various European states, including Italy’s CDP.
-135
+
 Social Welfare and Pensions
 Secondly, we oppose the government provision that low-paid workers, currently struggling under the
 high cost of living, will not be allowed to opt-out and reclaim part of their wages for a whole six months.
@@ -3512,14 +3286,7 @@ end cost of €171.6m
 v Ending mandatory retirement to allow workers who are able to, and wish to, remain at work
 beyond 65 years to do so if they so choose
 * All increases are on top of rates scheduled for 2025 unless specified otherwise
-The Choice for Change - Sinn Féin Election Manifesto 2024
-136
-137
-Am don Athrú - Sinn Féin Election Manifesto 2024
-The Choice for Change - Sinn Féin Election Manifesto 2024
-138
-139
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 ARTS, HERITAGE,
 GAEILGE AND MEDIA
 NA HEALAÍONA,
@@ -3562,8 +3329,6 @@ certain artforms, exclusion from Arts Council support. Sinn Féin is committed t
 both North and South to harmonise upwards for cultural workers’ rights on an all-Ireland basis.
 The decline, dereliction, closure, and destruction of Ireland’s community cultural spaces ranges from
 traditional music venues and bookshops to studio spaces and theatres and is exacerbated by the
-The Choice for Change - Sinn Féin Election Manifesto 2024
-140
 crisis in accommodation and cost of living, making it harder for artists to create and perform. Our
 communities need accessible and fit-for-purpose cultural infrastructure, including nightlife venues,
 which have collapsed from 500 in 2000 to fewer than 90 today.
@@ -3602,7 +3367,7 @@ control, and develop a platform to distribute tickets so that no seat is left em
 v Reviewing what defines “Irish music” or “Irish cultural works” in terms of tax incentives,
 royalties, airtime, content requirements, and supports to ensure artists based in Ireland
 benefit most from such classification and achieve more Irish music on radio and in film
-141
+
 Arts, Heritage, Gaeilge and Media
 v Increasing capital and current funding for Screen Ireland
 v Developing a long-term replacement for the Section 481 Regional Uplift, and make the Cultural
@@ -3642,8 +3407,6 @@ has been permitted under successive governments, which had already seen a third 
 ringforts destroyed by the year 2001. From the destruction of Woodquay and Frascati House in the
 1970s through to the dead-of-night demolition of the O’Rahilly’s home at 40 Herbert Park as recently
 as 2020 and the ongoing threat to the 1916 battle-site at Moore Street, it is clear that the preservation
-The Choice for Change - Sinn Féin Election Manifesto 2024
-142
 of our rich history requires a new government willing to put the people’s inheritance above the private
 profit of developers.
 One aspect not addressed by the act is the need for repatriation of historic, archaeological and cultural
@@ -3682,7 +3445,7 @@ and to conduct an audit of all vacant historic properties in town and village ce
 state bodies, to ensure those that can be used for housing or community cultural hubs are
 used for same
 v Employing a county or city archaeologist for each local authority at a cost of €1.29m
-143
+
 Arts, Heritage, Gaeilge and Media
 v Ringfencing specific funding of €1m current and €5m capital to support Traveller culture,
 heritage and language, and examining the feasibility of establishing a specific body for
@@ -3720,8 +3483,7 @@ than €50m in additional targeted measures.
 Sinn Féin intends to adopt a truly all-of-government approach to revitalising our national and first
 official language and we propose investing an additional cumulative total of more than €50m current
 funding over five years and €75m of capital for this specific purpose.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-144
+
 You will find further proposals to protect the rights of Irish speakers and to promote our teanga across
 different sections of this manifesto, from Education and Justice to Culture and Foreign Affairs. Ní neart
 go cur le chéile.
@@ -3760,7 +3522,7 @@ spending by public bodies towards a dedicated weekly Irish language print and el
 newspaper
 Ü Providing a free Irish language book to every child and teenager, tailored to their level of
 Irish, once during primary school and again during secondary school
-145
+
 Arts, Heritage, Gaeilge and Media
 MEDIA
 There have been significant changes in the media landscape in recent years. Digital media has overtaken
@@ -3796,8 +3558,7 @@ good.
 The decision by Fine Gael, Fianna Fáil and the Greens to adopt a hybrid funding model described by
 Minister Catherine Martin as the ‘worst of both worlds’ acted to reward poor financial management
 with a blank cheque from the taxpayer, while retaining a regressive and unsustainable licence fee.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-146
+
 They are determined to continue seeing people prosecuted for non-payment in the courts – 13,000
 people were summoned before the courts in 2023.
 Meanwhile, local and independent radio and press are struggling to survive, putting a vital source of
@@ -3835,7 +3596,7 @@ platforms to protect users from bullying and abuse in cases where the company is
 action or removing content
 v Working to achieve a coordinated response at European Union level to the impact of artificial
 intelligence
-147
+
 Arts, Heritage, Gaeilge and Media
 v Exploring ways to incorporate media literacy into the school curriculum, based on international
 best practice
@@ -3846,14 +3607,7 @@ and implementing the Oireachtas Committee on the Irish Language report recommend
 on the Irish Language Writing, Publishing and Reading sector, including by channelling required
 public bodies ad spending towards a dedicated weekly Irish language print and electronic
 newspaper and delivering third level courses in journalism in the Irish language
-The Choice for Change - Sinn Féin Election Manifesto 2024
-148
-149
-Am don Athrú - Sinn Féin Election Manifesto 2024
-The Choice for Change - Sinn Féin Election Manifesto 2024
-150
-151
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 FOREIGN AFFAIRS
 GNÓTHAÍ EACHTRACHA
 Sinn Féin would uphold Ireland’s reputation on the international stage working with our partners in
@@ -3887,8 +3641,7 @@ v Opposing any attempts to transfer decision making powers on Foreign Affairs an
 the European Union and to remove unanimity on these matters
 v Ensuring Ireland remains neutral
 v Bringing forward a referendum to enshrine neutrality in the Irish constitution
-The Choice for Change - Sinn Féin Election Manifesto 2024
-152
+
 BUILDING STRONGER RELATIONSHIPS WITH OUR EUROPEAN
 PARTNERS
 Ireland’s place is within the European Union.
@@ -3920,7 +3673,7 @@ Sinn Féin priorities include:
 v Opening additional consulates in states with growing Irish diaspora, including Australia
 v Expanding upon Ireland’s diplomatic presence, including reviewing the network of Irish
 embassies in the southern hemisphere with a view to expanding this network
-153
+
 Foreign Affairs
 v Increasing annual funding for Culture Ireland by €2m
 v Supporting Irish language after-school clubs for diaspora communities, and efforts to create
@@ -3959,8 +3712,6 @@ occupation and brutal apartheid regime against the Palestinian people
 v Working with European partners to suspend the EU-Israel Association agreement and other
 preferential arrangements with Israel for so long as that state continues to breach International
 law
-The Choice for Change - Sinn Féin Election Manifesto 2024
-154
 v Increasing Ireland’s contributions to Official Development Aid to 0.7% of GNI over the lifetime
 of the next government
 GLOBAL INSTITUTIONS THAT WORK BETTER
@@ -3984,12 +3735,9 @@ other members states, Sinn Féin in government would work to ensure that the Eur
 countries outside of the European Union, actively and economically support Irish reunification.
 Sinn Féin priorities include:
 v Building support for Irish reunification in the European Union and elsewhere
-155
+
 Foreign Affairs
-The Choice for Change - Sinn Féin Election Manifesto 2024
-156
-157
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 MANAGING
 IMMIGRATION
 INIMIRCE
@@ -4026,8 +3774,6 @@ and those involved in relevant functions at the Workplace Relations Commission (
 department rather than multiple departments. This would ensure cohesion in planning, sharing of
 information and speedy decision making. We would increase staff and properly resource the new
 agency to ensure it positively improves our migration system.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-158
 The agency’s responsibilities would include:
 v Proper planning of our migration system
 v Processing of IP applicants in a fair and efficient manner
@@ -4059,7 +3805,7 @@ Temporary Protection is from a part of Ukraine that is safe then, save for excep
 should be assisted. Beneficiaries who are from unsafe parts of the Ukraine can apply for International
 Protection and others who wish to continue to stay here can also apply for work-based permits to
 reside here.
-159
+
 Managing Immigration
 Sinn Féin priorities include:
 v Setting up a new Immigration Management Agency with responsibility for processing
@@ -4095,10 +3841,7 @@ International Protection accommodation. It is unacceptable that so many migrants
 quality and in many instances tented accommodation
 v Exploring the introduction of registration requirements for EU/EEA Swiss citizens
 v An orderly conclusion to the status of Ukraine under the Temporary Protection Directive
-The Choice for Change - Sinn Féin Election Manifesto 2024
-160
-161
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
+
 DEFENCE
 COSAINT
 PROTECTING IRISH NEUTRALITY
@@ -4131,8 +3874,7 @@ v Establishing a Citizens Assembly to agree the wording of a constitutional amen
 enshrining the principles of Military Neutrality and non-alignment in the Irish constitution;
 and should this be carried, engaging with EU institutions and Member States with a view to
 recognising the integrity of neutral states in the EU treaties
-The Choice for Change - Sinn Féin Election Manifesto 2024
-162
+
 INVESTING IN OUR DEFENCE FORCES
 The Defence Forces play a crucial role in protecting Irish national interests and upholding International
 Law.
@@ -4167,7 +3909,7 @@ We are committed to resolving the recruitment and retention crisis. This require
 implementation of the Working Time Directive.
 Sinn Féin propose increasing annual current funding for the defence forces by €206.9m and providing
 an additional €295m of capital by 2030 over and above existing pre-committed funding.
-163
+
 Defence
 Sinn Féin priorities include:
 v Improving conditions of Defence Forces members through the implementation of the Working
@@ -4184,14 +3926,7 @@ of service to their members
 v Prioritising the deployment of Irish troops to UN-mandated peacekeeping missions around the
 world and seeking to reverse the government’s decision to withdraw from the United Nations
 Disengagement Observe Force (UNDOF) mission to the Golan Heights
-The Choice for Change - Sinn Féin Election Manifesto 2024
-164
-165
-Am don Athrú - Sinn Féin Election Manifesto 2024
-The Choice for Change - Sinn Féin Election Manifesto 2024
-166
-An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-167
+
 FUNDING CHANGE
 ATHRÚ A MHAOINIÚ
 Sinn Féin will build a strong economy that delivers for every worker, family and community. Despite
@@ -4220,8 +3955,7 @@ to abolish USC on the first €45,000 of every workers income. And support strug
 non-accommodation hospitality sector with a permanent reduced 9% rate of VAT.
 The remainder of our manifesto focuses primarily on delivery across the 5 main Budgets of a Sinn Féin
 government covering the financial years of 2026 to 2030.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-168
+
 BUDGETARY PACKAGE: 2025-2030
 2025 2026 2027 2028 2029 2030
 Existing Budget Package* - 8.2 6.8 7.1 7.4 7.7 37.2
@@ -4253,7 +3987,7 @@ future it is important to measure annual current expenditure as a share of GNI*.
 The most recent budget sets current expenditure at a lower level as a share of the size of the real
 economy (GNI*) than it was before this government came into office. That is why our public services
 are in crisis.
-169
+
 Funding Change
 Under Sinn Féin’s expenditure plan, current expenditure will be comparable to the public spending as
 a share of the real economy prior to 2020. This level of spending is sustainable and will place our public
@@ -4287,8 +4021,7 @@ A Sinn Féin government will use the Apple tax money for capital investment in t
 We are in a unique position in relation to this money, and as such we must ensure that we spend it
 correctly in the areas that need it most, such as communities, healthcare, climate, housing, transport,
 critical infrastructure and defects.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-170
+
 Sinn Féin will invest €1 billion to create a new Community Investment Fund to improve the lives
 of working-class people that have been left behind by Fianna Fáil and Fine Gael. Many of these
 communities bore the brunt of austerity cuts at a time when this tax should have been collected, and
@@ -4326,7 +4059,7 @@ By investing in these areas, Sinn Féin will allocate the Apple tax money where 
 change that people want to see.
 All figures in the following expenditure tables are in addition to precommitted expenditure
 including Existing Levels of Service and the NDP.
-171
+
 Funding Change
 CURRENT EXPENDITURE
 Department Current (€m)
@@ -4348,8 +4081,7 @@ Tourism, Culture, Arts Gaeltacht, Sport and Media 417
 Transport and Communications 147
 Unallocated 413
 Total 14,349
-The Choice for Change - Sinn Féin Election Manifesto 2024
-172
+
 CAPITAL EXPENDITURE
 Department Capital (€m)
 Agriculture, Food and Marine 105
@@ -4373,7 +4105,7 @@ Total 31,889
 is AHB Expenditure classified as general government expenditure for the purposes of
 calculating the General Government Balance.
 41,837
-173
+
 Funding Change
 TAXATION STRATEGY
 Alongside our expenditure plan we will have a fair taxation policy for all workers. Like current
@@ -4409,8 +4141,6 @@ v Abolish stamp duty for first time buyers on properties up to €450,000 and sc
 block levy.
 v Establish a Wealth Tax Commission to advise on the most effective means of implementing a
 net wealth tax.
-The Choice for Change - Sinn Féin Election Manifesto 2024
-174
 v Reviewing the Research and Development Tax Credit to ensure it support innovative SMEs and
 promotes research and development in Ireland.
 TAX SOVEREIGNTY AND TRANSPARENCY
@@ -4426,7 +4156,7 @@ to cooperate and promote effective reforms of the international taxation system 
 secrecy.
 Our economy must succeed on the basis of stability and certainty. To that end, Sinn Féin will ensure a
 stable tax environment in which both multinational and domestic businesses can innovate and thrive.
-175
+
 Funding Change
 FINANCE
 TAX EXPENDITURE €m
@@ -4449,8 +4179,7 @@ Business supports 648
 Reform of Disabled Drivers and Passenger Scheme 19
 Unallocated Tax Expenditure 60
 Total 6,431
-The Choice for Change - Sinn Féin Election Manifesto 2024
-176
+
 TAX REVENUE €m
 Solidarity Taxation of High-Income Earners 1,007
 - Removal of Tax Credits for High Earners
@@ -4474,9 +4203,3 @@ Phase out of Help-to-Buy 162
 Taxation of Cigarettes & Increase to Betting Levy 225
 Compliance 500
 Total 3,525
-177
-Funding Change
-The Choice for Change - Sinn Féin Election Manifesto 2024178
-179An Rogha don Athrú - Forógra Olltoghcháin Shinn Féin 2024
-The Choice for Change - Sinn Féin Election Manifesto 2024
-180 Published by Sinn Féin | November 2024

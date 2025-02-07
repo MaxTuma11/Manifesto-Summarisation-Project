@@ -1,10 +1,7 @@
 SDLP
 MANIFESTO
 WESTMINSTER 2024
-www.sdlp.ie
-3
-Contents
-www.sdlp.ie
+
 An Election for
 Change
 Leader’s Message
@@ -42,7 +39,7 @@ We’ve secured almost £100m for university expansion in the North West.
 We delivered a step change in investment from the Irish Government through the Shared
 Island Unit worth more than £1bn for projects like Narrow Water Bridge, the A5, Casement Park
 and far more.
-6
+
 We’ve brought new regeneration funds to redevelop and enhance town and city centres and
 we’ve seen investment in addiction services to help the most vulnerable people and families
 who need our help.
@@ -73,8 +70,8 @@ After more than a decade of austerity, isolation, division and deadlock we have 
 change. It is a chance for a new start for all of us.
 On 4th July, take that chance. Vote SDLP.
 Colum Eastwood
-SDLP Leader 7
-8
+SDLP Leader 
+
 Our Priorities for Change
 A New Start - Remove this Tory Government from
 power
@@ -86,14 +83,7 @@ A Fairer Economy for All
 Recognise the State of Palestine and end arms
 exports to Israel
 Restore nature and support a just transition
-1
-2
-3
-4
-5
-6
-7
-7
+
 A New Start
 A NEW START
 Fourteen years of Conservative government have been a disaster for people
@@ -127,11 +117,7 @@ Work with other parties to secure a strong fiscal framework for Northern Ireland
 Seek reform of the devolved institutions to prevent the veto of government and decline in
 public services;
 Prioritise the repeal of the Legacy Act and deliver justice for victims and survivors.
-→
-→
-→
-→
-→10
+
 Fixing our Broken Politics
 The politics of division and deadlock haven’t been the sole preserve of the Conservative Party.
 The collapse of the Northern Ireland Executive for five of the last seven years has left people to
@@ -169,16 +155,7 @@ the return of the joint nomination and election of the First Ministers;
 changing the election of the Speaker to two-thirds majority rather than double majority;
 expanding the work of north-bodies, and removing the need for two Executive ministers
 to attend NSMC sectoral meetings;
-→
-→
-→
-·
-·
-·
-11
-12
-www.sdlp.ie
-7
+
 Rescuing Our
 Public Services
 Rescuing Public Services
@@ -209,7 +186,7 @@ SDLP MPs, along with the SDLP Opposition at Stormont, will also press for greate
 accountability for the Northern Ireland public on how effectively spending is being utilised
 to improve public services, including via an enhanced role for the Fiscal Council – which the
 SDLP has pressed for in its Triple Lock proposals.
-14
+
 SDLP MPs will:
 Press for a comprehensive spending review which allows the Executive to deliver a
 multi-year, costed public service recovery plan
@@ -246,12 +223,7 @@ Working alongside the SDLP Opposition at Stormont, SDLP MPs will:
 Fight for a fair deal for public sector workers, acknowledging years of underinvestment
 in them and the services they operate;
 Support an above inflation pay increase for teachers and school support staff;
-→
-→
-→
-→
-→
-15
+
 Support pay parity between Further Education Lecturers and school teaching staff;
 Support health service staff in their campaign for fair pay and safe staffing levels by
 making representations directly to the Treasury.
@@ -287,14 +259,7 @@ all of our young people the best possible start in life.
 The SDLP was vocal throughout the Independent Review of Education and we have
 expressed our concerns that without significant additional resources, the review will end
 up being a paper exercise.
-→
-→
-→
-→
-→
-→
-→
-16
+
 Working alongside the SDLP Opposition at Stormont, SDLP MPs will:
 Fair pay for teachers and school staff - The SDLP believes that teachers have not
 been appreciated by successive Education Ministers. We argue that there should be an
@@ -325,19 +290,9 @@ including holding the Executive accountable for the implementation of that legis
 A Review of the Education Authority - The SDLP is unconvinced that the Education
 Authority is fit for purpose. We would support a review of the Authority remit and
 structures.
-→
-→
-→
-→
-→
-→
-→
-→
-www.sdlp.ie
-18
+
 A Fairer Economy
 For All
-04
 A Fair & Prosperous Economy
 The SDLP advocates a strong, prosperous and balanced economy, with opportunities for all
 our citizens, regardless of background. Northern Ireland’s economy has, however, been held
@@ -367,9 +322,6 @@ including on a sub-regional basis. The SDLP will hold the Economy Minister accou
 the implementation of the findings of the review of Invest NI, including the publication of a
 meaningful Sub-Regional Economic Action Plan, the objectives of which should relate to all
 government Departments.
-→
-→
-20
 We are also seeking to introduce binding obligations on all government departments in
 law, ensuring that each government department is measuring the effect of its policies,
 strategies and plans on regional balance and implementing changes so everyone can
@@ -411,7 +363,7 @@ our tourism operators. We will also work with the NI Executive and Irish governm
 ensure the Strategy extends the Wild Atlantic Way into the North along with the inclusion of
 Counties Armagh and Down in Ireland’s Ancient East as well as the inclusion of Fermanagh
 and Tyrone into Ireland’s ‘Hidden Heartlands’ programme.
-21
+
 5. Invest in Our Arts and Culture
 The arts and culture are integral to a thriving economy, as well as enhancing the social
 wellbeing of all the people who live here, promoting community integration and helping to
@@ -448,15 +400,7 @@ covering the purchase and setup costs of banking hubs on high streets or in town
 Ensuring that the business support provided by the UK Shared Prosperity Fund matches,
 or exceeds, those funds previously received under European Structural and Investment
 (ESI) funding, and that the UK keeps pace with similar EU funding schemes.
-→
-→
-→
-→
-→
-→
-→
-22
-11
+
 Investing
 in Skills
 Investing in Skills
@@ -485,9 +429,7 @@ Derry can be supported to become a leading university city on this island. We al
 specific financial incentives for students to study at the university campus at Magee. In line
 with the recommendations of the Royal Irish Academy, we support the establishment of a
 cross-border oversight body for higher education in the North West.
-→
-24
-25
+
 2. A Review of Higher Education funding
 The previous Economy Minister announced a review of higher education funding,
 including on student fees and the appropriate level of teaching grant to higher education
@@ -519,11 +461,7 @@ The SDLP has also consistently supported pay parity for FE lecturers and will fi
 that their needs are treated as equal with their counterparts in schools.
 6. Legislation for a Lifelong Learning Guarantee
 We will fight to ensure age is never a barrier to learning.
-→
-→
-→
-→
-→
+
 Defending Workers’ Rights
 Defending workers’ rights will always be central to the growing of a strong economy and
 the SDLP has stood resolutely shoulder to shoulder with workers in their demands for fair
@@ -566,11 +504,7 @@ SDLP MPs will also support foster carers receiving the same employment status as
 other workers. Rather than being forced to register as self-employed, foster carers who
 provide an important service, should expect to receive the same entitlements as other
 care givers.
-→
-→
-→
-26
-17
+
 A Better Future
 For All
 A New Ireland for All
@@ -605,7 +539,7 @@ New British-Irish Relationship
 New Ireland – The EU & Global
 Reconciliation
 Rights, Diversity & Inclusion
-28
+
 New Ireland Commission policy engagement:
 Workshops – we have developed a workshop model for community & youth groups to
 encourage them to engage in policy discussion around a New Ireland
@@ -614,8 +548,7 @@ parties across the island of Ireland
 Townhall series will continue with experts in academia, politics, the arts, business
 and civic society to explore policy ideas for a New Ireland
 Strategic plan for development of high-level policy papers
-29
-20
+
 Childcare: The Best Start
 in Life for Every Child
 Early education and childcare is a public good and the single most impactful
@@ -634,7 +567,7 @@ for Better’ programme, which is bringing down costs by up to 50% over the next
 totally unacceptable that parents here are being left further and further behind, forced to pay
 much more than their mortgages each and every month and left questioning whether it even
 pays to work at all.
-30
+
 The SDLP has consistently campaigned for childcare to be recognised as a public good
 and part of our economic and social infrastructure. More than a year ago, we announced
 our proposals for immediate interventions in the sector to address costs for parents. We
@@ -657,14 +590,7 @@ Work with the UK Treasury and NI Executive to ring-fence any Barnett consequenti
 that arise specifically as higher spending on childcare in Britain.
 Lobby the Department of Health to establish a time-bound taskforce to address the
 issue of unregistered childminding and progress the Review of Minimum Standards.
-→
-→
-→
-→
-→
-→
-→
-31
+
 OUR PRIORITES
 Great investment in community organisations with focus on positive
 outcomes that empower local communities
@@ -681,8 +607,7 @@ by the Review of Environmental Governance in 2007 and agreed by all parties in t
 Decade New Approach agreement in 2020. The SDLP also secured support in the Assembly
 on 13th May 2024 for the establishment of an independent environmental protection
 agency by the end of this Assembly mandate.
-→
-→
+
 Addressing the Climate Emergency and
 Biodiversity Crisis
 Dealing with the threat of unchecked global temperature increases, climate
@@ -697,8 +622,7 @@ SDLP MPs also co-sponsored the Climate & Nature Bill in Westminster. This will m
 Government to achieve climate and nature targets, put in place a strategy to achieve those
 targets and establish a ‘Climate and Nature Assembly’. Claire Hanna was also the deputy chair
 of the All-party group on Climate Change.
-32
-23
+
 3. Prioritise Water Quality
 None of our rivers, lakes, transitional & coastal water bodies currently meet overall
 good status when ecological and chemical status are considered. The SDLP will insist
@@ -741,14 +665,7 @@ SDLP MPs will support the inclusion of clean air filtration guidance for the pub
 to include health, education and other settings.
 SDLP MPs will also advocate a joint work stream as part of the British-Irish Council on
 clean air frameworks given that this policy area is is a supra-territorial issue.
-→
-→
-→
-→
-→
-→
-33
-24
+
 Building For Our Future - Infrastructure
 To build a prosperous, sustainable future in NI, we need to urgently invest in our infrastructure.
 The SDLP has been at the forefront of campaigning for more ambitious infrastructure plans to
@@ -776,10 +693,7 @@ in order to help address this environmental crime and progress the completion of
 We will also fight to secure funding allocation to complete Phase 2 Drumahoe to Caw as
 soon as possible. In addition, the SDLP will continue to raise safety concerns & signalisation
 of Caw Roundabout and advocate for the front-loading of these essential works.
-→
-→
-→
-34
+
 4. Deliver on the potential of all-island rail
 The SDLP delivered the first All Island strategic Rail Review in a generation. We will now
 push for progress on delivery. We will seek an update on the Phase 3 of Derry to Coleraine
@@ -815,15 +729,10 @@ developments and climate change adaptation/ projects/ local development plans. T
 SDLP will seek to streamline the planning process and address current backlogs. We
 want to ensure there is alignment on planning policies with broader economic, social, and
 environmental objectives to promote balanced and inclusive & sustainable development.
-→
-→
-→
-→
-35
+
 Justice, Equality
 & Rights
-36
-27
+
 Justice, Legacy and Victims
 1. Legacy
 The SDLP will always stand with victims and for truth, justice and accountability. Over
@@ -853,8 +762,6 @@ The SDLP continues to call for a progressive approach including support for comm
 mediation methods and non-court approaches of dispute resolution. We support
 the establishment of a 12-month post-release supervision programme following
 international best practice models in order to help reduce re-offending.
-→
-37
 Systemic reforms must be introduced to protect the rights of victims
 We support the introduction of an effective communication strategy to raise awareness
 of the Victim and Witnesses Charters and how information that signposts services,
@@ -894,14 +801,7 @@ the National Crime Agency. We are now calling for stronger collaboration between
 relevant agencies to deliver a specific anti-corruption strategy for Northern Ireland and
 a significant uplift in resources.
 There should be a dedicated NI assets recovery and enforcement organisation
-→
-→
-→
-→
-→
-→
-→38
-39
+
 5. Ending Violence Against Women and Girls
 At all levels of government, the SDLP has relentlessly campaigned for the new Ending
 Violence Against Women and Girls Strategy to be fully implemented and funded. In the
@@ -922,9 +822,7 @@ Review the Family Courts System
 The SDLP also believes that a review of the family courts system is required, as has been
 undertaken in England, and will work constructively with the Department and relevant
 authorities to ensure that a review is delivered urgently.
-→
-→
-→
+
 Equality & Rights
 The SDLP is committed to building a society where everyone can succeed, regardless of
 background. It is a matter of deep regret that rights have been delivered at Westminster which
@@ -943,12 +841,7 @@ Stand up for LGBTQIA+ asylum seekers and refugees who are forced to flee their h
 Urge the UK Government to work with international organisations and governments
 to ensure the advancement of LGBTQIA+ rights globally and to prevent any erosion of
 rights which LGBTQIA+ people fought hard to win
-→
-→
-→
-→
-→
-→
+
 2. Disability Rights
 The SDLP believes in a society where disabled people have full and equal access to public
 services, including through the full implementation of the UN Convention on the Right of
@@ -966,8 +859,7 @@ breaks down the negative attitudes and discrimination that affect disabled peopl
 through addressing disability hate crime. Public policy must be co-designed with disabled
 people and the organisations that represent them to ensure that it fully accounts for the needs
 of disabled people.
-40
-41
+
 3. Rights of ethnic minorities
 Ireland is home to a range of new communities from across the world and the SDLP
 celebrates the increasing diversity of all our communities. We are committed to working
@@ -1000,7 +892,7 @@ the inclusion of languages as a compulsory subject for study at GCSE level to re
 decline in pupils studying languages in school.
 Our Place In The
 World
-42
+
 Our Place In The World
 SDLP MPs are proud to have stood for peace and justice around the world. We have tirelessly
 championed internationalism, solidarity and human rights and we will always make the people
@@ -1024,11 +916,7 @@ rights are properly upheld
 Support Non-Governmental Organisations that assist victims of human rights abuse
 Ensure that current trade and aid policies are fit for purpose and provide the much-
 needed humanitarian assistance in areas of conflict and famine
-→
-→
-→
-→
-→
+
 2. Gaza
 We are appalled at the ongoing genocide in Gaza and outraged at the inexcusable violence
 being carried out by Israel on the innocent people of Palestine. We have repeatedly called
@@ -1060,22 +948,7 @@ in violations of humanitarian and international law
 The establishment of a Palestinian Visa Scheme in order to help displaced Palestinian
 people. The SDLP believe that this resettlement scheme is the only way Palestinians will
 be provided with safe passage out of the devastation in Gaza
-→
-→
-→
-→
-→
-→
-→
-→
-→
-→
-→
-→
-44
-0
-45
-4
+
 3. Refugees and Asylum Seekers
 The nature of Northern Ireland’s society is becoming increasingly diverse and there is a
 growing number of new communities who have chosen to make Northern Ireland their
@@ -1102,13 +975,7 @@ Ensure that asylum seekers are treated with the dignity they deserve and that th
 given a fair and proper opportunity to apply for refugee status
 Home Office systems and processes require an urgent overhaul so that cases can be
 processed quickly and effectively and the huge backlog in applications can be tackled.
-→
-→
-→
-→
-→
-→
-→
+
 A Future Back In Europe
 As a member of the Party of European Socialists, we are a proudly pro-European and
 internationalist party, recognising the centrality of the European Union to our peace process
@@ -1149,9 +1016,3 @@ of the NI public.
 3. Planning for re-accession
 The SDLP is calling for a dedicated process to be put in place by the European Union in order
 to plan for the North’s re-accession into the European Union in the context of unification.
-→
-→
-→
-46
-
-Published by SDLP Headquarters
