@@ -29,48 +29,6 @@ First Past the Post and introducing votes at 16.
 and internationally.
 Alliance, it adds up
 for Everyone
-CONTENTS PAGE 1
-LEADER’S FOREWORD 2
-DEPUTY LEADER’S FOREWORD 3
-EXECUTIVE SUMMARY 4
-CHAPTER 1: LEADING CHANGE FOR NORTHERN IRELAND 7
-INSTITUTIONAL REFORM 8
-NORTH-SOUTH AND EAST-WEST COOPERATION 10
-SHARED FUTURE 10
-DEALING WITH THE PAST 11
-CHAPTER 2: UK PUBLIC FINANCES 12
-IMPACT ON PUBLIC SERVICES, ECONOMY AND CLIMATE 13
-FISCAL RULES REFORM 13
-TAXATION, PENSIONS AND WELFARE SUPPORT 14
-CHILDCARE 16
-NORTHERN IRELAND PUBLIC FINANCES 16
-CHAPTER 3: NORTHERN IRELAND ECONOMY 18
-CHANGING UK ECONOMIC POLICY 19
-SUPPORTING NORTHERN IRELAND’S ECONOMY 20
-CHAPTER 4: GREEN NEW DEAL 22
-TACKLING THE ENERGY CRISIS 23
-KEY GREEN NEW DEAL COMMITMENTS 24
-CHAPTER 5: MIGRATION 26
-REFORMING THE VISA SYSTEM 27
-OVERHAULING THE ASYLUM SYSTEM 28
-PROTECTING THE COMMON TRAVEL AREA 29
-CHAPTER 6: UK POLITICAL REFORM, HUMAN RIGHTS AND EQUALITY 30
-HUMAN RIGHTS AND CIVIL LIBERTIES 31
-DEMOCRACY AT WESTMINSTER 31
-EQUALITY AND SOCIAL JUSTICE 32
-DIGITAL DEVELOPMENTS AND ONLINE SAFETY 32
-CHAPTER 7: OUR RELATIONSHIP WITH THE EUROPEAN UNION 33
-OUR POSITION ON BREXIT 34
-IMPLEMENTING THE WINDSOR FRAMEWORK 35
-FIXING THE UK-EU RELATIONSHIP 36
-CHAPTER 8: INTERNATIONAL AFFAIRS AND DEFENCE 37
-SUPPORT FOR INTERNATIONAL INSTITUTIONS 38
-SUPPORT FOR THE ARMED FORCES 40
-DEFENCE SPENDING AND CO-OPERATION 40
-GLOBAL JUSTICE AND INTERNATIONAL DEVELOPMENT 41
-DEALING WITH PANDEMICS 42
-SUPPORTING HUMAN RIGHTS AND POLITICAL FREEDOMS 43
-PAGE 2 LEADER’S FOREWORD
 LEADER’S FOREWORD
 This election is a chance not only to remove a
 negative, destructive Conservative
@@ -201,10 +159,8 @@ aiming to create new green jobs, promote
 social justice, and save our planet.
 Stephen Farry
 Deputy Leader of the Alliance Party
-DEPUTY LEADER’S FOREWORD PAGE 3
 DEPUTY LEADER’S FOREWORD
 EXECUTIVE SUMMARY
-PAGE 4 EXECUTIVE SUMMARY
 We want to see:
 • Changes to the Fiscal Rules, so the impact
 of public spending decisions on the UK’s
@@ -274,7 +230,6 @@ fiscal policy is inhibiting investment,
 reinforcing climate inaction and storing up
 environmental, social and financial crises for
 the future.
-EXECUTIVE SUMMARY PAGE 5
 To achieve this, Alliance will:
 • Work to secure a base-lined fiscal floor, set
 above 124, at the next spending review. We
@@ -367,7 +322,7 @@ migrants and asylum seekers, and we support
 a fair and compassionate immigration system
 for the UK that recognises the invaluable role
 migrants play in our economy.
-PAGE 6 EXECUTIVE SUMMARY
+
 We want to see:
 • An overhaul of the visa system to make it
 more affordable and the removal of cruel
@@ -456,14 +411,12 @@ International Development and for
 spending on Official Development
 Assistance of 0.7% of the UK’s gross
 national income.
-LEADING CHANGE FOR NORTHERN IRELAND PAGE 7
 INSTITUTIONAL REFORM 8
 NORTH-SOUTH AND EAST-WEST COOPERATION 10
 SHARED FUTURE 10
 DEALING WITH THE PAST 11
 CHAPTER 1
 LEADING CHANGE FOR NORTHERN IRELAND
-PAGE 8 LEADING CHANGE FOR NORTHERN IRELAND
 Northern Ireland has transformed in many
 ways since the Good Friday Agreement. Our
 politics, economy, and society have all
@@ -607,7 +560,6 @@ should be put in place.
 Full details of our proposals for institutional
 reform can be found in our paper, Sharing
 Power to Build a Shared Future.
-LEADING CHANGE FOR NORTHERN IRELAND PAGE 9
 1.2 NORTH-SOUTH AND
 EAST-WEST COOPERATION
 Strands Two and Three of the Good Friday
@@ -701,7 +653,6 @@ inform their work, factoring the cost of
 division into departmental decision-
 making, including capital investment, and
 agreeing an action plan to dismantle it.
-PAGE 10 LEADING CHANGE FOR NORTHERN IRELAND
 • Creating a successor fund to the Fresh
 Start capital fund for shared and integrated
 education. This should encompass the
@@ -788,8 +739,6 @@ We support the campaign for a payment for
 those bereaved during the Troubles, and we
 welcome the scoping work being undertaken
 to establish the best way forward.
-LEADING CHANGE FOR NORTHERN IRELAND PAGE 11
-PAGE 12 UK PUBLIC FINANCES
 IMPACT ON PUBLIC SERVICES, ECONOMY AND CLIMATE 13
 FISCAL RULES REFORM 13
 TAXATION, PENSIONS AND WELFARE SUPPORT 14
@@ -894,8 +843,6 @@ existing UK Green Gilts. Without such reform,
 UK fiscal policy is reinforcing relative climate
 inaction and storing up environmental, social
 and financial crises for the future.
-UK PUBLIC FINANCES PAGE 13
-PAGE 14 UK PUBLIC FINANCES
 On this basis, Alliance believes there is scope
 to unlock additional expenditure at a UK
 Government level, including for NI. This can be
@@ -1085,8 +1032,6 @@ of the Carer’s Allowance earnings threshold.
 We also support increases in support for
 maternity, paternity, shared-parental and
 adoption entitlements.
-UK PUBLIC FINANCES PAGE 15
-PAGE 16 UK PUBLIC FINANCES
 2.4 CHILDCARE
 Families and households in Northern Ireland
 are currently suffering from a super-disparity
@@ -1163,7 +1108,6 @@ and essential public sector pay awards have
 largely subsumed any additional money for
 this financial year contained in the Treasury
 package.
-UK PUBLIC FINANCES PAGE 17
 Fundamentally, the core level of funding for NI
 is key for our economic, social and financial
 wellbeing. There is a credible basis to question
@@ -1236,12 +1180,10 @@ increased and deployed to further projects in
 a wider range of areas, where our shared
 challenges and solutions across the island
 would be enhanced by such investment.
-PAGE 18 NORTHERN IRELAND ECONOMY
 CHANGING UK ECONOMIC POLICY 19
 SUPPORTING NORTHERN IRELAND’S ECONOMY 20
 CHAPTER 3
 NORTHERN IRELAND ECONOMY
-NORTHERN IRELAND ECONOMY PAGE 19
 We believe Northern Ireland can become the
 most innovative and dynamic regional
 economy in Europe. Despite the challenges
@@ -1336,7 +1278,6 @@ greenhouse gas emissions.
 Zone (EIZ) funding to focus on job creation
 and economic development in areas of
 innovative and sectoral strength.
-PAGE 20 NORTHERN IRELAND ECONOMY
 • Invest strategically to ensure that Northern
 Ireland has the skills and ability to attract
 greater levels of funding from projects such
@@ -1409,7 +1350,6 @@ Apprenticeship Levy across the UK, and
 ensure that any levy raised from Northern
 Ireland is ring-fenced for re-investment in
 skills.
-NORTHERN IRELAND ECONOMY PAGE 21
 Defence Procurement
 Northern Ireland currently receives the lowest
 share per capita in the United Kingdom of
@@ -1450,12 +1390,10 @@ impactful and sustained interventions and will
 continue to lobby for the resources and
 responsibility for these funds to be transferred
 to the Executive.
-PAGE 22 GREEN NEW DEAL
 TACKLING THE ENERGY CRISIS 23
 KEY GREEN NEW DEAL COMMITMENTS 24
 CHAPTER 4
 GREEN NEW DEAL
-GREEN NEW DEAL PAGE 23
 The climate crisis has existential implications
 for our planet and humanity. The world, and
 particularly the UK, is not on course to meet
@@ -1551,7 +1489,6 @@ renewable energy industry stands ready to
 bring incredible opportunities for Northern
 Ireland and should be championed by
 Northern Ireland’s MPs.
-PAGE 24 GREEN NEW DEAL
 4.2 KEY GREEN NEW DEAL
 COMMITMENTS
 Alliance MPs will work in close collaboration
@@ -1639,7 +1576,6 @@ investment in Northern Ireland to match
 other UK regions, realising Northern
 Ireland’s potential as a leader in green
 innovation.
-GREEN NEW DEAL PAGE 25
 • Establishing citizens’ assemblies to work
 alongside the UK Government, under the
 Parliament’s scrutiny, to ensure that a just
@@ -1672,13 +1608,11 @@ the trade of illegal animal products. We
 remain committed to extending the ban on
 hunting mammals with dogs to Northern
 Ireland.
-PAGE 26 MIGRATION
 REFORMING THE VISA SYSTEM 27
 OVERHAULING THE ASYLUM SYSTEM 28
 PROTECTING THE COMMON TRAVEL AREA 29
 CHAPTER 5
 MIGRATION
-MIGRATION PAGE 27
 Alliance believes in a shared and united
 community. That means representing
 everyone in Northern Ireland, celebrating our
@@ -1763,7 +1697,6 @@ create a simplified route to status based on
 five years’ residence.
 • Grant overseas students two years to find
 work after graduation.
-PAGE 28 MIGRATION
 5.2 OVERHAULING THE
 ASYLUM SYSTEM
 The annual number of asylum applications to
@@ -1853,7 +1786,6 @@ accommodation for those seeking asylum,
 moving to a not-for-profit-based system
 that’s integrated into communities and
 works alongside social housing.
-MIGRATION PAGE 29
 • Make providers of asylum accommodation
 subject to a statutory duty to refer people
 leaving asylum support accommodation
@@ -1931,7 +1863,6 @@ is created under the UK’s Electronic Travel
 Authorisation (ETA) scheme.
 • A labour mobility scheme on the island of
 Ireland is created.
-PAGE 30 UK POLITICAL REFORM, HUMAN RIGHTS AND EQUALITY
 HUMAN RIGHTS AND CIVIL LIBERTIES 31
 DEMOCRACY AT WESTMINSTER 31
 EQUALITY AND SOCIAL JUSTICE 32
@@ -1939,7 +1870,6 @@ DIGITAL DEVELOPMENTS AND ONLINE SAFETY 32
 CHAPTER 6
 UK POLITICAL REFORM, HUMAN RIGHTS
 AND EQUALITY
-UK POLITICAL REFORM, HUMAN RIGHTS AND EQUALITY PAGE 31
 Human rights, the rule of law and civil liberties
 have long been cornerstones of UK society.
 Yet since 2019, the Conservative Government
@@ -2030,7 +1960,6 @@ needs to be addressed.
 restrictions on campaigning activities by
 affected organisations and to implement a
 comprehensive lobbying register.
-PAGE 32 UK POLITICAL REFORM, HUMAN RIGHTS AND EQUALITY
 6.3 EQUALITY AND
 SOCIAL JUSTICE
 In pursuing an agenda of undermining human
@@ -2111,14 +2040,12 @@ children’s safety online.
 the Online Safety Act to introduce
 verification requirements for social media
 accounts.
-OUR RELATIONSHIP WITH THE EUROPEAN UNION PAGE 33
 OUR POSITION ON BREXIT 34
 IMPLEMENTING THE WINDSOR FRAMEWORK 35
 FIXING THE UK-EU RELATIONSHIP 36
 CHAPTER 7
 OUR RELATIONSHIP WITH
 THE EUROPEAN UNION
-PAGE 34 OUR RELATIONSHIP WITH THE EUROPEAN UNION
 Alliance was firmly opposed to Brexit, which
 continues to be fundamentally destructive for
 the United Kingdom as a whole. Most notably,
@@ -2180,7 +2107,6 @@ European Union at an early opportunity.
 Only a full reversal of Brexit can resolve all of
 the tensions, contradictions and limitations
 that it poses.
-OUR RELATIONSHIP WITH THE EUROPEAN UNION PAGE 35
 7.2 IMPLEMENTING THE
 WINDSOR FRAMEWORK
 Alliance broadly welcomes the Windsor
@@ -2334,8 +2260,6 @@ Adjustment Mechanisms (CBAMs).
 • Rejoining the Erasmus Plus programme so
 young people have full restored access to
 study, teach and volunteer abroad.
-PAGE 36 OUR RELATIONSHIP WITH THE EUROPEAN UNION
-INTERNATIONAL AFFAIRS AND DEFENCE PAGE 37
 SUPPORT FOR INTERNATIONAL INSTITUTIONS 38
 SUPPORT FOR THE ARMED FORCES 40
 DEFENCE SPENDING AND CO-OPERATION 40
@@ -2344,7 +2268,6 @@ DEALING WITH PANDEMICS 42
 SUPPORTING HUMAN RIGHTS AND POLITICAL FREEDOMS 43
 CHAPTER 8
 INTERNATIONAL AFFAIRS AND DEFENCE
-PAGE 38 INTERNATIONAL AFFAIRS AND DEFENCE
 International co-operation is essential to
 addressing shared global challenges. Alliance
 is guided by our liberal, internationalist values.
@@ -2376,7 +2299,6 @@ System and for the rules-based international
 order. This includes support for the work of
 the International Court of Justice and the
 International Criminal Court.
-INTERNATIONAL AFFAIRS AND DEFENCE PAGE 39
 Conflict Resolution
 War and global conflict have a disastrous
 effect on international relations, economic
@@ -2504,7 +2426,6 @@ The UK can and should help combat nuclear
 proliferation by leading by example in
 reducing nuclear weapons as part of agreed-
 upon multilateral efforts.
-PAGE 40 INTERNATIONAL AFFAIRS AND DEFENCE
 8.4 GLOBAL JUSTICE AND
 INTERNATIONAL
 DEVELOPMENT
@@ -2602,7 +2523,6 @@ Development Programme.
 • An end to all aid spending on fossil fuel
 production overseas, redirecting it towards
 international climate aid.
-INTERNATIONAL AFFAIRS AND DEFENCE PAGE 41
 • Ensuring any trade deals are consistent
 with tackling climate injustice, rejecting any
 new trade deals which fail to maintain or
@@ -2651,7 +2571,6 @@ We value expert scientific advice and believe
 that it should inform government policy to
 help protect the population’s health during
 outbreaks.
-PAGE 42 INTERNATIONAL AFFAIRS AND DEFENCE
 8.6 SUPPORTING HUMAN RIGHTS
 AND POLITICAL FREEDOMS
 Alliance respects and promotes human rights,
@@ -2701,20 +2620,3 @@ poor human rights records.
 ongoing refugee crisis, focusing on
 countries that have accepted millions of
 refugees.
-INTERNATIONAL AFFAIRS AND DEFENCE PAGE 43
-
-Alliance
-Leading Change
-Westminster Manifesto 2024
-Published and promoted by Sharon Lowry on behalf of
-The Alliance Party of 7 Farmley Road, Newtownabbey, BT36 7TY.
-Printed by GPS Colour Graphics Ltd, 4 Marshalls Road, Belfast BT5 6SR.
-7 Farmley Road, Newtownabbey, BT36 7TY.
-allianceparty.org
-alliance@allianceparty.org
-/alliancepartyni
-@allianceparty
-@alliancepartyni
-028 9032 4274
-Get
-Involved
