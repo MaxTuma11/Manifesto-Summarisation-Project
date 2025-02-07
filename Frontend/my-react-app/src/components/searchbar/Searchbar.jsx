@@ -5,11 +5,10 @@ import axios from 'axios';
 import BarChart from '../charts/BarChart';
 
 
-const Searchbar = () => {
+const Searchbar = ({ onChartsUpdate }) => {
   const [query, setQuery] = useState('');
   const [recommendations, setRecommendations] = useState([]);
   const [result, setResult] = useState(null);
-  const [chartData, setChartData] = useState([]);
 
   //fetch all manifestos from the API using axios
   const fetchManifestos = async () => {
@@ -48,14 +47,14 @@ const Searchbar = () => {
       try {
         const response = await fetch(`/common_${selectedManifesto.name}.json`);
         const data = await response.json();
-        setChartData(data); //set chart data
+        onChartsUpdate(data); //set chart data
       } catch (error) {
         console.error('Error loading chart data:', error);
-        setChartData([]); //reset chart data if there's an error
+        onChartsUpdate([]); //reset chart data if there's an error
       }
     } else {
       setResult(null);
-      setChartData([]);
+      onChartsUpdate([]);
     }
   };
 
@@ -106,9 +105,6 @@ const Searchbar = () => {
         <div className="result">
           <h2>Summary:</h2>
           <p>{result}</p>
-          <div className='freq-chart'>
-            {chartData.length > 0 && <BarChart data={chartData} />}
-          </div>
         </div>
       )}
     </div>

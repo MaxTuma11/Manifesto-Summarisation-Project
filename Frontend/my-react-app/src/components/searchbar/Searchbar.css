@@ -47,7 +47,7 @@ input {
   
 .result {
     position: absolute;
-    top: 500%; /* Add space between the search bar and the result */
+    top: 120%; /*Add space between the search bar and the result */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
