@@ -1,10 +1,10 @@
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 import nltk
-nltk.download('punkt_tab')
+#nltk.download('punkt_tab')
 from nltk.tokenize import PunktTokenizer
 from nltk.tokenize import sent_tokenize
 
-file_path = 'C:/Users/mtuma/Manifesto-Summarisation-Project/Manifestos/AllianceManifesto.txt'
+file_path = 'C:/Users/mtuma/Manifesto-Summarisation-Project/Manifestos/DUPManifesto.txt'
 
 with open(file_path, 'r', encoding='utf-8') as file:
     file_content = file.read()
@@ -12,8 +12,8 @@ with open(file_path, 'r', encoding='utf-8') as file:
 sequence = file_content
 
 #load model and tokenizer
-model = T5ForConditionalGeneration.from_pretrained('t5-base')
-tokenizer = T5Tokenizer.from_pretrained('t5-base')
+model = T5ForConditionalGeneration.from_pretrained('google-t5/t5-base')
+tokenizer = T5Tokenizer.from_pretrained('google-t5/t5-base', legacy=False)
 
 #function to split text into chunks
 def split_text_into_chunks(text, max_tokens=450, overlap=50):
@@ -47,12 +47,12 @@ def summarize_chunk(token_chunk):
         token_chunk, 
         return_tensors="pt", 
         max_length=512, 
-        truncation=True
+        truncation=True,
     )
 
     outputs = model.generate(
         inputs.input_ids,
-        max_length=200, 
+        max_length=100, 
         min_length=50, 
         length_penalty=2.0, 
         num_beams=4, 
@@ -61,6 +61,26 @@ def summarize_chunk(token_chunk):
 
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
+def summarize_text(text, model, tokenizer, max_length=512, num_beams=5):
+    # Preprocess the text
+    inputs = tokenizer.encode(
+        "summarize: " + text,
+        return_tensors='pt',
+        max_length=max_length,
+        truncation=True
+    )
+ 
+    # Generate the summary
+    summary_ids = model.generate(
+        inputs,
+        max_length=200, 
+        min_length=100,
+        num_beams=num_beams,
+        # early_stopping=True,
+    )
+ 
+    # Decode and return the summary
+    return tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
 #split into chunks
 chunks = split_text_into_chunks(sequence, max_tokens=450, overlap=50)
@@ -72,7 +92,16 @@ summaries = [summarize_chunk(chunk) for chunk in chunks]
 final_summary = " ".join(summaries)
 
 #optionally refine the final summary, not sure if necessary
-refined_summary = summarize_chunk(tokenizer.encode(final_summary, truncation=True, max_length=450))
+chunks2 = split_text_into_chunks(final_summary, max_tokens=450, overlap=50)
+summaries2 = [summarize_chunk(chunk) for chunk in chunks2]
+
+
+refined_summary = " ".join(summaries2)
+
+fin = summarize_text(refined_summary, model, tokenizer)
 
 print(final_summary)
+print("NEXT")
 print(refined_summary)
+print("NEXT")
+print(fin)
