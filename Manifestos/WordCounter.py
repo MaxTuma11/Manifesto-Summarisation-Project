@@ -39,12 +39,12 @@ def get_freq_word(words, top_n=10):
     return word_counts.most_common(top_n)
 
 #implementation
-file_path = (r'C:\Users\mtuma\Manifesto-Summarisation-Project\Manifestos\SDLPManifesto.txt')
+file_path = (r'C:\Users\mtuma\Manifesto-Summarisation-Project\Manifestos\ReformManifesto.txt')
 text = load_manifesto(file_path)
 words = preprocess_text(text)
 common_words = get_freq_word(words, top_n=20)
 
-with open('common_SDLP.json', 'w') as f:
+with open('common_Reform.json', 'w') as f:
     json.dump(common_words, f)
 
 print("Most common words: ")

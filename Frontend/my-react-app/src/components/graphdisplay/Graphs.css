@@ -1,7 +1,7 @@
 .graphs-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid with minimum column width of 300px */
-    gap: 20px; /* Spacing between charts */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* flexible grid */
+    gap: 20px; /* spacing between charts */
     padding: 20px;
 }
   

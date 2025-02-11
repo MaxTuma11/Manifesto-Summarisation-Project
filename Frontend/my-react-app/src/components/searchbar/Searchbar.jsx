@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { FaSearch } from 'react-icons/fa'
 import './Searchbar.css'
 import axios from 'axios';
-import BarChart from '../charts/BarChart';
 
 
 const Searchbar = ({ onChartsUpdate }) => {
@@ -47,14 +46,24 @@ const Searchbar = ({ onChartsUpdate }) => {
       try {
         const response = await fetch(`/common_${selectedManifesto.name}.json`);
         const data = await response.json();
-        onChartsUpdate(data); //set chart data
+
+        const statsResponse = await fetch('/party_averages.json');
+        const statsData = await statsResponse.json();
+
+        const partyStats = statsData.party_statistics[selectedManifesto.name];
+        const overallAverageAttendance = statsData.overall_average_attendance_rate;
+
+        console.log(partyStats);
+        console.log(overallAverageAttendance);
+
+        onChartsUpdate(data, partyStats, overallAverageAttendance); //set chart data
       } catch (error) {
         console.error('Error loading chart data:', error);
-        onChartsUpdate([]); //reset chart data if there's an error
+        onChartsUpdate([], null, 0); //reset chart data if there's an error
       }
     } else {
       setResult(null);
-      onChartsUpdate([]);
+      onChartsUpdate([], null, 0);
     }
   };
 

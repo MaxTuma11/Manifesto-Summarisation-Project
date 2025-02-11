@@ -1,0 +1,53 @@
+.party-stats {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left: 20px;
+  }
+  
+  .party-stats h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two columns for stats */
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .stat-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .stat-value {
+    color: #333;
+  }
+  
+  .overall-stat {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .no-stats {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+  }

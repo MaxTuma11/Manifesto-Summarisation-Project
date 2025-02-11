@@ -6,18 +6,24 @@ import Graphs from '../components/graphdisplay/Graphs'
 
 
 const Summaries = () => {
-  const [charts, setCharts] = useState([]); // State to hold chart data
+  //states for chart and party data
+  const [charts, setCharts] = useState([]);
+  const [partyStats, setPartyStats] = useState(null);
+  const [overallAverageAttendance, setOverallAverageAttendance] = useState(0);
 
-  // Function to handle chart data updates (called from Searchbar)
-  const handleChartsUpdate = (mainChartData) => {
+  //function to handle chart data updates (called from Searchbar)
+  const handleChartsUpdate = (mainChartData, stats, overallAttendance) => {
     if (mainChartData && mainChartData.length > 0) {
-      // For now, only the frequency chart is displayed
       setCharts([
-        { data: mainChartData, title: 'Most Common Words' },
-        // Add more charts here as needed
+        { data: mainChartData, title: 'Most Common Words In The Manifesto' },
+        //set stats and attendance
+        setPartyStats(stats),
+        setOverallAverageAttendance(overallAttendance),
       ]);
     } else {
-      setCharts([]); // Reset charts if no data is available
+      setCharts([]); //reset charts if no data is available
+      setPartyStats(null); //reset party stats and overall attendance
+      setOverallAverageAttendance(0); 
     }
   };
 
@@ -28,7 +34,11 @@ const Summaries = () => {
         <Searchbar onChartsUpdate={handleChartsUpdate}/>
       </div>
       <div className='graph-container'>
-        <Graphs charts={charts} />
+        <Graphs 
+          charts={charts}
+          partyStats={partyStats}
+          overallAverageAttendance={overallAverageAttendance} 
+          />
       </div>
     </div>
   )

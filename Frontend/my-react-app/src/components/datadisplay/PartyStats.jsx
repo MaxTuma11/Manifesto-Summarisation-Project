@@ -1,0 +1,46 @@
+import React from 'react';
+import './PartyStats.css';
+
+const PartyStats = ({ partyStats, overallAverageAttendance }) => {
+  if (!partyStats) {
+    return <div className="no-stats">No statistics available.</div>;
+  }
+
+  return (
+    <div className="party-stats">
+      <h3>Party Statistics</h3>
+      <div className="stats-grid">
+        <div className="stat-item">
+          <span className="stat-label">Average Attendance Rate:</span>
+          <span className="stat-value">{partyStats.average_attendance_rate.toFixed(2)}%</span>
+        </div>
+        <div className="stat-item">
+          <span className="stat-label">Average Rebellion Rate:</span>
+          <span className="stat-value">{partyStats.average_rebellion_rate.toFixed(2)}%</span>
+        </div>
+        <div className="stat-item">
+          <span className="stat-label">Max Attendance Rate:</span>
+          <span className="stat-value">{partyStats.max_attendance_rate.toFixed(2)}%</span>
+        </div>
+        <div className="stat-item">
+          <span className="stat-label">Max Rebellion Rate:</span>
+          <span className="stat-value">{partyStats.max_rebellion_rate.toFixed(2)}%</span>
+        </div>
+        <div className="stat-item">
+          <span className="stat-label">Min Attendance Rate:</span>
+          <span className="stat-value">{partyStats.min_attendance_rate.toFixed(2)}%</span>
+        </div>
+        <div className="stat-item">
+          <span className="stat-label">Min Rebellion Rate:</span>
+          <span className="stat-value">{partyStats.min_rebellion_rate.toFixed(2)}%</span>
+        </div>
+      </div>
+      <div className="overall-stat">
+        <span className="stat-label">Overall Average Attendance Rate:</span>
+        <span className="stat-value">{overallAverageAttendance.toFixed(2)}%</span>
+      </div>
+    </div>
+  );
+};
+
+export default PartyStats;

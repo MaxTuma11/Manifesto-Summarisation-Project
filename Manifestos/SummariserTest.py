@@ -1,4 +1,4 @@
-from transformers import T5ForConditionalGeneration, T5Tokenizer
+from transformers import T5ForConditionalGeneration, T5Tokenizer, MT5ForConditionalGeneration, MT5Tokenizer
 import nltk
 #nltk.download('punkt_tab')
 from nltk.tokenize import PunktTokenizer
@@ -12,8 +12,8 @@ with open(file_path, 'r', encoding='utf-8') as file:
 sequence = file_content
 
 #load model and tokenizer
-model = T5ForConditionalGeneration.from_pretrained('google-t5/t5-base')
-tokenizer = T5Tokenizer.from_pretrained('google-t5/t5-base', legacy=False)
+model = MT5ForConditionalGeneration.from_pretrained('T-Systems-onsite/mt5-small-sum-de-en-v2')
+tokenizer = MT5Tokenizer.from_pretrained('T-Systems-onsite/mt5-small-sum-de-en-v2', legacy = False) 
 
 #function to split text into chunks
 def split_text_into_chunks(text, max_tokens=450, overlap=50):
