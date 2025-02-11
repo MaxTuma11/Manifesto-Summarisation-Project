@@ -1,20 +1,24 @@
-import React, {useState, useEffect} from 'react'
-import { FaSearch } from 'react-icons/fa'
-import './Searchbar.css'
+import React, { useState, useEffect, useRef } from 'react';
+import { FaSearch } from 'react-icons/fa';
+import './Searchbar.css';
 import axios from 'axios';
-
 
 const Searchbar = ({ onChartsUpdate }) => {
   const [query, setQuery] = useState('');
   const [recommendations, setRecommendations] = useState([]);
   const [result, setResult] = useState(null);
+  const isRecommendationClicked = useRef(false); //track if a recommendation was clicked
+
+  //log recommendations state whenever it changes
+  // useEffect(() => {
+  //   console.log('Recommendations state updated:', recommendations);
+  // }, [recommendations]);
 
   //fetch all manifestos from the API using axios
   const fetchManifestos = async () => {
     try {
       const response = await axios.get('https://manifesto-backend-3bacb381e493.herokuapp.com/api/manifestos/');
       return response.data.manifestos;
-    //set up catch if data cannot be fetched
     } catch (error) {
       console.error('Error fetching manifestos:', error);
       return [];
@@ -42,37 +46,42 @@ const Searchbar = ({ onChartsUpdate }) => {
     );
     if (selectedManifesto) {
       setResult(selectedManifesto.summary);
+
       //load the corresponding JSON file for the selected manifesto
       try {
         const response = await fetch(`/common_${selectedManifesto.name}.json`);
         const data = await response.json();
 
+        //load the party_averages.json file
         const statsResponse = await fetch('/party_averages.json');
         const statsData = await statsResponse.json();
 
+        //extract the statistics for the selected party
         const partyStats = statsData.party_statistics[selectedManifesto.name];
         const overallAverageAttendance = statsData.overall_average_attendance_rate;
 
-        console.log(partyStats);
-        console.log(overallAverageAttendance);
-
-        onChartsUpdate(data, partyStats, overallAverageAttendance); //set chart data
+        //pass the data to the parent component
+        onChartsUpdate(data, partyStats, overallAverageAttendance);
       } catch (error) {
         console.error('Error loading chart data:', error);
-        onChartsUpdate([], null, 0); //reset chart data if there's an error
+        onChartsUpdate([], null, 0); //reset data if there's an error
       }
     } else {
       setResult(null);
-      onChartsUpdate([], null, 0);
+      onChartsUpdate([], null, 0); //reset data if no manifesto is selected
     }
   };
 
   useEffect(() => {
-    getRecommendations(query);
+    //console.log('Query updated:', query); // Debugging
+    if (!isRecommendationClicked.current) {
+      getRecommendations(query);
+    }
   }, [query]);
 
   const handleInputChange = (e) => {
     setQuery(e.target.value);
+    isRecommendationClicked.current = false; //reset the flag when typing
   };
 
   const handleKeyPress = (e) => {
@@ -83,14 +92,16 @@ const Searchbar = ({ onChartsUpdate }) => {
   };
 
   const handleRecommendationClick = (recommendation) => {
+    //console.log('Clearing recommendations...');
+    isRecommendationClicked.current = true; //set the flag to true
     setQuery(recommendation.name);
+    setRecommendations([]); //clear recommendations
     fetchResult(recommendation.name);
-    setRecommendations([]); //clear recommendations on selection
   };
 
   return (
     <div className="search-bar">
-      <FaSearch id='search-icon'/>
+      <FaSearch id="search-icon" />
       <input
         type="text"
         value={query}
@@ -120,4 +131,4 @@ const Searchbar = ({ onChartsUpdate }) => {
   );
 };
 
-export default Searchbar
+export default Searchbar;
