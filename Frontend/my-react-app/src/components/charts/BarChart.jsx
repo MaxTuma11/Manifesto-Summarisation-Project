@@ -47,7 +47,19 @@ const BarChart = ({ data }) => {
       .call(d3.axisLeft(y))
       .selectAll('text')
       .style('font-size', '12px') 
-      .style('fill', '#333'); 
+      .style('fill', '#333');
+
+    //create tooltip for when hovering over bar
+    const tooltip = d3.select(chartRef.current.parentNode)
+      .append('div')
+      .style('position', 'absolute')
+      .style('background', '#fff')
+      .style('border', '1px solid #ccc')
+      .style('border-radius', '4px')
+      .style('padding', '5px')
+      .style('font-size', '12px')
+      .style('pointer-events', 'none') //prevent tooltip from interfering with mouse events
+      .style('opacity', 0);
 
     //add bars
     svg.selectAll('rect')
@@ -64,11 +76,27 @@ const BarChart = ({ data }) => {
         //highlight bar on hover
         d3.select(this)
           .attr('fill', '#08003a'); //darker shade for hover
+        
+        tooltip
+          .style('opacity', 1)
+          .html(`Value: ${d[1]}`)
+          .style('left', `${event.pageX + 10}px`)
+          .style('top', `${event.pageY - 20}px`);
       })
+
+      .on('mousemove', function (event) {
+        // Move tooltip with mouse
+        tooltip
+          .style('left', `${event.pageX + 10}px`)
+          .style('top', `${event.pageY - 20}px`);
+      })
+      
       .on('mouseout', function (event, d) {
         //revert to original color
         d3.select(this)
           .attr('fill', '#08003ab3');
+
+        tooltip.style('opacity', 0);
       });
 
     //add title
