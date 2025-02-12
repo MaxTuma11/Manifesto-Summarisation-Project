@@ -10,7 +10,7 @@ import re
 
 #create custom stopwords for manifetos
 custom_stopwords = {"manifesto", "manifestos", "party", "parties", "will", "also", "would", "ensure", "•", "labour", "alliance", "conservative", "dup", "green", "greens", "liberal", "democrats",
-                     "plaid", "cymru", "sdlp", "sinn", "féin", "snp", "tuv", "uup", "v", "2023", "2024", "2025", "elected", "–", "●", "❱", "3", "partyof", "→", "\""}
+                     "plaid", "cymru", "sdlp", "sinn", "féin", "snp", "tuv", "uup", "v", "2023", "2024", "2025", "elected", "–", "●", "❱", "3", "partyof", "→", "\"", "x"}
 
 #list of unwanted common trigrams (to filter)
 unwanted_trigrams = {("set", "chapter", "20"), ("set", "chapter", "4"), ("set", "chapter", "18"), ("set", "chapter", "7")}
@@ -64,7 +64,7 @@ def get_freq_word(words, top_n=10):
     return word_counts.most_common(top_n)
 
 #implementation
-file_path = (r'C:\Users\mtuma\Manifesto-Summarisation-Project\Manifestos\ConservativeManifesto.txt')
+file_path = (r'C:\Users\mtuma\Manifesto-Summarisation-Project\Manifestos\SinnFeinManifesto.txt')
 text = load_manifesto(file_path)
 words = preprocess_text(text)
 
@@ -78,13 +78,13 @@ common_bigrams = [{"bigram": " ".join(pair), "count": count} for pair, count in 
 common_trigrams = [{"trigram": " ".join(trio), "count": count} for trio, count in common_trigrams]
 
 #write to files
-# with open('common_Reform.json', 'w') as f:
-#     json.dump(common_words, f)
+with open('common_Sinn Fein.json', 'w') as f:
+    json.dump(common_words, f)
 
 # with open('common_Reform_bigrams.json', 'w') as f:
 #     json.dump(common_bigrams, f)
 
-with open('common_Conservative Party_trigrams.json', 'w') as f:
+with open('common_Sinn Fein_trigrams.json', 'w') as f:
     json.dump(common_trigrams, f)
 
 
