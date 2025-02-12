@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* flexible grid */
     gap: 20px; /* spacing between charts */
     padding: 20px;
+    height: 500px;
 }
   
 .chart-item {

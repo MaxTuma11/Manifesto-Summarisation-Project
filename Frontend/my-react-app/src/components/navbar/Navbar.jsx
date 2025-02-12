@@ -17,9 +17,9 @@ const Navbar = () => {
     <nav className={`container ${sticky? 'show-nav': ''}`}>
         <Link to="/"><img src={logo} alt="" className='logo'/></Link>
         <ul>
-            <li><Link to="/"><a>Home</a></Link></li>
-            <li><Link to="/Summaries"><a>Manifesto Summaries</a></Link></li>
-            <li><Link to="/About" className='btn'><a id='about'>About Us</a></Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/Summaries">Manifesto Summaries</Link></li>
+            <li id='about'><Link to="/About" className='btn'>About Us</Link></li>
         </ul>
     </nav>
   )

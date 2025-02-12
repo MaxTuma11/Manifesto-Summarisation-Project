@@ -82,19 +82,23 @@ const Searchbar = ({ onChartsUpdate }) => {
         const statsResponse = await fetch('/party_averages.json');
         const statsData = await statsResponse.json();
 
+        const triResponse = await fetch(`/common_${selectedManifesto.name}_trigrams.json`);
+        const data2 = await triResponse.json();
+        console.log(data2);
+
         //extract the statistics for the selected party
         const partyStats = statsData.party_statistics[selectedManifesto.name];
         const overallAverageAttendance = statsData.overall_average_attendance_rate;
 
         //pass the data to the parent component
-        onChartsUpdate(data, partyStats, overallAverageAttendance);
+        onChartsUpdate(data, partyStats, overallAverageAttendance, data2);
       } catch (error) {
         console.error('Error loading chart data:', error);
-        onChartsUpdate([], null, 0); //reset data if there's an error
+        onChartsUpdate([], null, 0, []); //reset data if there's an error
       }
     } else {
       setResult(null);
-      onChartsUpdate([], null, 0); //reset data if no manifesto is selected
+      onChartsUpdate([], null, 0, []); //reset data if no manifesto is selected
     }
   };
 

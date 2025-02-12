@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import * as d3 from 'd3';
 
-const BarChart = ({ data }) => {
+const BarChart = ({ data, title }) => {
   const chartRef = useRef();
 
   useEffect(() => {
@@ -9,8 +9,8 @@ const BarChart = ({ data }) => {
 
     //set up chart dimensions
     const width = 800;
-    const height = 400;
-    const margin = { top: 20, right: 30, bottom: 70, left: 40 }; 
+    const height = 500;
+    const margin = { top: 20, right: 30, bottom: 120, left: 50 }; 
 
     //clear previous chart
     d3.select(chartRef.current).selectAll('*').remove();
@@ -22,12 +22,12 @@ const BarChart = ({ data }) => {
 
     //create scales
     const x = d3.scaleBand()
-      .domain(data.map(d => d[0])) // Words
+      .domain(data.map(d => d[0])) //words or trigrams
       .range([margin.left, width - margin.right])
       .padding(0.1);
 
     const y = d3.scaleLinear()
-      .domain([0, d3.max(data, d => d[1])]) // Frequencies
+      .domain([0, d3.max(data, d => d[1])]) //frequencies
       .nice()
       .range([height - margin.bottom, margin.top]);
 
@@ -90,7 +90,7 @@ const BarChart = ({ data }) => {
           .style('left', `${event.pageX + 10}px`)
           .style('top', `${event.pageY - 20}px`);
       })
-      
+
       .on('mouseout', function (event, d) {
         //revert to original color
         d3.select(this)
@@ -106,8 +106,8 @@ const BarChart = ({ data }) => {
       .attr('text-anchor', 'middle')
       .style('font-size', '16px')
       .style('font-weight', 'bold')
-      .text('Most Common Words In The Manifesto');
-  }, [data]);
+      .text(title);
+  }, [data, title]);
 
   return <svg ref={chartRef}></svg>;
 };

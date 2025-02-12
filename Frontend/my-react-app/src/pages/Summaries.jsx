@@ -1,27 +1,27 @@
 import React, { useEffect, useState } from 'react'
 import './Summaries.css'
-import Navbar from '../components/navbar/navbar'
+import Navbar from '../components/navbar/Navbar'
 import Searchbar from '../components/searchbar/Searchbar'
 import Graphs from '../components/graphdisplay/Graphs'
 
 
 const Summaries = () => {
   //states for chart and party data
-  const [charts, setCharts] = useState([]);
+  const [wordData, setWordData] = useState([]);
+  const [trigramData, setTrigramData] = useState([]);
   const [partyStats, setPartyStats] = useState(null);
   const [overallAverageAttendance, setOverallAverageAttendance] = useState(0);
 
   //function to handle chart data updates (called from Searchbar)
-  const handleChartsUpdate = (mainChartData, stats, overallAttendance) => {
-    if (mainChartData && mainChartData.length > 0) {
-      setCharts([
-        { data: mainChartData, title: 'Most Common Words In The Manifesto' },
-        //set stats and attendance
-        setPartyStats(stats),
-        setOverallAverageAttendance(overallAttendance),
-      ]);
+  const handleChartsUpdate = (wordData, stats, overallAttendance, trigramData) => {
+    if (wordData && wordData.length > 0 && trigramData && trigramData.length > 0) {
+      setWordData(wordData);
+      setTrigramData(trigramData);
+      setPartyStats(stats);
+      setOverallAverageAttendance(overallAttendance);
     } else {
-      setCharts([]); //reset charts if no data is available
+      setWordData([]); //reset charts if no data is available
+      setTrigramData([]);
       setPartyStats(null); //reset party stats and overall attendance
       setOverallAverageAttendance(0); 
     }
@@ -35,9 +35,10 @@ const Summaries = () => {
       </div>
       <div className='graph-container'>
         <Graphs 
-          charts={charts}
+          wordData={wordData}
           partyStats={partyStats}
-          overallAverageAttendance={overallAverageAttendance} 
+          overallAverageAttendance={overallAverageAttendance}
+          trigramData={trigramData}
           />
       </div>
     </div>
