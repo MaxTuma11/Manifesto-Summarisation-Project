@@ -7,7 +7,26 @@ const Searchbar = ({ onChartsUpdate }) => {
   const [query, setQuery] = useState('');
   const [recommendations, setRecommendations] = useState([]);
   const [result, setResult] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(-1); //track selected recommendation
   const isRecommendationClicked = useRef(false); //track if a recommendation was clicked
+
+  //mapping shortform names to full names
+  const shortFormToFullName = {
+    'snp': 'Scottish National Party',
+    'tories': 'Conservative Party',
+    'tory': 'Conservative Party',
+    'labour': 'Labour Party',
+    'tuv': 'Traditional Unionist Voice',
+    'uup': 'Ulster Unionist Party',
+    'dup': 'Democratic Unionist Party',
+    'lib dem': 'Liberal Democrat Party',
+    'green': 'Green Party',
+    'sdlp': 'Social Democratic and Labour Party',
+    'conservative': 'Conservative Party',
+    'alliance': 'Alliance Party',
+    'reform uk': 'Reform',
+    'sinn féin': "Sinn Fein"
+  }
 
   //log recommendations state whenever it changes
   // useEffect(() => {
@@ -27,10 +46,17 @@ const Searchbar = ({ onChartsUpdate }) => {
 
   //filter recommendations based on the query
   const getRecommendations = async (query) => {
-    if (query) {
+    let displayQuery = query;
+
+    //check if the query matches any short form and map it to the full name
+    if (shortFormToFullName[query.toLowerCase()]) {
+      displayQuery = shortFormToFullName[query.toLowerCase()];
+    }
+
+    if (displayQuery) {
       const manifestos = await fetchManifestos();
       const filtered = manifestos.filter((manifesto) =>
-        manifesto.name.toLowerCase().includes(query.toLowerCase())
+        manifesto.name.toLowerCase().includes(displayQuery.toLowerCase())
       );
       setRecommendations(filtered);
     } else {
@@ -86,8 +112,16 @@ const Searchbar = ({ onChartsUpdate }) => {
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
-      fetchResult(query);
-      setRecommendations([]); //clear recommendations on Enter
+      //if key press is when there is only one element in the drop down then automatically select that
+      if (recommendations.length === 1) {
+        handleRecommendationClick(recommendations[0]);
+      } 
+      else if (selectedIndex >=0) {
+        handleRecommendationClick(recommendations[selectedIndex]);
+      } else {
+        fetchResult(query);
+        setRecommendations([]); //clear recommendations on Enter
+      }
     }
   };
 
@@ -99,22 +133,51 @@ const Searchbar = ({ onChartsUpdate }) => {
     fetchResult(recommendation.name);
   };
 
+  const handleSearchClick = () => {
+    fetchResult(query);
+    setRecommendations([]);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Tab') {
+      if (e.shiftKey) {
+        // Shift + Tab (move up)
+        setSelectedIndex((prevIndex) =>
+          prevIndex === 0 ? recommendations.length - 1 : prevIndex - 1
+        );
+      } else {
+        // Tab (move down)
+        setSelectedIndex((prevIndex) =>
+          prevIndex === recommendations.length - 1 ? 0 : prevIndex + 1
+        );
+      }
+      e.preventDefault(); // Prevent default tab behavior
+    }
+  };
+
   return (
     <div className="search-bar">
-      <FaSearch id="search-icon" />
+      <div className="search-icon-holder" onClick={handleSearchClick}>
+        <FaSearch id="search-icon"/>
+      </div>
       <input
         type="text"
         value={query}
         onChange={handleInputChange}
         onKeyUp={handleKeyPress}
+        onKeyDown={handleKeyDown}
         placeholder="Search for a party..."
       />
       {recommendations.length > 0 && (
         <ul className="recommendations">
-          {recommendations.map((manifesto) => (
+          {recommendations.map((manifesto, index) => (
             <li
               key={manifesto.id}
               onClick={() => handleRecommendationClick(manifesto)}
+              style={{
+                backgroundColor: selectedIndex === index ? '#e0e0e0' : 'transparent', //highlight selected recommendation
+                cursor: 'pointer',
+              }}
             >
               {manifesto.name}
             </li>

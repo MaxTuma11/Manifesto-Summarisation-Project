@@ -61,5 +61,11 @@ input {
 
 #search-icon{
     color: royalblue;
+    width: 20px;
+    font-size: 1.5rem;
+}
+
+.search-icon-holder :hover {
+    cursor: pointer;
 }
 

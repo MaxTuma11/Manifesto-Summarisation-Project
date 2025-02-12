@@ -6,10 +6,12 @@
     margin-left: 20px;
   }
   
-  .party-stats h3 {
+  .party-stats h2 {
     margin-top: 0;
-    font-size: 18px;
+    font-size: 22px;
     color: #333;
+    text-align: center;
+    margin-bottom: 5px;
   }
   
   .stats-grid {

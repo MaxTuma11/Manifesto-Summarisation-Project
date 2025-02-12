@@ -8,7 +8,7 @@ const PartyStats = ({ partyStats, overallAverageAttendance }) => {
 
   return (
     <div className="party-stats">
-      <h3>Party Statistics</h3>
+      <h2>Party Statistics For Voting In Westminster</h2>
       <div className="stats-grid">
         <div className="stat-item">
           <span className="stat-label">Average Attendance Rate:</span>
