@@ -118,5 +118,6 @@
             "min_rebellion_rate": 0
         }
     },
-    "overall_average_attendance_rate": 75.02517515923566
+    "overall_average_attendance_rate": 75.02517515923566,
+    "overall_average_rebellion_rate": 0.7187420382165605
 }

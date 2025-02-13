@@ -7,6 +7,7 @@ def load_json(file_path):
 def compute_averages(json_data):
     party_data = {}
     all_attendance_rates = []
+    all_rebellion_rates = []
 
     for mp in json_data:
         party = mp["party"]
@@ -27,6 +28,7 @@ def compute_averages(json_data):
             all_attendance_rates.append(attendance)
         if rebellion is not None:
             party_data[party]["rebellion"].append(rebellion)
+            all_rebellion_rates.append(rebellion)
 
         
     #calculate averages
@@ -54,8 +56,9 @@ def compute_averages(json_data):
     }
 
     overall_avg_attendance = sum(all_attendance_rates) / len(all_attendance_rates) if all_attendance_rates else 0
+    overall_avg_rebellion = sum(all_rebellion_rates) / len(all_rebellion_rates) if all_rebellion_rates else 0
 
-    return {"party_statistics": stats, "overall_average_attendance_rate": overall_avg_attendance}
+    return {"party_statistics": stats, "overall_average_attendance_rate": overall_avg_attendance, "overall_average_rebellion_rate": overall_avg_rebellion}
 
 def save_to_json(data, output_file):
     with open(output_file, "w", encoding="utf-8") as json_file:

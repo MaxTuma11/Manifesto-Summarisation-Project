@@ -89,16 +89,18 @@ const Searchbar = ({ onChartsUpdate }) => {
         //extract the statistics for the selected party
         const partyStats = statsData.party_statistics[selectedManifesto.name];
         const overallAverageAttendance = statsData.overall_average_attendance_rate;
+        const overallAverageRebellion = statsData.overall_average_rebellion_rate;
+        console.log(partyStats);
 
         //pass the data to the parent component
-        onChartsUpdate(data, partyStats, overallAverageAttendance, data2);
+        onChartsUpdate(data, partyStats, overallAverageAttendance, data2, overallAverageRebellion);
       } catch (error) {
         console.error('Error loading chart data:', error);
-        onChartsUpdate([], null, 0, []); //reset data if there's an error
+        onChartsUpdate([], null, 0, [], 0); //reset data if there's an error
       }
     } else {
       setResult(null);
-      onChartsUpdate([], null, 0, []); //reset data if no manifesto is selected
+      onChartsUpdate([], null, 0, [], 0); //reset data if no manifesto is selected
     }
   };
 

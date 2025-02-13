@@ -10,7 +10,7 @@ const BarChart = ({ data, title }) => {
     //set up chart dimensions
     const width = 800;
     const height = 500;
-    const margin = { top: 20, right: 30, bottom: 120, left: 50 }; 
+    const margin = { top: 20, right: 30, bottom: 170, left: 70 }; 
 
     //clear previous chart
     d3.select(chartRef.current).selectAll('*').remove();

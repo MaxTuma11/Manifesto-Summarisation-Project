@@ -1,7 +1,7 @@
 import React from 'react';
 import './PartyStats.css';
 
-const PartyStats = ({ partyStats, overallAverageAttendance }) => {
+const PartyStats = ({ partyStats, overallAverageAttendance, overallAverageRebellion }) => {
   if (!partyStats) {
     return <div className="no-stats">No statistics available.</div>;
   }
@@ -36,8 +36,16 @@ const PartyStats = ({ partyStats, overallAverageAttendance }) => {
         </div>
       </div>
       <div className="overall-stat">
+        <span className="stat-label">Number of Party MPs:</span>
+        <span className="stat-value">{partyStats.mp_count}</span>
+      </div>
+      <div className="overall-stat">
         <span className="stat-label">Government Average Attendance Rate:</span>
         <span className="stat-value">{overallAverageAttendance.toFixed(2)}%</span>
+      </div>
+      <div className="overall-stat">
+        <span className="stat-label">Government Average Rebellion Rate:</span>
+        <span className="stat-value">{overallAverageRebellion.toFixed(2)}%</span>
       </div>
     </div>
   );
