@@ -1,7 +1,7 @@
 import re
 
 # Read the manifesto file
-file_path = "C:/Users/mtuma/Manifesto-Summarisation-Project/Manifestos/LibDemManifesto.txt"
+file_path = "C:/Users/mtuma/Manifesto-Summarisation-Project/Manifestos/UUPManifesto.txt"
 
 with open(file_path, "r", encoding="utf-8") as file:
     text = file.read()
