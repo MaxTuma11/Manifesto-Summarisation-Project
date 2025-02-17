@@ -19,3 +19,7 @@
     color: #666;
     padding: 20px;
 }
+
+.chart-item svg {
+    width: 100%;
+  }
