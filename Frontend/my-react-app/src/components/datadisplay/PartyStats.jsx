@@ -36,15 +36,15 @@ const PartyStats = ({ partyStats, overallAverageAttendance, overallAverageRebell
         </div>
       </div>
       <div className="overall-stat">
-        <span className="stat-label">Number of Party MPs:</span>
+        <span className="stat-label">Number of Party MPs: </span>
         <span className="stat-value">{partyStats.mp_count}</span>
       </div>
       <div className="overall-stat">
-        <span className="stat-label">Government Average Attendance Rate:</span>
+        <span className="stat-label">Government Average Attendance Rate: </span>
         <span className="stat-value">{overallAverageAttendance.toFixed(2)}%</span>
       </div>
       <div className="overall-stat">
-        <span className="stat-label">Government Average Rebellion Rate:</span>
+        <span className="stat-label">Government Average Rebellion Rate: </span>
         <span className="stat-value">{overallAverageRebellion.toFixed(2)}%</span>
       </div>
     </div>
