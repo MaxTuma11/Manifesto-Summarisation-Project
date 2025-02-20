@@ -47,12 +47,16 @@ input {
   
 .result {
     position: absolute;
-    top: 120%; /*Add space between the search bar and the result */
+    top: 120%; /*add space between the search bar and the result */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #f9f9f9;
-    width: 94.8%;
+    width: 97.7%;
+    min-height: 100px; 
+    max-height: 300px; /* limit max height so text doesn't overflow onto the stats */
+    overflow-y: auto; /* enable scrolling */
+    transition: all 0.3s ease-in-out; /* smooth transition */
 }
 
 .result p{
