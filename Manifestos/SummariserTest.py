@@ -11,6 +11,10 @@ summarizer = pipeline("summarization", model="Falconsai/text_summarization")
 #set base directory
 base_dir = "C:/Users/mtuma/Manifesto-Summarisation-Project/Manifestos/"
 
+#list of topic filenames (excluding party prefix)
+topics = ["Crime", "Economy", "Education", "Environment", "Health", "Housing", "Immigration", "Transport"]
+
+
 #function to read file content
 def read_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
@@ -22,11 +26,13 @@ def determine_max_words(text_length):
         return 200  #use smaller chunks for shorter texts
     elif text_length < 800:
         return 300
+    elif text_length < 1000:
+        return 375  
     else:
-        return 400  #default for longer texts
+        return 450 #default for longer texts
 
 #this function splits the text into chunks with full sentences. 
-def split_text_by_sentences(text, max_words=400):
+def split_text_by_sentences(text, max_words=450):
     sentences = sent_tokenize(text)  #split text into sentences
     chunks = []
     current_chunk = []
@@ -65,7 +71,7 @@ def summarize_text(text_chunks):
         #if chunk is very small, adjust max_length
         if chunk_length < 100:
             max_len = chunk_length
-            min_len = 30
+            min_len = 20
         elif chunk_length < 200:
             max_len = chunk_length
             min_len = 30
@@ -94,7 +100,12 @@ def clean_summary(text):
 
 #dictionary to store summaries
 summaries_dict = {}
+
+#dictionary to store text chunks for testing purposes
 text_chunks_dict = {}
+
+#dictionary to store topic-wise summaries
+topic_summaries = {topic: {} for topic in ["Base"] + topics}
 
 #loop through each party folder
 for party_folder in os.listdir(base_dir):
@@ -104,28 +115,50 @@ for party_folder in os.listdir(base_dir):
     if os.path.isdir(party_path) and os.path.exists(file_path):  #check if folder & file exist
         print(f"Processing: {party_folder}")
 
-        #read and summarize manifesto
-        text = read_file(file_path)
-        max_words = determine_max_words(len(text.split()))
-        text_chunks = split_text_by_sentences(text, max_words)
+        #set base summary first for general manifesto
+        base_file_path = os.path.join(party_path, f"{party_folder}Base.txt")
+        if os.path.exists(base_file_path):  
+            print(f"  Summarising Base.txt for {party_folder}...")
+            text = read_file(base_file_path)
+            max_words = determine_max_words(len(text.split()))
+            text_chunks = split_text_by_sentences(text, max_words)
 
-        text_chunks_dict[party_folder] = text_chunks
+            text_chunks_dict[party_folder] = text_chunks
 
-        #summarize and clean text
-        summary = summarize_text(text_chunks)
-        summary = clean_summary(summary)
+            summary = summarize_text(text_chunks)
+            summary = clean_summary(summary)
 
-        #store in dictionary
-        summaries_dict[party_folder] = summary
+            #store under "Base"
+            topic_summaries["Base"][party_folder] = summary
+
+        #process for each topic
+        for topic in topics:
+            file_path = os.path.join(party_path, f"{party_folder}{topic}.txt")  
+
+            if os.path.exists(file_path):  
+                print(f"  Summarising {topic} for {party_folder}...")
+                text = read_file(file_path)
+                max_words = determine_max_words(len(text.split()))
+                text_chunks = split_text_by_sentences(text, max_words)
+
+                summary = summarize_text(text_chunks)
+                summary = clean_summary(summary)
+
+                #store under the corresponding topic
+                topic_summaries[topic][party_folder] = summary
 
 #check text chunks
 output_json_path1 = "C:/Users/mtuma/Manifesto-Summarisation-Project/Manifesto_Chunks.json"
 with open(output_json_path1, "w", encoding="utf-8") as json_file:
     json.dump(text_chunks_dict, json_file, indent=4, ensure_ascii=False)
 
-#save to JSON file
-output_json_path = "C:/Users/mtuma/Manifesto-Summarisation-Project/Manifesto_Summaries.json"
-with open(output_json_path, "w", encoding="utf-8") as json_file:
-    json.dump(summaries_dict, json_file, indent=4, ensure_ascii=False)
+#save summaries to separate JSON files per topic (including Base.json)
+output_dir = "C:/Users/mtuma/Manifesto-Summarisation-Project/Summarised_Topics/"
+os.makedirs(output_dir, exist_ok=True)
 
-print(f"Summaries saved to {output_json_path}")
+for topic, summaries in topic_summaries.items():
+    output_json_path = os.path.join(output_dir, f"{topic}_Summaries.json")
+    with open(output_json_path, "w", encoding="utf-8") as json_file:
+        json.dump(summaries, json_file, indent=4, ensure_ascii=False)
+
+    print(f"Saved {topic} summaries to {output_json_path}")

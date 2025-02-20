@@ -2,13 +2,13 @@ CHAPTER 2 UK PUBLIC FINANCES.
 UK public finances are in a difficult space – Public Sector Net Debt is at a level last seen in the early 1960s. This is after over a decade of damaging austerity initiated by the UK Government to address the post-2008 financial bailout and associated debt overhang. Covid-related expenditure has since contributed to debt levels, and there is no obvious way out of this precarious financial position under current Treasury rules.
 The Truss/Kwarteng Mini Budget compounded the situation by undermining trust and credibility in the UK Government and causing underlying interest rates to spike; they remain elevated as a result. This has had the dual effect of increasing borrowing costs for the UK Government and homeowners and businesses – many households are still to feel these impacts when they reach the end of fixed-rate mortgage deals.
 Realistically, future economic and financial shocks are highly probable, particularly given rising global geopolitical tensions. Public sector debt levels will continue to face pressure from emerging crises, and the UK Government must unravel the conflict that this creates in terms of financing essential public services and investing in the future.
-2.1 IMPACT ON PUBLIC SERVICES, ECONOMY AND CLIMATE.
+IMPACT ON PUBLIC SERVICES, ECONOMY AND CLIMATE.
 In this fiscal climate, our public services have been squeezed beyond recognition. Health waiting lists are rising, school budgets are inadequate to meet needs, and there is insufficient funding for key areas of public concern, such as the economy, policing and justice, and environmental protection. Without reform, public services will continue to decline and decay at the expense of societal well- being, and our economic and environmental future.
 The UK economy continues to underperform.
 Brexit has caused further challenges, and the additional resultant trade barriers to the UK’s largest market have hindered growth significantly.
 The UK is also facing significant environmental risks. There are enormous costs associated with climate inaction. Recent research suggests that this will cost the global economy £30 trillion per year by 2049. Huge economic and social impacts are currently accruing and are not actively factored into political decision-making.
 Significant investment is required to offset this decline in public services and to mitigate economic and environmental risks. Alliance believes that there is a potential solution to the public funding/debt deadlock and that it lies in fundamental reform of elements of the UK’s fiscal framework – specifically, Fiscal Rules.
-2.2 FISCAL RULES REFORM.
+FISCAL RULES REFORM.
 We know that fiscal discipline is vital in protecting the UK’s credit rating and the associated costs of servicing public sector debt. Fiscal Rules – essentially the spending discipline that the Government observes to ensure that expenditure is responsible, sustainable, and not unduly subjected to political short-termism – are extremely important in ensuring financial stability.
 However, there is an emerging argument that these Fiscal Rules are too restrictive and, as such, are constraining investment, economic growth and environmental protection.
 Alliance believes that this argument is particularly pertinent in relation to expenditure on the environment. The UK’s current fiscal framework does not adequately reflect future costs associated with environmental inaction, which, as quantified above, runs into trillions of pounds annually.
@@ -22,7 +22,7 @@ We believe this investment is also key to addressing many of the deficiencies in
 Strategic, targeted investment could unlock new skills, jobs and technologies. This would also address stalled investment levels in the UK – which are constraining growth – providing a stable policy outlook and unlocking additional private sector investment.
 Alliance will continue to advocate for reform of the Fiscal Framework on a strategic and fiscally prudent basis, to benefit public services, the economy and the environment.
 We firmly believe this would unlock much- needed funding for NI and enable us to invest in public services and our future prosperity.
-2.3 TAXATION, PENSIONS AND WELFARE SUPPORT.
+TAXATION, PENSIONS AND WELFARE SUPPORT.
 As set out above, Alliance believes there is a credible case for increasing the total quantum of funding available to the UK Government for strategic expenditure via a revised fiscal framework. Two other core components of the net funding envelope, namely taxation and welfare support, are determined by UK Government Fiscal Policy, and have huge implications on household wellbeing in Northern Ireland.
 Taxation.
 Alliance maintains that there is potential for a fairer, more redistributive system without any additional tax being levied on ordinary working households. We believe the current UK taxation policy fails to adequately capture and reflect wealth and should be revised to ensure a more progressive tax system.
@@ -43,15 +43,16 @@ Scrapping the policy would be one of the most efficient ways of reducing child p
 The five-week wait for initial Universal Credit payments is also leaving many claimants struggling to afford basic living costs and locked into a cycle of debt from the beginning of their UC journey. A wider review is needed to look at ways of making the Universal Credit system more flexible and responsive for new claimants. We also support the establishment of an Essentials Guarantee in the social security system, ensuring that people’s incomes cover the cost of living.
 Carer’s Allowance remains one of the lowest benefits of its kind in the entire welfare system. To better recognise the enormous contribution unpaid carers make to public services, Alliance supports the delivery of a Carer’s Allowance Supplement and extension of the Carer’s Allowance earnings threshold.
 We also support increases in support for maternity, paternity, shared-parental and adoption entitlements.
-2.4 CHILDCARE.
+CHILDCARE.
 Families and households in Northern Ireland are currently suffering from a super-disparity in childcare support relative to those in other regions of the UK. Not only is this inequitable, but Alliance considers childcare to be key infrastructure that would allow us to unlock current and future economic potential, and we would urgently prioritise investment in childcare provision.
 We have proposed a bespoke model for Northern Ireland – an Affordable Childcare Scheme – that will deliver better outcomes for children, reduced costs for parents, and enhance the sustainability of childcare provision.
 We note the Northern Ireland Education Minister’s announcement that he aims to develop an interim scheme later in the year.
 This is welcome, and we recognise much of our own proposals in what the Minister has set out. However, Westminster also has a role to play.
-We are calling for: • Improvements to the UK Government’s Tax-Free Childcare scheme such as a more user-friendly interface; increasing/removing the cap, and increasing the relief from 20% to 35%.
+We are calling for: 
+• Improvements to the UK Government’s Tax-Free Childcare scheme such as a more user-friendly interface; increasing/removing the cap, and increasing the relief from 20% to 35%.
 • Better information for parents on the types of childcare available, support with costs and the potential risks of using unregistered providers.
 You find can out more about our childcare policy and see our more comprehensive range of recommendations in Children First: Alliance’s Proposals for Child-centred and Affordable Childcare, published in October 2023.
-2.5 NORTHERN IRELAND PUBLIC FINANCES.
+NORTHERN IRELAND PUBLIC FINANCES.
 The level of public finances available to NI underpins the Executive and Assembly’s capacity to sustain and transform public services such as health, education and justice, invest in public sector pay, drive the local economy, and protect our environment.
 Public Finances Alliance played a pivotal role in negotiating and securing the £3.3bn financial package in December 2023. During the period of collapse, we made numerous representations to the UK Government to flag the false economies associated with the neglect of public services and pay levels in Northern Ireland. We advocated for a financial package to stabilise and transform public finances and public services.
 Restoring our financial health will require stabilisation of the current financial crisis, and subsequent transformation of public spending to place public finances and services on a more sustainable footing. Northern Ireland cannot achieve better outcomes through continued cuts. Longer-term solutions are needed.
@@ -60,7 +61,8 @@ Fundamentally, the core level of funding for NI is key for our economic, social 
 Alliance believes that a Fiscal Floor of 124 does not reflect our relative need in NI versus England. The current assessment of 124% is based on spending on policing and justice in the period from 2017-2022 (which has been used as a measure of related ‘need’). However, this period was characterised by continuing cuts to the Department of Justice budget, whereas the prior, ringfenced funding period from 2010-2015 was arguably more reflective of true policing and justice needs, as identified by the UK Government when the powers were first devolved.
 Alliance is committed to securing a base-lined fiscal floor, set at a level in excess of 124, as part of the next UK Spending Review. This process should be informed by external independent analysis.
 This historical underfunding continues to be compounded by significant inefficiencies in how money is spent in Northern Ireland, including the slow rate of reform in many areas and the distortions that come from trying to manage a divided society. Research by Ulster University in 2016 indicated that division in NI costs between £400m and £800m per annum. Alliance, of course, advocates inclusivity and a phased elimination of division. As referenced in chapter one, we believe the UK Government should fund new, comprehensive research into the updated cost of division in NI.
-Building on our Assembly Party Manifesto, in order to maximise the impact of the Northern Ireland budget, we believe four key areas of reform are needed: 1 Reducing the costs of division.
+Building on our Assembly Party Manifesto, in order to maximise the impact of the Northern Ireland budget, we believe four key areas of reform are needed: 
+1 Reducing the costs of division.
 2 Reforming the public sector, including early intervention and protection.
 3 Improving budget setting and scrutiny processes.
 4 Reviewing existing and potential revenue raising options, and consideration of tax- varying powers.
@@ -72,7 +74,7 @@ We must build on our emerging strengths in terms of fintech, cyber, pharma and t
 However, we acknowledge that relatively low levels of productivity, skills gaps and mismatches, infrastructure gaps, labour market inefficiencies and high levels of economic inactivity all need to be addressed.
 Alliance will strive to exploit all trade and business services opportunities with other parts of the UK, on an all-island basis, with the wider EU and, indeed, globally. Of particular significance is how the UK rebuilds its relationship and more closely aligns with the EU.
 Our most recent Assembly Manifesto provides more details on Alliance’s priorities in the devolved space, including investment in skills, research and infrastructure, and reform of the planning system.
-3.1 CHANGING UK ECONOMIC POLICY.
+CHANGING UK ECONOMIC POLICY.
 The UK’s economic strategy is in need of a cohesive and comprehensive overhaul. In recent years, the UK economy has grappled with a host of challenges, from productivity levels and public and private investment to skills shortages and labour market inefficiency.
 The impact of Brexit, including increased trade barriers with the EU, our largest and closest market, has further hampered growth.
 It’s crucial to note that the UK economy is one of the most regionally unbalanced in Europe, with only 3 out of 12 regions contributing to the Treasury.
@@ -91,7 +93,7 @@ Alliance MPs will work at Westminster to secure action from the UK Government to
 • Invest strategically to ensure that Northern Ireland has the skills and ability to attract greater levels of funding from projects such as UK Research Councils and meet emerging labour market skills demands.
 • Establish renewed partnerships between Government and local businesses to formalise business representation, improve co-ordination and enable engagement North-South and East-West.
 • Review investment levels in skills, the funding model for colleges, universities and apprenticeships and student finance for England – as revised outcomes may have beneficial outcomes for Northern Ireland.
-3.2 SUPPORTING NORTHERN IRELAND’S ECONOMY.
+SUPPORTING NORTHERN IRELAND’S ECONOMY.
 While the devolved institutions hold many economic policy levers, the UK Government has a crucial role to play. By working in collaboration with the Executive and Assembly, the UK Government can significantly bolster the Northern Ireland economy.
 NI Trade and Exports.
 The UK Government has an important role in supporting exports from Northern Ireland, as well as ensuring UK trade deals do not have a detrimental effect on key NI industries, such as agrifood. This includes the appropriate inclusion of Northern Ireland businesses on trade missions and access to trade shows.
