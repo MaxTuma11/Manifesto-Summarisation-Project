@@ -3,10 +3,24 @@ import { FaSearch } from 'react-icons/fa';
 import './Searchbar.css';
 import axios from 'axios';
 
+//list of topics that are used for the dropdown
+const topics = [
+  "Summary",
+  "Crime",
+  "Economy",
+  "Education",
+  "Environment",
+  "Health",
+  "Housing",
+  "Immigration",
+  "Transport",
+];
+
 const Searchbar = ({ onChartsUpdate }) => {
   const [query, setQuery] = useState('');
   const [recommendations, setRecommendations] = useState([]);
   const [result, setResult] = useState(null);
+  const [selectedTopic, setSelectedTopic] = useState("Summary"); //default the selected topic to summary
   const [selectedIndex, setSelectedIndex] = useState(-1); //track selected recommendation
   const isRecommendationClicked = useRef(false); //track if a recommendation was clicked
 
@@ -27,11 +41,6 @@ const Searchbar = ({ onChartsUpdate }) => {
     'reform uk': 'Reform',
     'sinn féin': "Sinn Fein"
   }
-
-  //log recommendations state whenever it changes
-  // useEffect(() => {
-  //   console.log('Recommendations state updated:', recommendations);
-  // }, [recommendations]);
 
   //fetch all manifestos from the API using axios
   const fetchManifestos = async () => {
@@ -71,7 +80,9 @@ const Searchbar = ({ onChartsUpdate }) => {
       (manifesto) => manifesto.name.toLowerCase() === query.toLowerCase()
     );
     if (selectedManifesto) {
-      setResult(selectedManifesto.summary);
+      //get the summary for the selected topic
+      const topicSummary = selectedManifesto[selectedTopic.toLowerCase()] || "No data available for this topic.";
+      setResult(topicSummary);
 
       //load the corresponding JSON file for the selected manifesto
       try {
@@ -103,6 +114,12 @@ const Searchbar = ({ onChartsUpdate }) => {
       onChartsUpdate([], null, 0, [], 0); //reset data if no manifesto is selected
     }
   };
+
+  useEffect(() => {
+    if (query) {
+      fetchResult(query);
+    }
+  }, [selectedTopic]);
 
   useEffect(() => {
     //console.log('Query updated:', query); // Debugging
@@ -147,17 +164,17 @@ const Searchbar = ({ onChartsUpdate }) => {
   const handleKeyDown = (e) => {
     if (e.key === 'Tab') {
       if (e.shiftKey) {
-        // Shift + Tab (move up)
+        //shift + Tab (move up)
         setSelectedIndex((prevIndex) =>
           prevIndex === 0 ? recommendations.length - 1 : prevIndex - 1
         );
       } else {
-        // Tab (move down)
+        //tab (move down)
         setSelectedIndex((prevIndex) =>
           prevIndex === recommendations.length - 1 ? 0 : prevIndex + 1
         );
       }
-      e.preventDefault(); // Prevent default tab behavior
+      e.preventDefault(); //prevent default tab behavior
     }
   };
 
@@ -174,6 +191,13 @@ const Searchbar = ({ onChartsUpdate }) => {
         onKeyDown={handleKeyDown}
         placeholder="Search for a party..."
       />
+      <select className="topic-dropdown" value={selectedTopic} onChange={(e) => setSelectedTopic(e.target.value)}>
+          {topics.map((topic) => (
+            <option key={topic} value={topic}>
+              {topic}
+            </option>
+          ))}
+      </select>
       {recommendations.length > 0 && (
         <ul className="recommendations">
           {recommendations.map((manifesto, index) => (
@@ -192,7 +216,7 @@ const Searchbar = ({ onChartsUpdate }) => {
       )}
       {result !== null && (
         <div className="result">
-          <h2>Summary:</h2>
+          <h2>{selectedTopic}:</h2>
           <p>{result}</p>
         </div>
       )}

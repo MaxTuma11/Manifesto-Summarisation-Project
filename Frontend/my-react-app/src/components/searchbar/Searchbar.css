@@ -44,7 +44,19 @@ input {
 .recommendations li:hover {
     background-color: #f0f0f0;
 }
-  
+
+.topic-dropdown {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topic-dropdown option{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .result {
     position: absolute;
     top: 120%; /*add space between the search bar and the result */
