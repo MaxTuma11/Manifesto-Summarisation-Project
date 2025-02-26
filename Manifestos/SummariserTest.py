@@ -96,7 +96,12 @@ def clean_summary(text):
     #capitalize first letter of each sentence
     text = re.sub(r'(^|\.\s+)([a-z])', lambda match: match.group(1) + match.group(2).upper(), text)
 
-    return text
+    #check the end of the paragraph, if it doesn't end with a full stop or ." then remove the end until it finds such punctuation
+    match = re.search(r'([\.\!\?]\"?)\s*$', text)  #look for valid sentence-ending punctuation
+    if not match:
+        text = re.sub(r'(\s*[^.?!\"]+)$', '', text)  #remove trailing text until proper punctuation
+    
+    return text.strip() #return text with trailing whitespace removed
 
 #dictionary to store summaries
 summaries_dict = {}
@@ -143,6 +148,13 @@ for party_folder in os.listdir(base_dir):
 
                 summary = summarize_text(text_chunks)
                 summary = clean_summary(summary)
+
+                if (len(summary) > 3000):
+                    print("RESUMMARISING")
+                    max_words = determine_max_words(len(summary.split()))
+                    text_chunks = split_text_by_sentences(summary, max_words)
+                    summary = summarize_text(text_chunks)
+                    summary = clean_summary(summary)
 
                 #store under the corresponding topic
                 topic_summaries[topic][party_folder] = summary

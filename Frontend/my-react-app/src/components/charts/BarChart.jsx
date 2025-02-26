@@ -128,6 +128,7 @@ const BarChart = ({ data, title }) => {
       .attr('x', containerWidth / 2)
       .attr('y', margin.top)
       .attr('text-anchor', 'middle')
+      //.style('padding-bottom', '50px')
       .style('font-size', '16px')
       .style('font-weight', 'bold')
       .text(title);
