@@ -6,7 +6,7 @@ const BarChart = ({ data, title }) => {
   const [width, setWidth] = useState(0);
   //set up chart dimensions
   const height = 500;
-  const margin = { top: 20, right: 30, bottom: 170, left: 70 }; 
+  const margin = { top: 30, right: 30, bottom: 170, left: 70 }; 
   const [containerWidth, setContainerWidth] = useState(800);
 
   //update dimensions on window resize
@@ -126,9 +126,8 @@ const BarChart = ({ data, title }) => {
     //add title
     svg.append('text')
       .attr('x', containerWidth / 2)
-      .attr('y', margin.top)
+      .attr('y', margin.top - 10)
       .attr('text-anchor', 'middle')
-      //.style('padding-bottom', '50px')
       .style('font-size', '16px')
       .style('font-weight', 'bold')
       .text(title);
