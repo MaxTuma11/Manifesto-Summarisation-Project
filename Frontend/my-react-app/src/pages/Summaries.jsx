@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Summaries.css'
-import Navbar from '../components/navbar/Navbar'
+import Navbar from '../components/navbar/navbar'
 import Searchbar from '../components/searchbar/Searchbar'
 import Graphs from '../components/graphdisplay/Graphs'
 

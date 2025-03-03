@@ -50,11 +50,12 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
 }
 
 .topic-dropdown option{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
 }
 
 .result {
@@ -73,6 +74,7 @@ input {
 
 .result p{
     color: black;
+    font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
 }
 
 #search-icon{

@@ -95,13 +95,13 @@ const Searchbar = ({ onChartsUpdate }) => {
 
         const triResponse = await fetch(`/common_${selectedManifesto.name}_trigrams.json`);
         const data2 = await triResponse.json();
-        console.log(data2);
+        //console.log(data2);
 
         //extract the statistics for the selected party
         const partyStats = statsData.party_statistics[selectedManifesto.name];
         const overallAverageAttendance = statsData.overall_average_attendance_rate;
         const overallAverageRebellion = statsData.overall_average_rebellion_rate;
-        console.log(partyStats);
+        //console.log(partyStats);
 
         //pass the data to the parent component
         onChartsUpdate(data, partyStats, overallAverageAttendance, data2, overallAverageRebellion);

@@ -103,7 +103,7 @@ const BarChart = ({ data, title }) => {
         
         tooltip
           .style('opacity', 1)
-          .html(`Value: ${d[1]}`)
+          .html(`${d[0]}: ${d[1]}`)
           .style('left', `${event.pageX + 10}px`)
           .style('top', `${event.pageY - 20}px`);
       })
