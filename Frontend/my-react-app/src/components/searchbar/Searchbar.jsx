@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FaSearch } from 'react-icons/fa'; //import search icon
-import { FaSpinner } from 'react-icons/fa'; //import spinner icon
+import { FaSearch, FaSpinner, FaQuestionCircle, FaTimes } from 'react-icons/fa'; //import search icon, spinner icon, question circle icon, and X icon
 import './Searchbar.css';
 import axios from 'axios';
 
@@ -18,12 +17,13 @@ const topics = [
 ];
 
 const Searchbar = ({ onChartsUpdate }) => {
-  const [query, setQuery] = useState('');
-  const [recommendations, setRecommendations] = useState([]);
-  const [result, setResult] = useState(null);
+  const [query, setQuery] = useState(''); //state for query
+  const [recommendations, setRecommendations] = useState([]); //state for dropdown recommendations
+  const [result, setResult] = useState(null); //state for results
   const [selectedTopic, setSelectedTopic] = useState("Summary"); //default the selected topic to summary
   const [selectedIndex, setSelectedIndex] = useState(-1); //track selected recommendation
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false); //loading state for manifesto loading spinner
+  const [showHelp, setShowHelp] = useState(false); //show help popup state
   const isRecommendationClicked = useRef(false); //track if a recommendation was clicked
 
   //mapping shortform names to full names
@@ -168,10 +168,14 @@ const Searchbar = ({ onChartsUpdate }) => {
     fetchResult(recommendation.name);
   };
 
+  //handling for search being clicked
   const handleSearchClick = () => {
     fetchResult(query);
-    setRecommendations([]);
+    setRecommendations([]); //clear recommendations
   };
+
+  //toggle help
+  const toggleHelp = () => setShowHelp(!showHelp);
 
   const handleKeyDown = (e) => {
     if (e.key === 'Tab') {
@@ -210,6 +214,23 @@ const Searchbar = ({ onChartsUpdate }) => {
             </option>
           ))}
       </select>
+
+      <button className="help-button" onClick={toggleHelp}>
+        <FaQuestionCircle />
+      </button>
+
+      {showHelp && (
+        <div className="help-popup">
+          <button className="close-button" onClick={toggleHelp}>
+            <FaTimes />
+          </button>
+          <h3>How to Use the Search</h3>
+          <p>🔍 Type the name of a political party to see their manifesto summary.</p>
+          <p>🎯 Use party names like "Labour", "SNP", or "Green" to get results.</p>
+          <p>📊 Select a topic from the dropdown to filter manifesto details.</p>
+        </div>
+      )}
+
       {recommendations.length > 0 && (
         <ul className="recommendations">
           {recommendations.map((manifesto, index) => (
