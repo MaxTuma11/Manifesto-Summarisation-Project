@@ -10,6 +10,7 @@
     width: 100%;
     border-radius: 10px;
     display: block;
+    border: 5px solid #B4ACE2;
 }
 
 .guide{

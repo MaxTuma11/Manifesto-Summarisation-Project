@@ -12,7 +12,6 @@ const Home = () => {
       <div className='container'>
         <Title/>
         <Guide/>
-        <Guide/>
       </div>
     </div>
   )
