@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FaSearch } from 'react-icons/fa';
+import { FaSearch } from 'react-icons/fa'; //import search icon
+import { FaSpinner } from 'react-icons/fa'; //import spinner icon
 import './Searchbar.css';
 import axios from 'axios';
 
@@ -22,6 +23,7 @@ const Searchbar = ({ onChartsUpdate }) => {
   const [result, setResult] = useState(null);
   const [selectedTopic, setSelectedTopic] = useState("Summary"); //default the selected topic to summary
   const [selectedIndex, setSelectedIndex] = useState(-1); //track selected recommendation
+  const [loading, setLoading] = useState(false);
   const isRecommendationClicked = useRef(false); //track if a recommendation was clicked
 
   //mapping shortform names to full names
@@ -75,6 +77,9 @@ const Searchbar = ({ onChartsUpdate }) => {
 
   //fetch the result (summary) based on the selected manifesto
   const fetchResult = async (query) => {
+
+    setLoading(true); //start loading icon
+
     const manifestos = await fetchManifestos();
     const selectedManifesto = manifestos.find(
       (manifesto) => manifesto.name.toLowerCase() === query.toLowerCase()
@@ -82,7 +87,11 @@ const Searchbar = ({ onChartsUpdate }) => {
     if (selectedManifesto) {
       //get the summary for the selected topic
       const topicSummary = selectedManifesto[selectedTopic.toLowerCase()] || "No data available for this topic.";
-      setResult(topicSummary);
+      
+      setTimeout(() => {
+        setResult(topicSummary);
+        setLoading(false); //stop loading after 2 seconds
+      }, 2000);
 
       //load the corresponding JSON file for the selected manifesto
       try {
@@ -110,8 +119,11 @@ const Searchbar = ({ onChartsUpdate }) => {
         onChartsUpdate([], null, 0, [], 0); //reset data if there's an error
       }
     } else {
-      setResult(null);
-      onChartsUpdate([], null, 0, [], 0); //reset data if no manifesto is selected
+      setTimeout(() => {
+        setResult(null);
+        setLoading(false);
+        onChartsUpdate([], null, 0, [], 0);
+      }, 1000); //reset data if no manifesto is selected
     }
   };
 
@@ -214,11 +226,20 @@ const Searchbar = ({ onChartsUpdate }) => {
           ))}
         </ul>
       )}
-      {result !== null && (
+      {loading ? (
+        <div className="result">
+          {/* <h2>{selectedTopic}:</h2> */}
+          <div className="loading">
+            <FaSpinner className="spinner" /> Summarising manifesto...
+          </div>
+        </div>
+      ) : (
+      result !== null && (
         <div className="result">
           <h2>{selectedTopic}:</h2>
           <p>{result}</p>
         </div>
+      )
       )}
     </div>
   );
