@@ -6,7 +6,7 @@ const BarChart = ({ data, title }) => {
   const [width, setWidth] = useState(0);
   //set up chart dimensions
   const height = 500;
-  const margin = { top: 30, right: 30, bottom: 170, left: 70 }; 
+  const margin = { top: 30, right: 30, bottom: 130, left: 75 }; 
   const [containerWidth, setContainerWidth] = useState(800);
 
   //update dimensions on window resize
