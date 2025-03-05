@@ -53,6 +53,18 @@ const About = () => {
             Data collection does not pose useful as most metrics collected would be meaningless. 
             Surveys and Questionnaires are more likely data collection methods for the future to gauge user feelings.
         </p>
+        <h2>Stop words for counting manifesto words.</h2>
+        <p>
+            Stop words exist to remove common words which add little context or information. Ignoring them allows us to focus on more important words which revolve around policies and politcal feelings. <br></br><br></br>
+            NLTK corpus stopwords: i, me, my, myself, we, our, ours, ourselves, you, your, yours, yourself, yourselves, he, him, his, himself, she, her, hers, herself, it, its, itself, they, them, 
+            their, theirs, themselves, what, which, who, whom, this, that, these, those, am, is, are, was, were, be, been, being, have, has, had, having, do, does, did, doing, a, an, the, and, 
+            but, if, or, because, as, until, while, of, at, by, for, with, about, against, between, into, through, during, before, after, above, below, to, from, up, down, in, out, on, off, over, 
+            under, again, further, then, once, here, there, when, where, why, how, all, any, both, each, few, more, most, other, some, such, no, nor, not, only, own, same, so, than, too, very, 
+            s, t, can, will, just, don, should, now. <br></br> <br></br>
+            Additional custom stopwords: "manifesto", "manifestos", "party", "parties", "will", "also", "would", "ensure", "labour", "alliance", "conservative", "dup", "green", "greens", "liberal", "democrats",
+            "plaid", "cymru", "sdlp", "sinn", "féin", "snp", "tuv", "uup", "v", "2023", "2024", "2025", "elected", "x", "government".
+
+        </p>
       </div>
       <div className='about-right'>
         <h3>FAQs</h3>
@@ -96,6 +108,18 @@ const About = () => {
             - Go to the Manifesto Summaries page. <br></br>
             - Search one of the main UK political parties in the search bar. <br></br>
             - Read through the summaries and check out the additional statistics.
+        </p>
+        <h2>What do the politcal statistics mean?</h2>
+        <p>
+            There are two main statistics shown on the page. Attendance and Rebellion. <br></br>
+            To begin with attendance can be explained. The attendance is just how much a MP (Member of Parliament) goes to vote in UK parliament.
+            Each MP has an attendance value which varies from 0-100%. 0% meaning they have never attended any votes in Westminster after becoming an MP, 100% means they have attended every single one since becoming an MP.
+            It is important to say there are many reasons why MPs may not attend many votes such as ministerial duties or being the speaker for the vote. The stat displayed is the average for each party based on all their MPs. <br></br><br></br>
+
+            Rebellion is about how often an MP will vote against their party. Again these values range from 0-100%, where 0% means they voted according to their parties policy every time, and 100% would mean they voted against their party in every vote.
+            The displayed metric is also an average for each party. <br></br><br></br>
+
+            These metrics are interesting, however they do not paint the whole picture of the party, e.g. see Sinn Fein above.
         </p>
       </div>
     </div>
