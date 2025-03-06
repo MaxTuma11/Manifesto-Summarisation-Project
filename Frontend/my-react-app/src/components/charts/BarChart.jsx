@@ -15,6 +15,7 @@ const BarChart = ({ data, title }) => {
       if (chartRef.current) {
         const newWidth = chartRef.current.parentElement.clientWidth;
         setContainerWidth(newWidth);
+        // console.log(newWidth);
       }
     };
 

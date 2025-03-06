@@ -2,8 +2,22 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* flexible grid */
     gap: 20px; /* spacing between charts */
+    justify-content: center;
     padding: 20px;
     height: 500px;
+}
+
+@media (min-width: 900px) {
+    .graphs-container {
+        grid-template-columns: repeat(2, 1fr); /* Max 3 per row */
+    }
+}
+
+/* if there's only one graph, center it */
+@media (max-width: 400px) {
+    .graphs-container {
+        grid-template-columns: 1fr; /* single column layout */
+    }
 }
   
 .chart-item {

@@ -106,23 +106,36 @@ const Searchbar = ({ onChartsUpdate }) => {
         const data2 = await triResponse.json();
         //console.log(data2);
 
+        //load party analysis data
+        const policyResponse = await fetch('/policy_breakdown.json')
+        const policy = await policyResponse.json()
+        const pronounResponse = await fetch('/pronoun_usage.json')
+        const pronoun = await pronounResponse.json()
+        const sentimentResponse = await fetch('/sentiment_analysis.json')
+        const sentiment = await sentimentResponse.json()
+
         //extract the statistics for the selected party
         const partyStats = statsData.party_statistics[selectedManifesto.name];
         const overallAverageAttendance = statsData.overall_average_attendance_rate;
         const overallAverageRebellion = statsData.overall_average_rebellion_rate;
         //console.log(partyStats);
 
+        //extract party analysis for selected party
+        const policy2 = policy[selectedManifesto.name]
+        const pronoun2 = pronoun[selectedManifesto.name]
+        const sentiment2 = sentiment[selectedManifesto.name]
+
         //pass the data to the parent component
-        onChartsUpdate(data, partyStats, overallAverageAttendance, data2, overallAverageRebellion);
+        onChartsUpdate(data, partyStats, overallAverageAttendance, data2, overallAverageRebellion, sentiment2, pronoun2, policy2);
       } catch (error) {
         console.error('Error loading chart data:', error);
-        onChartsUpdate([], null, 0, [], 0); //reset data if there's an error
+        onChartsUpdate([], null, 0, [], 0, [], [], []); //reset data if there's an error
       }
     } else {
       setTimeout(() => {
         setResult(null);
         setLoading(false);
-        onChartsUpdate([], null, 0, [], 0);
+        onChartsUpdate([], null, 0, [], 0, [], [], []);
       }, 1000); //reset data if no manifesto is selected
     }
   };
