@@ -63,7 +63,20 @@ const About = () => {
             s, t, can, will, just, don, should, now. <br></br> <br></br>
             Additional custom stopwords: "manifesto", "manifestos", "party", "parties", "will", "also", "would", "ensure", "labour", "alliance", "conservative", "dup", "green", "greens", "liberal", "democrats",
             "plaid", "cymru", "sdlp", "sinn", "féin", "snp", "tuv", "uup", "v", "2023", "2024", "2025", "elected", "x", "government".
-
+        </p>
+        <h2>Policy Breakdown.</h2>
+        <p>
+            The policy breakdown counts the mention of key words to do with that topic and then counts how much the topics were mentioned in proportion to one another. 
+            There are many topics this could be done for, however the same topics as the dropdown were selected for consistency.
+            Words used: <br></br>
+            "Crime": ["police", "crime", "justice", "law", "prison", "safety"], <br></br>
+            "Economy": ["tax", "budget", "growth", "investment", "business", "inflation", "jobs"],<br></br>
+            "Education": ["school", "university", "student", "teacher", "learning", "college", "education"],<br></br>
+            "Environment": ["climate", "carbon", "emissions", "renewable", "energy", "green", "pollution"],<br></br>
+            "Health": ["nhs", "hospital", "doctor", "nurse", "health", "medicine", "treatment"],<br></br>
+            "Housing": ["housing", "home", "rent", "mortgage", "affordable", "building"],<br></br>
+            "Immigration": ["border", "migrant", "visa", "asylum", "immigration", "citizenship", "refugee", "boats"],<br></br>
+            "Transport": ["rail", "bus", "train", "transport", "road", "highway", "infrastructure"]
         </p>
       </div>
       <div className='about-right'>
@@ -120,6 +133,17 @@ const About = () => {
             The displayed metric is also an average for each party. <br></br><br></br>
 
             These metrics are interesting, however they do not paint the whole picture of the party, e.g. see Sinn Fein above.
+        </p>
+        <h2>What is sentiment analysis?</h2>
+        <p>
+            Sentiment analysis is a process which extracts the overall feeling of a text with a value between 1 and -1. 1 is the most positive, -1 is the most negative.
+            For each manifesto the text was broken down into sentences. Each sentence was then analysed using NLTK (natural language tool kit) to assess its sentiment.
+            The values were then averaged out for the whole manifesto leaving one value. The ranking is how high (positively) the manifesto ranked in comparison with the others.
+        </p>
+        <h2>What is the pronoun count for?</h2>
+        <p>
+            Pronoun count is available so you can see how the manifesto addresses itself or the readers. There is a breakdown of proportionally how much each pronoun is used.
+            This way you can assess how the manifesto views the readers and what types of messages it is trying to convey.
         </p>
       </div>
     </div>
