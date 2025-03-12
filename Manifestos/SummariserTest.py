@@ -84,10 +84,6 @@ def summarize_text(text_chunks):
 
     summaries = " ".join(summaries)
 
-    #if len(summaries.split()) > 350:
-    #    print("Refining long summary...")
-    #    summaries = summarizer(summaries, max_length=300, min_length=30, do_sample=False)[0]['summary_text']
-
     return summaries
 
 def clean_summary(text):

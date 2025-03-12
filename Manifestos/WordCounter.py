@@ -70,11 +70,11 @@ words = preprocess_text(text)
 
 #get common words, bigrams, and trigrams
 common_words = get_freq_word(words, top_n=20)
-common_bigrams = get_ngrams(words, n=2, top_n=20)
+#common_bigrams = get_ngrams(words, n=2, top_n=20)
 common_trigrams = get_ngrams(words, n=3, top_n=20, filter_trigrams=True)
 
 #convert tuples to lists for JSON serialization
-common_bigrams = [{"bigram": " ".join(pair), "count": count} for pair, count in common_bigrams]
+#common_bigrams = [{"bigram": " ".join(pair), "count": count} for pair, count in common_bigrams]
 common_trigrams = [{"trigram": " ".join(trio), "count": count} for trio, count in common_trigrams]
 
 #write to files
