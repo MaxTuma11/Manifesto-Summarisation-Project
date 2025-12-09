@@ -1,8 +1,8 @@
 .search-bar{
     background-color: white;
-    width: 70%;
-    border-radius: 2px;
-    height: 2.5rem;
+    width: 80%;
+    border-radius: 46px;
+    height: 5.5rem;
     padding: 0 15px;
     box-shadow: 0px 0px 8px #ddd;
     display: flex;
@@ -10,41 +10,6 @@
     position: relative;
 }
  
-input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-}
-  
-.recommendations {
-    position: absolute;
-    top: 100%; /* Position the dropdown below the input */
-    left: 0;
-    right: 0;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-top: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    z-index: 1000; /* Ensure the dropdown appears above other elements */
-    max-height: 200px; /* Limit the height of the dropdown */
-    overflow-y: auto; /* Add scroll if there are many recommendations */
-    border-radius: 4px;
-}
-  
-.recommendations li {
-    padding: 10px;
-    cursor: pointer;
-    border-bottom: 1px solid #eee;
-}
-  
-.recommendations li:hover {
-    background-color: #f0f0f0;
-}
-
 .topic-dropdown {
     padding: 8px;
     border: 1px solid #ccc;
@@ -54,7 +19,20 @@ input {
     font-size: 15px;
 }
 
+.party-dropdown {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
 .topic-dropdown option{
+    font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
+}
+.party-dropdown option{
     font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -78,9 +56,18 @@ input {
 }
 
 #search-icon{
-    color: royalblue;
+    color: #B4ACE2;
     width: 20px;
     font-size: 1.5rem;
+}
+.search-icon-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #04001f;
+    margin-right: 10px;
 }
 
 .search-icon-holder :hover {
@@ -148,4 +135,8 @@ input {
   
 .close-button:hover {
     color: #000;
+}
+
+#question {
+    color: #04001f;
 }

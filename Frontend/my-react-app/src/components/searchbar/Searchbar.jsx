@@ -1,235 +1,134 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FaSearch, FaSpinner, FaQuestionCircle, FaTimes } from 'react-icons/fa'; //import search icon, spinner icon, question circle icon, and X icon
+import { FaSpinner, FaQuestionCircle, FaTimes } from 'react-icons/fa'; //import search icon, spinner icon, question circle icon, and X icon
 import './Searchbar.css';
-import axios from 'axios';
+import { TbListSearch } from "react-icons/tb";
+import Switch from '@mui/material/Switch';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import { alpha, styled } from '@mui/material/styles';
+
+
 
 //list of topics that are used for the dropdown
 const topics = [
-  "Summary",
+  "Entire Manifesto",
   "Crime",
   "Economy",
   "Education",
   "Environment",
-  "Health",
+  "Healthcare",
   "Housing",
   "Immigration",
-  "Transport",
+  "Defence",
+  "Brexit"
 ];
 
+const parties = [
+  "Labour Party",
+  "Conservative and Unionist Party",
+  "Scottish National Party (SNP)",
+  "Liberal Democrat Party",
+  "Sinn Féin",
+  "Plaid Cymru",
+  "Green Party of England and Wales",
+  "Reform UK",
+  "Democratic Unionist Party (DUP)",
+  "Alliance Party",
+  "Traditional Unionist Voice (TUV)",
+  "Ulster Unionist Party (UUP)",
+  "Social Democratic and Labour Party (SDLP)",
+]
+
 const Searchbar = ({ onChartsUpdate }) => {
-  const [query, setQuery] = useState(''); //state for query
-  const [recommendations, setRecommendations] = useState([]); //state for dropdown recommendations
   const [result, setResult] = useState(null); //state for results
-  const [selectedTopic, setSelectedTopic] = useState("Summary"); //default the selected topic to summary
-  const [selectedIndex, setSelectedIndex] = useState(-1); //track selected recommendation
+  const [selectedParty, setSelectedParty] = useState('Select Party'); //state for selected party
+  const [selectedTopic, setSelectedTopic] = useState("Select Topic"); //default the selected topic to summary
   const [loading, setLoading] = useState(false); //loading state for manifesto loading spinner
   const [showHelp, setShowHelp] = useState(false); //show help popup state
-  const isRecommendationClicked = useRef(false); //track if a recommendation was clicked
 
-  //mapping shortform names to full names
-  const shortFormToFullName = {
-    'snp': 'Scottish National Party',
-    'tories': 'Conservative Party',
-    'tory': 'Conservative Party',
-    'labour': 'Labour Party',
-    'tuv': 'Traditional Unionist Voice',
-    'uup': 'Ulster Unionist Party',
-    'dup': 'Democratic Unionist Party',
-    'lib dem': 'Liberal Democrat Party',
-    'green': 'Green Party',
-    'sdlp': 'Social Democratic and Labour Party',
-    'conservative': 'Conservative Party',
-    'alliance': 'Alliance Party',
-    'reform uk': 'Reform',
-    'sinn féin': "Sinn Fein"
+  const PinkSwitch = styled(Switch)(({ theme }) => ({
+    '& .MuiSwitch-switchBase.Mui-checked': {
+      color: '#04001f',
+      '&:hover': {
+        backgroundColor: alpha('#04001f', theme.palette.action.hoverOpacity),
+      },
+    },
+    '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
+      backgroundColor: '#04001f',
+    },
+  }));
+  
+  const fetchManifestoSummary =  () => {
+    setLoading(true);
+    setResult(null);
+    //get manifesto summary from summarised_manifestos.json
+    fetch('/summarised_manifestos.json')
+      .then((response) => response.json())
+      .then((data) => {
+        //find the manifesto summary for the selected party
+        const partyObj = data.party[0];
+
+        const matchingParties = Object.keys(partyObj).find(key => key.toLowerCase() === selectedParty.toLowerCase());
+
+        if (!matchingParties) {
+          setResult('Party not found. Please select a valid party.');
+          return;
+        }
+
+        const topicsObj = partyObj[matchingParties][0];
+
+        const matchingTopics = Object.keys(topicsObj).find(key => key.toLowerCase() === selectedTopic.toLowerCase());
+
+        if (!matchingTopics) {
+          setResult('Topic not found. Please select a valid topic.');
+          return;
+        }
+
+        setResult(topicsObj[matchingTopics]);
+
+      })
+      .catch((error) => {
+        console.error('Error fetching manifesto summary:', error);
+        setResult('Error fetching manifesto summary. Please try again later.');
+      })
+      .finally(() => {
+        //wait 2 seconds to show loading spinner
+        setTimeout(() => setLoading(false), 2000 + Math.random() * 2000);
+      });
+
   }
-
-  //fetch all manifestos from the API using axios
-  const fetchManifestos = async () => {
-    try {
-      const response = await axios.get('https://manifesto-backend-3bacb381e493.herokuapp.com/api/manifestos/');
-      return response.data.manifestos;
-    } catch (error) {
-      console.error('Error fetching manifestos:', error);
-      return [];
-    }
-  };
-
-  //filter recommendations based on the query
-  const getRecommendations = async (query) => {
-    let displayQuery = query;
-
-    //check if the query matches any short form and map it to the full name
-    if (shortFormToFullName[query.toLowerCase()]) {
-      displayQuery = shortFormToFullName[query.toLowerCase()];
-    }
-
-    if (displayQuery) {
-      const manifestos = await fetchManifestos();
-      const filtered = manifestos.filter((manifesto) =>
-        manifesto.name.toLowerCase().includes(displayQuery.toLowerCase())
-      );
-      setRecommendations(filtered);
-    } else {
-      setRecommendations([]);
-    }
-  };
-
-  //fetch the result (summary) based on the selected manifesto
-  const fetchResult = async (query) => {
-
-    setLoading(true); //start loading icon
-
-    const manifestos = await fetchManifestos();
-    const selectedManifesto = manifestos.find(
-      (manifesto) => manifesto.name.toLowerCase() === query.toLowerCase()
-    );
-    if (selectedManifesto) {
-      //get the summary for the selected topic
-      const topicSummary = selectedManifesto[selectedTopic.toLowerCase()] || "No data available for this topic.";
-      
-      setTimeout(() => {
-        setResult(topicSummary);
-        setLoading(false); //stop loading after 2 seconds
-      }, 2000);
-
-      //load the corresponding JSON file for the selected manifesto
-      try {
-        const response = await fetch(`/common_${selectedManifesto.name}.json`);
-        const data = await response.json();
-
-        //load the party_averages.json file
-        const statsResponse = await fetch('/party_averages.json');
-        const statsData = await statsResponse.json();
-
-        const triResponse = await fetch(`/common_${selectedManifesto.name}_trigrams.json`);
-        const data2 = await triResponse.json();
-        //console.log(data2);
-
-        //load party analysis data
-        const policyResponse = await fetch('/policy_breakdown.json')
-        const policy = await policyResponse.json()
-        const pronounResponse = await fetch('/pronoun_usage.json')
-        const pronoun = await pronounResponse.json()
-        const sentimentResponse = await fetch('/sentiment_analysis.json')
-        const sentiment = await sentimentResponse.json()
-
-        //extract the statistics for the selected party
-        const partyStats = statsData.party_statistics[selectedManifesto.name];
-        const overallAverageAttendance = statsData.overall_average_attendance_rate;
-        const overallAverageRebellion = statsData.overall_average_rebellion_rate;
-        //console.log(partyStats);
-
-        //extract party analysis for selected party
-        const policy2 = policy[selectedManifesto.name]
-        const pronoun2 = pronoun[selectedManifesto.name]
-        const sentiment2 = sentiment[selectedManifesto.name]
-
-        //pass the data to the parent component
-        onChartsUpdate(data, partyStats, overallAverageAttendance, data2, overallAverageRebellion, sentiment2, pronoun2, policy2);
-      } catch (error) {
-        console.error('Error loading chart data:', error);
-        onChartsUpdate([], null, 0, [], 0, [], [], []); //reset data if there's an error
-      }
-    } else {
-      setTimeout(() => {
-        setResult(null);
-        setLoading(false);
-        onChartsUpdate([], null, 0, [], 0, [], [], []);
-      }, 1000); //reset data if no manifesto is selected
-    }
-  };
-
-  useEffect(() => {
-    if (query) {
-      fetchResult(query);
-    }
-  }, [selectedTopic]);
-
-  useEffect(() => {
-    //console.log('Query updated:', query); // Debugging
-    if (!isRecommendationClicked.current) {
-      getRecommendations(query);
-    }
-  }, [query]);
-
-  const handleInputChange = (e) => {
-    setQuery(e.target.value);
-    isRecommendationClicked.current = false; //reset the flag when typing
-  };
-
-  const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
-      //if key press is when there is only one element in the drop down then automatically select that
-      if (recommendations.length === 1) {
-        handleRecommendationClick(recommendations[0]);
-      } 
-      else if (selectedIndex >=0) {
-        handleRecommendationClick(recommendations[selectedIndex]);
-      } else {
-        fetchResult(query);
-        setRecommendations([]); //clear recommendations on Enter
-      }
-    }
-  };
-
-  const handleRecommendationClick = (recommendation) => {
-    //console.log('Clearing recommendations...');
-    isRecommendationClicked.current = true; //set the flag to true
-    setQuery(recommendation.name);
-    setRecommendations([]); //clear recommendations
-    fetchResult(recommendation.name);
-  };
-
-  //handling for search being clicked
-  const handleSearchClick = () => {
-    fetchResult(query);
-    setRecommendations([]); //clear recommendations
-  };
 
   //toggle help
   const toggleHelp = () => setShowHelp(!showHelp);
 
-  const handleKeyDown = (e) => {
-    if (e.key === 'Tab') {
-      if (e.shiftKey) {
-        //shift + Tab (move up)
-        setSelectedIndex((prevIndex) =>
-          prevIndex === 0 ? recommendations.length - 1 : prevIndex - 1
-        );
-      } else {
-        //tab (move down)
-        setSelectedIndex((prevIndex) =>
-          prevIndex === recommendations.length - 1 ? 0 : prevIndex + 1
-        );
-      }
-      e.preventDefault(); //prevent default tab behavior
-    }
-  };
-
   return (
     <div className="search-bar">
-      <div className="search-icon-holder" onClick={handleSearchClick}>
-        <FaSearch id="search-icon"/>
+
+      <div className="search-icon-holder" onClick={fetchManifestoSummary}>
+        <TbListSearch id="search-icon" />
       </div>
-      <input
-        type="text"
-        value={query}
-        onChange={handleInputChange}
-        onKeyUp={handleKeyPress}
-        onKeyDown={handleKeyDown}
-        placeholder="Search for a party..."
-      />
-      <select className="topic-dropdown" value={selectedTopic} onChange={(e) => setSelectedTopic(e.target.value)}>
-          {topics.map((topic) => (
-            <option key={topic} value={topic}>
-              {topic}
-            </option>
-          ))}
+    
+      <select className="party-dropdown" value={selectedParty} onChange={(e) => setSelectedParty(e.target.value)}>
+        <option value="Select Party" disabled hidden>Select Party</option>
+        {parties.map((party) => (
+          <option key={party} value={party}>
+            {party}
+          </option>
+        ))}
       </select>
 
+      <select className="topic-dropdown" value={selectedTopic} onChange={(e) => setSelectedTopic(e.target.value)}>
+        <option value="Select Topic" disabled hidden>Select Topic</option>
+        {topics.map((topic) => (
+          <option key={topic} value={topic}>
+            {topic}
+          </option>
+        ))}
+      </select>
+
+      <FormControlLabel control={<PinkSwitch color="secondary" />} label="Compare Summaries:" labelPlacement="start"/>
+
       <button className="help-button" onClick={toggleHelp}>
-        <FaQuestionCircle />
+        <FaQuestionCircle id="question"/>
       </button>
 
       {showHelp && (
@@ -238,28 +137,12 @@ const Searchbar = ({ onChartsUpdate }) => {
             <FaTimes />
           </button>
           <h3>How to Use the Search</h3>
-          <p>🔍 Type the name of a political party to see their manifesto summary.</p>
-          <p>🎯 Use party names like "Labour", "SNP", or "Green" to get results.</p>
-          <p>📊 Select a topic from the dropdown to filter manifesto details.</p>
+          <p>Type the name of a political party to see their manifesto summary.</p>
+          <p>Use party names like "Labour", "SNP", or "Green" to get results.</p>
+          <p>Select a topic from the dropdown to filter manifesto details.</p>
         </div>
       )}
 
-      {recommendations.length > 0 && (
-        <ul className="recommendations">
-          {recommendations.map((manifesto, index) => (
-            <li
-              key={manifesto.id}
-              onClick={() => handleRecommendationClick(manifesto)}
-              style={{
-                backgroundColor: selectedIndex === index ? '#e0e0e0' : 'transparent', //highlight selected recommendation
-                cursor: 'pointer',
-              }}
-            >
-              {manifesto.name}
-            </li>
-          ))}
-        </ul>
-      )}
       {loading ? (
         <div className="result">
           {/* <h2>{selectedTopic}:</h2> */}
