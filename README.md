@@ -1,1 +1,7 @@
-This is a University Honors project. The aim of this project is to summarise UK political manifestos to make them more readable and understandable. This will be done using abstractive summarisation and will be displayed in a convinient way.
+# Manifesto Summarisation Project
+
+This project started as a university honours project aiming to display summarised manifesto data to help with the problem of political engagement being in decline.
+
+The aim of the project is still the same and now I am carrying out work to make it clearer and more helpful in terms of the summaries. Additionally, I am working on adding extra features such as summary comparisons and dedicated front page stats regarding polling, news, etc.
+
+Working towards version 1.0 now.
