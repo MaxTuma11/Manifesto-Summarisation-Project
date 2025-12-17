@@ -15,7 +15,7 @@ const Graphs = ({ wordData, partyStats, overallAverageAttendance, trigramData, o
   });
 
   if (!wordData || wordData.length === 0) {
-    return <div className="no-charts">No summaries or charts to display. Search a party above.</div>;
+    return <div className="no-charts"></div>;
   }
 
   const toggleHelp = (key) => {
