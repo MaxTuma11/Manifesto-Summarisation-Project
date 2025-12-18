@@ -52,15 +52,6 @@ th, td {
     text-align: center;
 }
   
-th {
-    background-color: #B4ACE2;
-    color: black;
-}
-  
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-  
 .no-data {
     font-size: 18px;
     color: red;

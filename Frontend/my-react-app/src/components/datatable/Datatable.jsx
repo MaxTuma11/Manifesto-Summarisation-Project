@@ -107,7 +107,7 @@ const Datatable = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Data
+                  View Data Source
                 </a>
               </td>
             </tr>
