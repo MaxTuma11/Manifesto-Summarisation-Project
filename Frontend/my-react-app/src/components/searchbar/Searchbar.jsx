@@ -141,10 +141,10 @@ const Searchbar = ({ onChartsUpdate }) => {
           <button className="close-button" onClick={toggleHelp}>
             <FaTimes />
           </button>
-          <h3>How to Use the Search</h3>
-          <p>Type the name of a political party to see their manifesto summary.</p>
-          <p>Use party names like "Labour", "SNP", or "Green" to get results.</p>
-          <p>Select a topic from the dropdown to filter manifesto details.</p>
+          <h3>How to Use the Searchbar</h3>
+          <p>Select the name of the party whos maifesto you want to summarise in the party dropdown.</p>
+          <p>Select a topic by which you want to summarise the manifesto (can be the whole thing).</p>
+          <p>Press the search button on the left side of the searchbar.</p>
         </div>
       )}
 
