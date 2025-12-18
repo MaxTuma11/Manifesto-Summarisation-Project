@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaSpinner, FaQuestionCircle, FaTimes } from 'react-icons/fa'; //import search icon, spinner icon, question circle icon, and X icon
 import './Searchbar.css';
+import  { manifesto_layout } from './text_format.jsx'
 import { TbListSearch } from "react-icons/tb";
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
@@ -44,6 +45,7 @@ const Searchbar = ({ onChartsUpdate }) => {
   const [selectedTopic, setSelectedTopic] = useState("Select Topic"); //default the selected topic to summary
   const [loading, setLoading] = useState(false); //loading state for manifesto loading spinner
   const [showHelp, setShowHelp] = useState(false); //show help popup state
+  const [displayedTopic, setDisplayedTopic] = useState("Select Topic");
 
   const PinkSwitch = styled(Switch)(({ theme }) => ({
     '& .MuiSwitch-switchBase.Mui-checked': {
@@ -60,6 +62,9 @@ const Searchbar = ({ onChartsUpdate }) => {
   const fetchManifestoSummary =  () => {
     setLoading(true);
     setResult(null);
+
+    setDisplayedTopic(selectedTopic);
+
     //get manifesto summary from summarised_manifestos.json
     fetch('/summarised_manifestos.json')
       .then((response) => response.json())
@@ -91,7 +96,7 @@ const Searchbar = ({ onChartsUpdate }) => {
         setResult('Error fetching manifesto summary. Please try again later.');
       })
       .finally(() => {
-        //wait 2 seconds to show loading spinner
+        //wait 2-4 seconds to show loading spinner
         setTimeout(() => setLoading(false), 2000 + Math.random() * 2000);
       });
 
@@ -153,10 +158,34 @@ const Searchbar = ({ onChartsUpdate }) => {
       ) : (
       result !== null && (
         <div className="result">
-          <h2>{selectedTopic}:</h2>
-          <p>{result}</p>
+          <h2>{displayedTopic}:</h2>
+          {manifesto_layout(result).map((block, i) => {
+            if (block.type === 'heading') {
+              return <h3 key={i}>{block.text}</h3>;
+            }
+
+            if (block.type === 'list') {
+              return (
+                <ul key={i}>
+                  {block.items.map((item, j) => (
+                    <li key={j}>{item}</li>
+                  ))}
+                </ul>
+              );
+            }
+
+            if (block.type === 'separator') {
+              return (
+                <div key={i} className="separator">
+                  {block.text}
+                </div>
+              );
+            }
+
+            return <p key={i}>{block.text}</p>;
+          })}
         </div>
-      )
+        )
       )}
     </div>
   );

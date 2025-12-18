@@ -45,7 +45,7 @@
     background-color: #f9f9f9;
     width: 97.7%;
     min-height: 100px; 
-    max-height: 300px; /* limit max height so text doesn't overflow onto the stats */
+    max-height: 600px; /* limit max height so text doesn't overflow onto the stats */
     overflow-y: auto; /* enable scrolling */
     transition: all 0.3s ease-in-out; /* smooth transition */
 }
@@ -53,6 +53,16 @@
 .result p{
     color: black;
     font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
+}
+
+.result ul {
+  padding-left: 1.5rem;   /* space for bullet marker */
+  margin-left: 0;
+  list-style-position: outside;
+}
+
+.result li {
+  margin-left: 0;
 }
 
 #search-icon{
@@ -139,4 +149,26 @@
 
 #question {
     color: #04001f;
+}
+
+.manifesto {
+    max-width: 70ch;
+    line-height: 1.7;
+}
+  
+.manifesto h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+  
+.manifesto ul {
+    margin-left: 1.5rem;
+}
+
+.separator {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-family: monospace;   /* optional, looks cleaner */
+  letter-spacing: 0.05em;   /* optional */
+  color: #666;
 }
