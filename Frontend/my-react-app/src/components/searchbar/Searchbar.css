@@ -17,6 +17,7 @@
     cursor: pointer;
     font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    margin-right: 10px;
 }
 
 .party-dropdown {
@@ -27,6 +28,7 @@
     font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     margin-right: 10px;
+    max-width: 150px;
 }
 
 .topic-dropdown option{

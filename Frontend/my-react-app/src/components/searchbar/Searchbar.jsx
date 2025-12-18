@@ -42,10 +42,12 @@ const parties = [
 const Searchbar = ({ onChartsUpdate }) => {
   const [result, setResult] = useState(null); //state for results
   const [selectedParty, setSelectedParty] = useState('Select Party'); //state for selected party
+  const [selectedPartyToo, setSelectedPartyToo] = useState('Select Party Two');
   const [selectedTopic, setSelectedTopic] = useState("Select Topic"); //default the selected topic to summary
   const [loading, setLoading] = useState(false); //loading state for manifesto loading spinner
   const [showHelp, setShowHelp] = useState(false); //show help popup state
   const [displayedTopic, setDisplayedTopic] = useState("Select Topic");
+  const [compareMode, setCompareMode] = useState(false);
 
   const PinkSwitch = styled(Switch)(({ theme }) => ({
     '& .MuiSwitch-switchBase.Mui-checked': {
@@ -105,6 +107,9 @@ const Searchbar = ({ onChartsUpdate }) => {
   //toggle help
   const toggleHelp = () => setShowHelp(!showHelp);
 
+  //toggle compare mode
+  const toggleCompare = () => setCompareMode(!compareMode);
+
   return (
     <div className="search-bar">
 
@@ -121,6 +126,17 @@ const Searchbar = ({ onChartsUpdate }) => {
         ))}
       </select>
 
+      { compareMode && (
+        <select className="party-dropdown" value={selectedPartyToo} onChange={(e) => setSelectedPartyToo(e.target.value)}>
+          <option value="Select Party Two" disabled hidden>Select Party Two</option>
+          {parties.map((party) => (
+            <option key={party} value={party}>
+              {party}
+            </option>
+          ))}
+        </select>
+      )}
+
       <select className="topic-dropdown" value={selectedTopic} onChange={(e) => setSelectedTopic(e.target.value)}>
         <option value="Select Topic" disabled hidden>Select Topic</option>
         {topics.map((topic) => (
@@ -130,7 +146,7 @@ const Searchbar = ({ onChartsUpdate }) => {
         ))}
       </select>
 
-      <FormControlLabel control={<PinkSwitch color="secondary" />} label="Compare Summaries:" labelPlacement="start"/>
+      <FormControlLabel control={<PinkSwitch color="secondary" />} label="Compare Summaries:" labelPlacement="start" onChange={toggleCompare} />
 
       <button className="help-button" onClick={toggleHelp}>
         <FaQuestionCircle id="question"/>
