@@ -41,6 +41,7 @@ const parties = [
 
 const Searchbar = ({ onChartsUpdate }) => {
   const [result, setResult] = useState(null); //state for results
+  const [result2, setResult2] = useState(null);
   const [selectedParty, setSelectedParty] = useState('Select Party'); //state for selected party
   const [selectedPartyToo, setSelectedPartyToo] = useState('Select Party Two');
   const [selectedTopic, setSelectedTopic] = useState("Select Topic"); //default the selected topic to summary
@@ -64,6 +65,7 @@ const Searchbar = ({ onChartsUpdate }) => {
   const fetchManifestoSummary =  () => {
     setLoading(true);
     setResult(null);
+    setResult2(null);
 
     setDisplayedTopic(selectedTopic);
 
@@ -90,17 +92,28 @@ const Searchbar = ({ onChartsUpdate }) => {
           return;
         }
 
+        setResult(topicsObj[matchingTopics]);
+
         if (compareMode) { 
           const matchingParties2 = Object.keys(partyObj).find(key => key.toLowerCase() === selectedPartyToo.toLowerCase());
+
+          if (!matchingParties2) {
+            setResult2('Party not found. Please select a valid party.');
+            return;
+          }
+
           const topicsObj2 = partyObj[matchingParties2][0];
           const matchingTopics2 = Object.keys(topicsObj2).find(key => key.toLowerCase() === selectedTopic.toLowerCase());
 
-          console.log(topicsObj2[matchingTopics2]);
+          if (!matchingTopics2) {
+            setResult2('Topic not found. Please select a valid topic.');
+            return;
+          }
+
+          setResult2(topicsObj2[matchingTopics2]);
 
         };
 
-
-        setResult(topicsObj[matchingTopics]);
 
       })
       .catch((error) => {
@@ -114,6 +127,31 @@ const Searchbar = ({ onChartsUpdate }) => {
 
   }
 
+  const renderManifestoHelper = (manifestoResult) => {
+    return manifesto_layout(manifestoResult).map((block,i) => {
+      if (block.type === 'heading') {
+        return <h3 key={i}>{block.text}</h3>;
+      }
+      if (block.type === 'list') {
+        return (
+          <ul key={i}>
+            {block.items.map((item, j) => (
+              <li key={j}>{item}</li>
+            ))}
+          </ul>
+        );
+      }
+      if (block.type === 'separator') {
+        return (
+          <div key={i} className="separator">
+            {block.text}
+          </div>
+        );
+      }
+      return <p key={i}>{block.text}</p>;
+    });
+  }
+
   //toggle help
   const toggleHelp = () => setShowHelp(!showHelp);
 
@@ -121,99 +159,102 @@ const Searchbar = ({ onChartsUpdate }) => {
   const toggleCompare = (event) => setCompareMode(event.target.checked);
 
   return (
-    <div className="search-bar">
+    <>
+      <div className="search-bar">
 
-      <div className="search-icon-holder" onClick={fetchManifestoSummary}>
-        <TbListSearch id="search-icon" />
-      </div>
-    
-      <select className="party-dropdown" value={selectedParty} onChange={(e) => setSelectedParty(e.target.value)}>
-        <option value="Select Party" disabled hidden>Select Party</option>
-        {parties.map((party) => (
-          <option key={party} value={party}>
-            {party}
-          </option>
-        ))}
-      </select>
-
-      { compareMode && (
-        <select className="party-dropdown" value={selectedPartyToo} onChange={(e) => setSelectedPartyToo(e.target.value)}>
-          <option value="Select Party Two" disabled hidden>Select Party Two</option>
+        <div className="search-icon-holder" onClick={fetchManifestoSummary}>
+          <TbListSearch id="search-icon" />
+        </div>
+      
+        <select className="party-dropdown" value={selectedParty} onChange={(e) => setSelectedParty(e.target.value)}>
+          <option value="Select Party" disabled hidden>Select Party</option>
           {parties.map((party) => (
             <option key={party} value={party}>
               {party}
             </option>
           ))}
         </select>
-      )}
 
-      <select className="topic-dropdown" value={selectedTopic} onChange={(e) => setSelectedTopic(e.target.value)}>
-        <option value="Select Topic" disabled hidden>Select Topic</option>
-        {topics.map((topic) => (
-          <option key={topic} value={topic}>
-            {topic}
-          </option>
-        ))}
-      </select>
+        { compareMode && (
+          <select className="party-dropdown" value={selectedPartyToo} onChange={(e) => setSelectedPartyToo(e.target.value)}>
+            <option value="Select Party Two" disabled hidden>Select Party Two</option>
+            {parties.map((party) => (
+              <option key={party} value={party}>
+                {party}
+              </option>
+            ))}
+          </select>
+        )}
 
-      <FormControlLabel control={<PinkSwitch color="secondary" checked={compareMode} onChange={toggleCompare} />} label="Compare Summaries:" labelPlacement="start" />
+        <select className="topic-dropdown" value={selectedTopic} onChange={(e) => setSelectedTopic(e.target.value)}>
+          <option value="Select Topic" disabled hidden>Select Topic</option>
+          {topics.map((topic) => (
+            <option key={topic} value={topic}>
+              {topic}
+            </option>
+          ))}
+        </select>
 
-      <button className="help-button" onClick={toggleHelp}>
-        <FaQuestionCircle id="question"/>
-      </button>
+        <FormControlLabel control={<PinkSwitch color="secondary" checked={compareMode} onChange={toggleCompare} />} label="Compare Summaries:" labelPlacement="start" />
 
-      {showHelp && (
-        <div className="help-popup">
-          <button className="close-button" onClick={toggleHelp}>
-            <FaTimes />
-          </button>
-          <h3>How to Use the Searchbar</h3>
-          <p>Select the name of the party whos maifesto you want to summarise in the party dropdown.</p>
-          <p>Select a topic by which you want to summarise the manifesto (can be the whole thing).</p>
-          <p>Press the search button on the left side of the searchbar.</p>
-        </div>
-      )}
+        <button className="help-button" onClick={toggleHelp}>
+          <FaQuestionCircle id="question"/>
+        </button>
 
-      {loading ? (
-        <div className="result">
-          {/* <h2>{selectedTopic}:</h2> */}
-          <div className="loading">
-            <FaSpinner className="spinner" /> Summarising manifesto...
+        {showHelp && (
+          <div className="help-popup">
+            <button className="close-button" onClick={toggleHelp}>
+              <FaTimes />
+            </button>
+            <h3>How to Use the Searchbar</h3>
+            <p>Select the name of the party whos maifesto you want to summarise in the party dropdown.</p>
+            <p>Select a topic by which you want to summarise the manifesto (can be the whole thing).</p>
+            <p>Press the search button on the left side of the searchbar.</p>
           </div>
-        </div>
-      ) : (
-      result !== null && (
-        <div className="result">
-          <h2>{displayedTopic}:</h2>
-          {manifesto_layout(result).map((block, i) => {
-            if (block.type === 'heading') {
-              return <h3 key={i}>{block.text}</h3>;
-            }
+        )}
+      
+      </div>
 
-            if (block.type === 'list') {
-              return (
-                <ul key={i}>
-                  {block.items.map((item, j) => (
-                    <li key={j}>{item}</li>
-                  ))}
-                </ul>
-              );
-            }
+        {loading ? (
+          <div className="result">
+            {/* <h2>{selectedTopic}:</h2> */}
+            <div className="loading">
+              <FaSpinner className="spinner" /> Summarising manifesto...
+            </div>
+          </div>
+        ) : (
+        result !== null && (
+          <div className="result">
+            <h2>{displayedTopic}:</h2>
+            {manifesto_layout(result).map((block, i) => {
+              if (block.type === 'heading') {
+                return <h3 key={i}>{block.text}</h3>;
+              }
 
-            if (block.type === 'separator') {
-              return (
-                <div key={i} className="separator">
-                  {block.text}
-                </div>
-              );
-            }
+              if (block.type === 'list') {
+                return (
+                  <ul key={i}>
+                    {block.items.map((item, j) => (
+                      <li key={j}>{item}</li>
+                    ))}
+                  </ul>
+                );
+              }
 
-            return <p key={i}>{block.text}</p>;
-          })}
-        </div>
-        )
-      )}
-    </div>
+              if (block.type === 'separator') {
+                return (
+                  <div key={i} className="separator">
+                    {block.text}
+                  </div>
+                );
+              }
+
+              return <p key={i}>{block.text}</p>;
+            })}
+          </div>
+          )
+        )}
+    </>
   );
 };
 
