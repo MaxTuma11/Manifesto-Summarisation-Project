@@ -118,7 +118,7 @@ const Searchbar = ({ onChartsUpdate }) => {
   const toggleHelp = () => setShowHelp(!showHelp);
 
   //toggle compare mode
-  const toggleCompare = () => setCompareMode(!compareMode);
+  const toggleCompare = (event) => setCompareMode(event.target.checked);
 
   return (
     <div className="search-bar">
@@ -156,7 +156,7 @@ const Searchbar = ({ onChartsUpdate }) => {
         ))}
       </select>
 
-      <FormControlLabel control={<PinkSwitch color="secondary" />} label="Compare Summaries:" labelPlacement="start" onChange={toggleCompare} />
+      <FormControlLabel control={<PinkSwitch color="secondary" checked={compareMode} onChange={toggleCompare} />} label="Compare Summaries:" labelPlacement="start" />
 
       <button className="help-button" onClick={toggleHelp}>
         <FaQuestionCircle id="question"/>
