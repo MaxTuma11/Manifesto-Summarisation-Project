@@ -90,6 +90,16 @@ const Searchbar = ({ onChartsUpdate }) => {
           return;
         }
 
+        if (compareMode) { 
+          const matchingParties2 = Object.keys(partyObj).find(key => key.toLowerCase() === selectedPartyToo.toLowerCase());
+          const topicsObj2 = partyObj[matchingParties2][0];
+          const matchingTopics2 = Object.keys(topicsObj2).find(key => key.toLowerCase() === selectedTopic.toLowerCase());
+
+          console.log(topicsObj2[matchingTopics2]);
+
+        };
+
+
         setResult(topicsObj[matchingTopics]);
 
       })
