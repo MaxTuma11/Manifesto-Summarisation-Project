@@ -45,18 +45,6 @@ const Summaries = () => {
       <div className='search-bar-container'>
         <Searchbar onChartsUpdate={handleChartsUpdate}/>
       </div>
-      <div className='graph-container'>
-        <Graphs 
-          wordData={wordData}
-          partyStats={partyStats}
-          overallAverageAttendance={overallAverageAttendance}
-          overallAverageRebellion={overallAverageRebellion}
-          trigramData={trigramData}
-          sentimentData={sentimentData}
-          pronounData={pronounData}
-          policyData={policyData}
-          />
-      </div>
     </div>
   )
 }

@@ -10,6 +10,8 @@
     position: relative;
 }
  
+/* drop downs for party and topic selection */
+
 .topic-dropdown {
     padding: 8px;
     border: 1px solid #ccc;
@@ -38,14 +40,15 @@
     font-family: 'Outfit', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* results formatting and box */
+
 .result {
-    position: absolute;
-    top: 120%; /*add space between the search bar and the result */
     padding: 10px;
+    margin-top: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #f9f9f9;
-    width: 97.7%;
+    width: 100%;
     min-height: 100px; 
     max-height: 600px; /* limit max height so text doesn't overflow onto the stats */
     overflow-y: auto; /* enable scrolling */
@@ -67,6 +70,8 @@
   margin-left: 0;
 }
 
+/* search icon stuff */
+
 #search-icon{
     color: #B4ACE2;
     width: 20px;
@@ -85,6 +90,8 @@
 .search-icon-holder :hover {
     cursor: pointer;
 }
+
+/* spinner stuff */
 
 .spinner {
     animation: spin 2s linear infinite;
@@ -106,6 +113,8 @@
     font-weight: bold;
     margin-top: 20px;
 }
+
+/* help popup and buttons */
 
 .help-button {
     background: none;
@@ -153,6 +162,8 @@
     color: #04001f;
 }
 
+/* manifesto specific formatting */
+
 .manifesto {
     max-width: 70ch;
     line-height: 1.7;
@@ -170,7 +181,7 @@
 .separator {
   text-align: center;
   margin: 1.5rem 0;
-  font-family: monospace;   /* optional, looks cleaner */
-  letter-spacing: 0.05em;   /* optional */
+  font-family: monospace;
+  letter-spacing: 0.05em; 
   color: #666;
 }

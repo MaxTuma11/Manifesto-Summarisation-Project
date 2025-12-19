@@ -39,7 +39,7 @@ const parties = [
   "Social Democratic and Labour Party (SDLP)",
 ]
 
-const Searchbar = ({ onChartsUpdate }) => {
+const Searchbar = () => {
   const [result, setResult] = useState(null); //state for results
   const [result2, setResult2] = useState(null);
   const [selectedParty, setSelectedParty] = useState('Select Party'); //state for selected party
@@ -215,6 +215,7 @@ const Searchbar = ({ onChartsUpdate }) => {
       
       </div>
 
+      <div className='results-container'>
         {loading ? (
           <div className="result">
             {/* <h2>{selectedTopic}:</h2> */}
@@ -254,6 +255,7 @@ const Searchbar = ({ onChartsUpdate }) => {
           </div>
           )
         )}
+      </div>
     </>
   );
 };
