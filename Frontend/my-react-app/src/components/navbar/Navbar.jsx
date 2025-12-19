@@ -14,7 +14,7 @@ const Navbar = () => {
   },[]);
 
   return (
-    <nav className={`container ${sticky? 'show-nav': ''}`}>
+    <nav className={`container ${sticky? 'show-nav': 'unshow-nav'}`}>
         <Link to="/"><img src={logo} alt="" className='logo'/></Link>
         <ul>
             <li><Link to="/">Home</Link></li>

@@ -12,7 +12,7 @@ nav {
     z-index: 10;
 }
 
-.logo{
+.logo {
     width: 200px;
 }
 
@@ -35,7 +35,11 @@ nav ul li a:hover {
     text-shadow: 0px 0px 4px rgba(17, 14, 44, 0.6);
 }
 
-.show-nav{
+.show-nav {
     background: #040019;
+    transition: 0.5s;
+}
+
+.unshow-nav {
     transition: 0.5s;
 }
