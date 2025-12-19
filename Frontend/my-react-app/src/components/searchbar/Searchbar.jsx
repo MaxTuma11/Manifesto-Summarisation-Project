@@ -48,6 +48,8 @@ const Searchbar = () => {
   const [loading, setLoading] = useState(false); //loading state for manifesto loading spinner
   const [showHelp, setShowHelp] = useState(false); //show help popup state
   const [displayedTopic, setDisplayedTopic] = useState("Select Topic");
+  const [displayedParty, setDisplayedParty] = useState("Select Party");
+  const [displayedParty2, setDisplayedParty2] = useState("Select Party Two");
   const [compareMode, setCompareMode] = useState(false);
 
   const PinkSwitch = styled(Switch)(({ theme }) => ({
@@ -68,6 +70,10 @@ const Searchbar = () => {
     setResult2(null);
 
     setDisplayedTopic(selectedTopic);
+    setDisplayedParty(selectedParty);
+    if (compareMode) {
+      setDisplayedParty2(selectedPartyToo)
+    }
 
     //get manifesto summary from summarised_manifestos.json
     fetch('/summarised_manifestos.json')
@@ -95,6 +101,11 @@ const Searchbar = () => {
         setResult(topicsObj[matchingTopics]);
 
         if (compareMode) { 
+          if (selectedPartyToo === "Select Party Two") {
+            setResult2('Please select a party to display the summarised manifesto')
+            return;
+          }
+
           const matchingParties2 = Object.keys(partyObj).find(key => key.toLowerCase() === selectedPartyToo.toLowerCase());
 
           if (!matchingParties2) {
@@ -148,7 +159,7 @@ const Searchbar = () => {
           </div>
         );
       }
-      return <p key={i}>{block.text}</p>;
+      return <p className='man-text' key={i}>{block.text}</p>;
     });
   }
 
@@ -195,12 +206,13 @@ const Searchbar = () => {
           ))}
         </select>
 
-        <FormControlLabel control={<PinkSwitch color="secondary" checked={compareMode} onChange={toggleCompare} />} label="Compare Summaries:" labelPlacement="start" />
+        <div className="search-controls-right">
+          <FormControlLabel control={<PinkSwitch color="secondary" checked={compareMode} onChange={toggleCompare} />} label="Compare Summaries:" labelPlacement="start" />
 
-        <button className="help-button" onClick={toggleHelp}>
-          <FaQuestionCircle id="question"/>
-        </button>
-
+          <button className="help-button" onClick={toggleHelp}>
+            <FaQuestionCircle id="question"/>
+          </button>
+        </div>
         {showHelp && (
           <div className="help-popup">
             <button className="close-button" onClick={toggleHelp}>
@@ -215,47 +227,45 @@ const Searchbar = () => {
       
       </div>
 
-      <div className='results-container'>
-        {loading ? (
-          <div className="result">
-            {/* <h2>{selectedTopic}:</h2> */}
-            <div className="loading">
-              <FaSpinner className="spinner" /> Summarising manifesto...
+      {loading ? (
+        <div className="result">
+          <div className="loading">
+            <div className="loading-content">
+              <FaSpinner className="spinner" />
+              <h2>
+                {compareMode ? "Summarising Manifestos..." : "Summarising Manifesto..."}
+              </h2>
             </div>
           </div>
-        ) : (
+        </div>
+      ) : (
         result !== null && (
-          <div className="result">
-            <h2>{displayedTopic}:</h2>
-            {manifesto_layout(result).map((block, i) => {
-              if (block.type === 'heading') {
-                return <h3 key={i}>{block.text}</h3>;
-              }
-
-              if (block.type === 'list') {
-                return (
-                  <ul key={i}>
-                    {block.items.map((item, j) => (
-                      <li key={j}>{item}</li>
-                    ))}
-                  </ul>
-                );
-              }
-
-              if (block.type === 'separator') {
-                return (
-                  <div key={i} className="separator">
-                    {block.text}
+          <div className='results-container'>
+            {compareMode && result2 !== null ? (
+              <div className="comparison-view">
+                <div className="manifesto-column">
+                  <div className="manifesto-content">
+                    <h2>{displayedTopic}: {displayedParty}</h2>
+                    {renderManifestoHelper(result)}
                   </div>
-                );
-              }
-
-              return <p key={i}>{block.text}</p>;
-            })}
+                </div>
+                <div className="manifesto-column">
+                  <div className="manifesto-content">
+                    <h2>{displayedTopic}: {displayedParty2}</h2>
+                    {renderManifestoHelper(result2)}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="result">
+                <h2>{displayedTopic}: {displayedParty}</h2>
+                {renderManifestoHelper(result)}
+              </div>
+            )}
+           
           </div>
           )
-        )}
-      </div>
+      )}
     </>
   );
 };
