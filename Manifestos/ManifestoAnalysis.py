@@ -4,21 +4,21 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 from collections import Counter
 
-# Download required nltk components
+#download required nltk components
 nltk.download('vader_lexicon')
 nltk.download('punkt')
 
-# Define party directories
+#define party directories
 base_dir = r"C:\Users\mtuma\Manifesto-Summarisation-Project\Manifestos"
 party_dirs = [
     "Alliance", "Conservative", "DUP", "Green", "Labour", "LibDem",
     "PlaidCymru", "Reform", "SDLP", "SinnFein", "SNP", "TUV", "UUP"
 ]
 
-# Pronouns to track
+#pronouns to track
 pronouns = ["we", "us", "our", "you", "your", "i", "me", "my"]
 
-# Policy categories
+#policy categories
 policy_keywords = {
     "Crime": ["police", "crime", "justice", "law", "prison", "safety"],
     "Economy": ["tax", "budget", "growth", "investment", "business", "inflation", "jobs"],
@@ -30,12 +30,12 @@ policy_keywords = {
     "Transport": ["rail", "bus", "train", "transport", "road", "highway", "infrastructure"]
 }
 
-# Initialize results
+#initialise results
 sentiment_results = {}
 pronoun_results = {}
 policy_results = {}
 
-# Initialize Sentiment Analyzer
+#initialise Sentiment Analyzer
 sia = SentimentIntensityAnalyzer()
 
 def load_manifesto(file_path):
@@ -67,7 +67,7 @@ def count_policy_mentions(text):
     total_mentions = sum(policy_counts.values())
     return {category: (policy_counts[category] / total_mentions * 100) if total_mentions > 0 else 0 for category in policy_keywords}
 
-# Process each party's manifesto
+#process each party's manifesto
 for party in party_dirs:
     file_path = os.path.join(base_dir, party, f"{party}Manifesto.txt")
     text = load_manifesto(file_path)
@@ -78,11 +78,11 @@ for party in party_dirs:
         pronoun_results[party] = count_pronouns(text)
         policy_results[party] = count_policy_mentions(text)
 
-# Rank sentiment scores
+#rank sentiment scores
 ranked_sentiment = sorted(sentiment_results.items(), key=lambda x: x[1], reverse=True)
 sentiment_results = {party: {"sentiment_score": score, "rank": i+1} for i, (party, score) in enumerate(ranked_sentiment)}
 
-# Save results to JSON
+#save results to JSON
 with open("sentiment_analysis.json", "w", encoding="utf-8") as f:
     json.dump(sentiment_results, f, indent=4)
 

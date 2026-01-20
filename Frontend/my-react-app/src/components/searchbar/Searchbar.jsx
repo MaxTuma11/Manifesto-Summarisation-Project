@@ -52,6 +52,7 @@ const Searchbar = () => {
   const [displayedParty2, setDisplayedParty2] = useState("Select Party Two");
   const [compareMode, setCompareMode] = useState(false);
 
+  //styled switch for compare mode
   const PinkSwitch = styled(Switch)(({ theme }) => ({
     '& .MuiSwitch-switchBase.Mui-checked': {
       color: '#04001f',
@@ -64,6 +65,7 @@ const Searchbar = () => {
     },
   }));
   
+  //function to fetch manifesto summary
   const fetchManifestoSummary =  () => {
     setLoading(true);
     setResult(null);

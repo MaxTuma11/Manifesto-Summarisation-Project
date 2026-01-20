@@ -6,7 +6,7 @@ import os
 import json
 import re
 
-summarizer = pipeline("summarization", model="Falconsai/text_summarization")
+summariser = pipeline("summarization", model="Falconsai/text_summarization")
 
 #set base directory
 base_dir = "C:/Users/mtuma/Manifesto-Summarisation-Project/Manifestos/"
@@ -79,7 +79,7 @@ def summarize_text(text_chunks):
             max_len = 250
             min_len = 30  
 
-        summary = summarizer(chunk, max_length=max_len, min_length=min_len, do_sample=False)[0]['summary_text']
+        summary = summariser(chunk, max_length=max_len, min_length=min_len, do_sample=False)[0]['summary_text']
         summaries.append(summary)
 
     summaries = " ".join(summaries)
